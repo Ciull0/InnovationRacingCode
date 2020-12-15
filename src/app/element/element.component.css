@@ -29,3 +29,11 @@
     text-align: right;
     font-size: 1.5em;
 }
+.textBox{
+    background-image: url('/assets/element-background.png');
+    color: white !important;
+    transform: translateY(20px);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
