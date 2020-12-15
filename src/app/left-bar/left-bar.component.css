@@ -1,0 +1,32 @@
+.leftBar{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    border: 0px;
+    border-radius: 0px;
+    font-size: large;
+}
+.element{
+    height: 71px;
+    width: 100%;
+}
+.contatti{
+    text-align: center;
+    padding: 20px;
+}
+.content{
+    text-align: center;
+    height: 100%;
+}
+.btnContent{
+    height: 30px;
+    padding: 0px;
+    border-radius: 0px;
+}
+.optionBtn{
+    width: 50%;
+    text-align: center;
+}
+.rowBtn{
+    width: initial;
+}

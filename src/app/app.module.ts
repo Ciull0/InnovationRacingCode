@@ -1,16 +1,50 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TopBarComponent } from './top-bar/top-bar.component';
+import { LeftBarComponent } from './left-bar/left-bar.component';
+import { HomeComponent } from './home/home.component';
+import { BigComponent } from './big/big.component';
+import { WideComponent } from './wide/wide.component';
+import { ThreeElementsComponent } from './three-elements/three-elements.component';
+import { TwoPlusOneComponent } from './two-plus-one/two-plus-one.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { FooterComponent } from './footer/footer.component';
+import { FormComponent } from './form/form.component';
+import { TwoElementsComponent } from './two-elements/two-elements.component';
+import { ElementComponent } from './element/element.component';
+import { PageComponent } from './page/page.component';
+import { PageElementComponent } from './page-element/page-element.component';
+import { ContattiComponent } from './contatti/contatti.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TopBarComponent,
+    LeftBarComponent,
+    HomeComponent,
+    BigComponent,
+    WideComponent,
+    ThreeElementsComponent,
+    TwoPlusOneComponent,
+    FooterComponent,
+    FormComponent,
+    TwoElementsComponent,
+    ElementComponent,
+    PageComponent,
+    PageElementComponent,
+    ContattiComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule,
+    NoopAnimationsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

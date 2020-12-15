@@ -1,0 +1,126 @@
+<nav class="topBar sticky-top"> 
+    <div class="row logo text-white">
+        <div class="col-3  d-none d-lg-block contatti container-flex">
+            <div class="row">
+                <div class="btnNavbar col-6">
+                    <h3>Lingue</h3>
+                    <button class="btn btn-success btnContent" (click)="linguaIta()">Italiano</button>
+                    <button class="btn btn-primary btnContent" (click)="linguaEng()">Inglese</button>
+                </div>
+                <div class="btnNavbar col-6">
+                    <h3>Ambito</h3>
+                    <button *ngIf="fuoristrada==false" class="btn btnContent" routerLink="fuoristrada"><img routerLink="fuoristrada" class="content" src="assets/cross-logo-light.png" alt=""></button>
+                    <button *ngIf="fuoristrada==true" class="btn bg-success btnContent" routerLink="fuoristrada"><img routerLink="fuoristrada" class="content" src="assets/cross-logo-dark.png" alt=""></button>
+                    <button *ngIf="stradale==false" class="btn btnContent" routerLink="stradale"><img routerLink="stradale" class="content" src="assets/corsa-logo-light.png" alt=""></button>
+                    <button *ngIf="stradale==true" class="btn bg-success btnContent" routerLink="stradale"><img routerLink="stradale" class="content" src="assets/corsa-logo-dark.png" alt=""></button>
+                </div>
+            </div>
+        </div>
+        <div class="col-6 logoBar  d-none d-lg-block ">
+            <img class="content" src="assets/Logo_Team.png" routerLink="" class="logo" alt="" >
+        </div>
+        <div class="col-3  d-none d-lg-block">
+            <div class="contatti">
+                <br>
+                <h3><i class="fab fa-whatsapp"></i> 03742084</h3>
+                <br>
+                <h3><i class="fas fa-at"></i> mail@mail.mail</h3>
+            </div>
+        </div>
+    </div>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light text-white">
+        <button (click)="isAboutbarCollapsed = !isAboutbarCollapsed" class="navbar-toggler d-block d-md-none" type="button" data-toggle="collapse" data-target="#aboutbarSupportedContent" aria-controls="aboutbarSupportedContent" aria-expandable="false" aria-label="Toggle about">
+            <span class="navbar-toggler-icon bg-white"></span>
+        </button>
+
+        <a class="navbar-brand d-lg-none" href="#">
+            <img class="content" src="assets/Logo_Team.png" height="60" class="d-inline-block align-top" alt="">
+        </a>
+
+        <button (click)="isNavbarCollapsed = !isNavbarCollapsed" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon bg-white"></span>
+        </button>
+
+        <div [ngbCollapse]="isNavbarCollapsed" class="buttonRow collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto nav-fill w-100 text-white">
+                <li class="nav-item active">
+                    <div ngbDropdown class="nav-item bg-dark">
+                        <a class="nav-link" id="dropdownBasic1" ngbDropdownToggle>Team</a>
+                        <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                            <button routerLink="team/storia" ngbDropdownItem>Storia</button>
+                            <button routerLink="team/noi" ngbDropdownItem>Chi Siamo</button>
+                            <button routerLink="team/obbiettivi" ngbDropdownItem>Obbiettivi</button>
+                            <button routerLink="team/abbigliamento" ngbDropdownItem>Abbigliamento</button>
+                            <button routerLink="team/struttura" ngbDropdownItem>Struttura del Team con Personale Qualificato</button>
+                        </div>
+                    </div>
+                </li>
+
+                <!--<li class="nav-item">
+                    <div ngbDropdown class="nav-item bg-dark">
+                        <a class="nav-link" id="dropdownBasic1" ngbDropdownToggle>Corsi Guida</a>
+                        <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                            <button routerLink="corsi/fuoristrada" ngbDropdownItem>Fuoristrada</button>
+                            <button routerLink="corsi/velocita" ngbDropdownItem>Velocità</button>
+                        </div>
+                    </div>
+                </li>-->
+
+                <!--<li class="nav-item dropdown">
+                    <div ngbDropdown class="nav-item bg-dark">
+                        <a class="nav-link" id="dropdownBasic1" ngbDropdownToggle>Servizi</a>
+                        <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                            <button routerLink="servizi/officina" ngbDropdownItem>Officina</button>
+                            <button routerLink="servizi/sospensioni" ngbDropdownItem>Sospensioni</button>
+                            <button routerLink="servizi/motori" ngbDropdownItem>Motori</button>
+                            <button routerLink="servizi/elaborazioni" ngbDropdownItem>Elaborazioni/Allestimenti</button>
+                            <button routerLink="servizi/epoca" ngbDropdownItem>Moto D'Epoca</button>
+                            <button routerLink="servizi/residenza" ngbDropdownItem>Residenza Moto</button>
+                            <button routerLink="servizi/pneumatici" ngbDropdownItem>Pneumatici</button>
+                            <button routerLink="servizi/elettronica" ngbDropdownItem>Elettronica</button>
+                        </div>
+                    </div>
+                </li>-->
+
+                <li class="nav-item dropdown">
+                    <div ngbDropdown class="nav-item bg-dark">
+                        <a class="nav-link" id="dropdownBasic1" ngbDropdownToggle>Reparto Corse</a>
+                        <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                            <button routerLink="corse/piloti" ngbDropdownItem>Piloti</button>
+                            <button routerLink="corse/campionati" ngbDropdownItem>Campionati</button>
+                            <button routerLink="corse/test" ngbDropdownItem>Test</button>
+                            <button routerLink="corse/gara" ngbDropdownItem>Gara</button>
+                            <button routerLink="corse/preparazione" ngbDropdownItem>Preparazione Moto</button>
+                            <button routerLink="corse/trasporto" ngbDropdownItem>Trasporto</button>
+                            <button routerLink="corse/tesseramento" ngbDropdownItem>Tesseramento</button>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="nav-item dropdown">
+                    <div ngbDropdown class="nav-item bg-dark">
+                        <a class="nav-link" id="dropdownBasic1" ngbDropdownToggle>Crossodromo</a>
+                        <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                            <button routerLink="pista/fuoristrada" ngbDropdownItem>Fuoristrada</button>
+                            <button routerLink="pista/velocita" ngbDropdownItem>Velocità</button>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="nav-item bg-dark">
+                    <a class="nav-link" routerLink="sponsor/tecnici">Sponsor tecnici</a>
+                </li>
+
+                <!--<li class="nav-item">
+                    <button ><img class="content" src="assets/cross-logo.png" alt=""></button>
+                    <button ><img class="content" src="assets/corsa.logo.png" alt=""></button>
+                </li>-->
+            </ul>
+        </div>
+    </nav>
+    <div [ngbCollapse]="isAboutbarCollapsed" class="collapse navbar-collapse" id="aboutbarSupportedContent">
+        <app-left-bar></app-left-bar>
+    </div>
+</nav>

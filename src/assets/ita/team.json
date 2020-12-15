@@ -1,0 +1,117 @@
+[
+    {
+        "title": "Il Nostro Team",
+        "imgGallery": [
+          {
+            "url": "assets/Logo_Team.png",
+            "title": "Gallery1",
+            "subTitle": "Gara della Foto"
+          },
+          {
+            "url": "assets/ricambi1.jpg",
+            "title": "Gallery2",
+            "subTitle": "Gara dei Ricambi"
+          }
+        ]
+      },
+      {
+        "title": "Storia",
+        "imgGallery": [
+          {
+            "url": "assets/moto1.jpg",
+            "title": "Moto Cross",
+            "subTitle": "Corse di cross brrrrr"
+          },
+          {
+            "url": "assets/strada2.jpg",
+            "title": "Moto Stradale",
+            "subTitle": "Corse di Corsa viummmm"
+          }
+        ],
+        "listElements": [
+          "Posizione gara 1",
+          "Posizione gara 2"
+        ],
+        "id": "elem1"
+      },
+      {
+        "title": "Chi Siamo",
+        "imgGallery": [
+          {
+            "url": "assets/moto1.jpg",
+            "title": "Moto Cross",
+            "subTitle": "Corse di cross brrrrr"
+          },
+          {
+            "url": "assets/strada2.jpg",
+            "title": "Moto Stradale",
+            "subTitle": "Corse di Corsa viummmm"
+          }
+        ],
+        "listElements": [
+          "Posizione gara 1",
+          "Posizione gara 2"
+        ],
+        "id": "elem1"
+      },
+      {
+        "title": "Obbiettivi",
+        "imgGallery": [
+          {
+            "url": "assets/moto1.jpg",
+            "title": "Moto Cross",
+            "subTitle": "Corse di cross brrrrr"
+          },
+          {
+            "url": "assets/strada2.jpg",
+            "title": "Moto Stradale",
+            "subTitle": "Corse di Corsa viummmm"
+          }
+        ],
+        "listElements": [
+          "Posizione gara 1",
+          "Posizione gara 2"
+        ],
+        "id": "elem1"
+      },
+      {
+        "title": "Abbigliamento",
+        "imgGallery": [
+          {
+            "url": "assets/moto1.jpg",
+            "title": "Moto Cross",
+            "subTitle": "Corse di cross brrrrr"
+          },
+          {
+            "url": "assets/strada2.jpg",
+            "title": "Moto Stradale",
+            "subTitle": "Corse di Corsa viummmm"
+          }
+        ],
+        "listElements": [
+          "Posizione gara 1",
+          "Posizione gara 2"
+        ],
+        "id": "elem1"
+      },
+      {
+        "title": "Struttura del Team, Con Personale Qualificato",
+        "imgGallery": [
+          {
+            "url": "assets/moto1.jpg",
+            "title": "Moto Cross",
+            "subTitle": "Corse di cross brrrrr"
+          },
+          {
+            "url": "assets/strada2.jpg",
+            "title": "Moto Stradale",
+            "subTitle": "Corse di Corsa viummmm"
+          }
+        ],
+        "listElements": [
+          "Posizione gara 1",
+          "Posizione gara 2"
+        ],
+        "id": "elem1"
+      }
+]

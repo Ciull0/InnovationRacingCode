@@ -1,0 +1,16 @@
+@media only screen and (max-width: 758px){
+    .elem{
+        height: 50% !important;
+    }
+    .block{
+        height: 700px !important;
+    }
+}
+
+.block{
+    height: 800px;
+}
+.elem{
+    padding: 0px;
+    height: 100%;
+}

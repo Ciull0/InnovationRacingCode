@@ -1,0 +1,18 @@
+<div class="container-fluid page">
+    <div class="row primaRiga">
+        <div class="col-2 left">
+            <app-left-bar class="d-none d-md-block" (categoriaMostrata)="cambiaCategoria($event)"></app-left-bar>
+        </div>
+        <div class="col-12 col-md-10 right">
+            <app-big [images]="infoPagina[0].imgGallery"></app-big>
+        </div>
+    </div>
+    <div class="row" *ngFor="let elem of infoPagina">
+        <app-page-element class="col-12" id="{{elem.id}}" *ngIf="elem != infoPagina[0]" [infoBlock]="elem"></app-page-element>
+    </div>
+    <div class="row">
+        <app-contatti></app-contatti>
+    </div>
+    <app-footer></app-footer>
+</div>
+

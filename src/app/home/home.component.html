@@ -1,0 +1,52 @@
+<div class="container-fluid home">
+    <div class="row primaRiga">
+        <div class="col-2 left">
+            <app-left-bar class="d-none d-md-block"></app-left-bar>
+        </div>
+        <div class="col-12 col-md-10 right">
+            <app-big [images]="elemSelezionati"></app-big>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-12">
+            <app-wide [element] = "elemSelezionati[1]"></app-wide>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-12">
+            <app-wide [element] = "elemSelezionati[1]"></app-wide>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-12">
+            <app-three-elements [treElementi] = "elemSelezionati"></app-three-elements>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-12">
+            <app-two-plus-one [treElementi] = "elemSelezionati"></app-two-plus-one>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-12">
+            <app-big [images]="elemSelezionati"></app-big>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-12">
+            <app-two-elements [twoElement] = "elemSelezionati"></app-two-elements>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-12">
+            <app-footer></app-footer>
+        </div>
+    </div>
+</div>

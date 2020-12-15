@@ -1,0 +1,15 @@
+.card{
+    border: 0px;
+}
+.list-group-item{
+    border: 0px;
+    font-size: smaller;
+}
+.footerLinks{
+    padding-top: 10px;
+    background-color: black;
+    text-align: center;
+}
+.container-fluid{
+    padding: 0px;
+}

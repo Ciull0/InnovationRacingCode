@@ -1,0 +1,11 @@
+.tutto{
+    overflow-x: hidden;
+    font-family: 'Goldman', cursive;
+    font-size: x-large;
+}
+.sticky-top{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+

@@ -1,0 +1,23 @@
+<div class="form">
+    <form  name="submit-to-google-sheet">
+        <input type="text" name="Testo" id="">
+        <select name="SceltaMultipla" id="">
+            <option value="1" formControl>Uno</option>
+            <option value="2">Due</option>
+        </select>
+        <input type="email" name="Mail">
+        <button type="submit">Invia</button>
+    </form>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwQY9tEqsh55F9jfi6YlYpmoYOZ9o-CvXxjCIAaE-uLEjxYQQ8/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</div>
