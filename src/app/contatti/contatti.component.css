@@ -3,3 +3,10 @@
     width: 100%;
     text-align: center;
 }
+.page{
+    overflow-x: hidden;
+    padding-top: 250px;
+}
+.hiddenRow{
+    height: 250px;
+}

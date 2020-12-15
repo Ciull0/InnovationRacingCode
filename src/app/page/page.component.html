@@ -10,9 +10,7 @@
     <div class="row" *ngFor="let elem of infoPagina">
         <app-page-element class="col-12" id="{{elem.id}}" *ngIf="elem != infoPagina[0]" [infoBlock]="elem"></app-page-element>
     </div>
-    <div class="row">
-        <app-contatti></app-contatti>
-    </div>
+    <app-contatti></app-contatti>
     <app-footer></app-footer>
 </div>
 

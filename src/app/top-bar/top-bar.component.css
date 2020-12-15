@@ -26,6 +26,11 @@ nav{
 }
 .contatti{
     text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .content{
@@ -37,4 +42,10 @@ nav{
     padding: 0px;
     border-radius: 0px;
     width: 100%;
+}
+.icons{
+    height: 25px;
+}
+.centrale{
+    text-align: center;
 }
