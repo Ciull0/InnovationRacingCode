@@ -25,7 +25,8 @@ nav{
     padding-top: 0px;
 }
 .contatti{
-    text-align: center;
+    padding: 0px;
+    text-align: right;
     margin: 0;
     position: absolute;
     top: 50%;
@@ -38,10 +39,10 @@ nav{
     height: 100%;
 }
 .btnContent{
-    height: 30px;
+    height: 50px;
     padding: 0px;
     border-radius: 0px;
-    width: 100%;
+    width: 50%;
 }
 .icons{
     height: 25px;

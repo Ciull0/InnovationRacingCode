@@ -4,11 +4,11 @@
         <button type="button" routerLink="/corsi/fuoristrada" class="list-group-item list-group-item-action element">Fuori Strada</button>
         <button type="button" routerLink="/corsi/velocita" class="list-group-item list-group-item-action element">Velocità</button>
     </div>
-    <button type="button" routerLink="/pista/giornate" class="bg-dark text-white list-group-item list-group-item-action element">Giornate In Pista</button>
-    <!--<div class="list-group" *ngIf="" >
+    <button type="button" (click)="inPista = !inPista" class="bg-dark text-white list-group-item list-group-item-action element">Giornate In Pista</button>
+    <div class="list-group" *ngIf="inPista" >
         <button type="button" routerLink="/corsi/fuoristrada" class="list-group-item list-group-item-action element">Fuori Strada</button>
         <button type="button" routerLink="/corsi/velocita" class="list-group-item list-group-item-action element">Velocità</button>
-    </div>-->
+    </div>
     <button type="button" (click)="team = !team" class="bg-dark text-white list-group-item list-group-item-action element">Escursioni</button>
     <div class="list-group" *ngIf="team">
         <button type="button" routerLink="/team/storia" class="list-group-item list-group-item-action element">Enduro</button>
@@ -25,8 +25,8 @@
     <button type="button" routerLink="/blog/stampa" class="bg-dark text-white list-group-item list-group-item-action element">Blog</button>
     <button type="button" routerLink="/calendario/eventi" class="bg-dark text-white list-group-item list-group-item-action element">Calendario</button>
     <button type="button" routerLink="/sponsor/Partner" class="bg-dark text-white list-group-item list-group-item-action element">Sponsor Partner</button>
-    <button type="button" (click)="contatti = !contatti" class="bg-dark text-white list-group-item list-group-item-action element">Contatti</button>
-    <div class="list-group" *ngIf="contatti">
+    <button type="button" (click)="contatti = !contatti" class="d-lg-none bg-dark text-white list-group-item list-group-item-action element">Contatti</button>
+    <div class="list-group d-lg-none" *ngIf="contatti">
         <button type="button" routerLink="/contatti" class="list-group-item list-group-item-action element"><img src="assets/icona-whatsapp.png" alt="whatsapp_icon" class="icons">848465451</button>
         <button type="button" routerLink="/contatti" class="list-group-item list-group-item-action element"><img src="assets/icona-mail.png" alt="mail_icon" class="icons"> mail@mail.mail</button>
     </div>
