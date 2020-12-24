@@ -2,10 +2,10 @@
     <h1>{{infoBlock.title}}</h1>
 </div>
 <div class="row rigaElem">
-    <div class="col-12 col-md-8"><app-big [images]="infoBlock.imgGallery"></app-big></div>
-    <div class="col-12 col-md-4">
+    <div class="col-12 col-md-8 colonne"><app-big [images]="infoBlock.imgGallery"></app-big></div>
+    <div class="col-12 col-md-4 colonne">
         <ul class="list-group lista">
-            <li class="list-group-item voceLista" *ngFor="let elem of infoBlock.listElements"><h3>{{elem}}</h3></li>
+            <li class="list-group-item voceLista" *ngFor="let elem of infoBlock.listElements"><h3 class="font">{{elem}}</h3></li>
         </ul>
     </div>
 </div>

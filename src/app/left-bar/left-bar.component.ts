@@ -15,6 +15,7 @@ export class LeftBarComponent implements OnInit {
   team = false;
   crossodromo = false;
   contatti = false;
+  inPista = false;
 
   @Output() categoriaMostrata = new EventEmitter<string>();
   constructor(

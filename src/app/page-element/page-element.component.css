@@ -1,8 +1,11 @@
 .lista{
-    height: 800px;
+    height: 900px;
     padding-top: 0px;
     padding-bottom: 0px;
 }
 .voceLista{
     height: 100%;
+}
+.font{
+    font-size: x-large;
 }

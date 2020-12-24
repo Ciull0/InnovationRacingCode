@@ -6,8 +6,8 @@
     </div>
     <button type="button" (click)="inPista = !inPista" class="bg-dark text-white list-group-item list-group-item-action element">Giornate In Pista</button>
     <div class="list-group" *ngIf="inPista" >
-        <button type="button" routerLink="/corsi/fuoristrada" class="list-group-item list-group-item-action element">Fuori Strada</button>
-        <button type="button" routerLink="/corsi/velocita" class="list-group-item list-group-item-action element">Velocità</button>
+        <button type="button" routerLink="/pista/fuoristrada" class="list-group-item list-group-item-action element">Fuori Strada</button>
+        <button type="button" routerLink="/pista/velocita" class="list-group-item list-group-item-action element">Velocità</button>
     </div>
     <button type="button" (click)="team = !team" class="bg-dark text-white list-group-item list-group-item-action element">Escursioni</button>
     <div class="list-group" *ngIf="team">

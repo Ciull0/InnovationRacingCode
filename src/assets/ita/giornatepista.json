@@ -3,14 +3,43 @@
         "title": "Giornate In Pista",
         "imgGallery": [
           {
-            "url": "assets/Logo_Team.png",
-            "title": "Gallery1",
-            "subTitle": "Gara della Foto"
+            "url": "assets/inPista_gallery (1).jpeg",
+            "title": "Vivi L' Esperienza dell'Alta Velocità",
+            "subTitle": "Il team offre la possibilità di provare la propria moto al massimo delle sue prestazioni in piena sicurezza nelle piste più belle con il supporto tecnico"
+          },{
+            "url": "assets/inPista_gallery (1).jpg",
+            "title": "Vivi L' Esperienza dell'Alta Velocità",
+            "subTitle": "Il team offre la possibilità di provare la propria moto al massimo delle sue prestazioni in piena sicurezza nelle piste più belle con il supporto tecnico"
           },
           {
-            "url": "assets/ricambi1.jpg",
-            "title": "Gallery2",
-            "subTitle": "Gara dei Ricambi"
+            "url": "assets/inPista_gallery (2).jpeg",
+            "title": "Vivi L' Esperienza dell'Alta Velocità",
+            "subTitle": "Il team offre la possibilità di provare la propria moto al massimo delle sue prestazioni in piena sicurezza nelle piste più belle con il supporto tecnico"
+          },
+          {
+            "url": "assets/inPista_gallery (2).jpg",
+            "title": "Vivi L' Esperienza dell'Alta Velocità",
+            "subTitle": "Il team offre la possibilità di provare la propria moto al massimo delle sue prestazioni in piena sicurezza nelle piste più belle con il supporto tecnico"
+          },
+          {
+            "url": "assets/inPista_gallery (3).jpeg",
+            "title": "Vivi L' Esperienza dell'Alta Velocità",
+            "subTitle": "Il team offre la possibilità di provare la propria moto al massimo delle sue prestazioni in piena sicurezza nelle piste più belle con il supporto tecnico"
+          },
+          {
+            "url": "assets/inPista_gallery (3).jpg",
+            "title": "Vivi L' Esperienza dell'Alta Velocità",
+            "subTitle": "Il team offre la possibilità di provare la propria moto al massimo delle sue prestazioni in piena sicurezza nelle piste più belle con il supporto tecnico"
+          },
+          {
+            "url": "assets/inPista_gallery (4).jpeg",
+            "title": "Vivi L' Esperienza dell'Alta Velocità",
+            "subTitle": "Il team offre la possibilità di provare la propria moto al massimo delle sue prestazioni in piena sicurezza nelle piste più belle con il supporto tecnico"
+          },
+          {
+            "url": "assets/inPista_gallery (4).jpg",
+            "title": "Vivi L' Esperienza dell'Alta Velocità",
+            "subTitle": "Il team offre la possibilità di provare la propria moto al massimo delle sue prestazioni in piena sicurezza nelle piste più belle con il supporto tecnico"
           }
         ]
       },
@@ -32,26 +61,35 @@
           "Posizione gara 1",
           "Posizione gara 2"
         ],
-        "id": "elem1"
+        "id": "fuoristrada"
       },
       {
         "title": "Velocità",
         "imgGallery": [
           {
-            "url": "assets/moto1.jpg",
-            "title": "Moto Cross",
-            "subTitle": "Corse di cross brrrrr"
+            "url": "assets/inPista_corsa (1).jpeg",
+            "title": "Vorresti provare ma non sei sicuro di fare il passo?",
+            "subTitle": "non è mai stato cosi facile, ci siamo noi ad accompagnarti!"
           },
           {
-            "url": "assets/strada2.jpg",
-            "title": "Moto Stradale",
-            "subTitle": "Corse di Corsa viummmm"
+            "url": "assets/inPista_corsa (2).jpeg",
+            "title": "Vorresti provare ma non sei sicuro di fare il passo?",
+            "subTitle": "non è mai stato cosi facile, ci siamo noi ad accompagnarti!"
+          },
+          {
+            "url": "assets/inPista_corsa (1).png",
+            "title": "Vorresti provare ma non sei sicuro di fare il passo?",
+            "subTitle": "non è mai stato cosi facile, ci siamo noi ad accompagnarti!"
           }
         ],
         "listElements": [
-          "Posizione gara 1",
-          "Posizione gara 2"
+          "Tutti possono partecipare in sicurezza, sia i principianti che gli agonisti che hanno compiuto 18 anni.",
+          "Tutto viene organizzato in una giornata in una determinata pista.",
+          "Ma dove andiamo?",
+          "Possiamo andare dalla pista più semplice e divertente come possiamo andare nei circuiti più belli d'Italia come Mugello, Imola, Misano e Vallelunga con il supporto del team che ti permetterà di provare o allenarti in assoluta tranquillità durante tutta la giornata.",
+          "Se non possiedi la moto possiamo noleggiartela noi, devi soltanto possedere l'abbigliamento tecnico.",
+          "Una giornata che non dimenticherai tanto velocemente!"
         ],
-        "id": "elem1"
+        "id": "corsa"
       }
 ]
