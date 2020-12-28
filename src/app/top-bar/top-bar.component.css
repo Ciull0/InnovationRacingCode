@@ -63,10 +63,15 @@ nav{
     height: 25px;
 }
 .centrale{
-    text-align: center;
+    width: 100%;
+    text-align: right;
 }
 .colonne{
     text-align: center;
 }
-
+.telefono{
+    position: absolute;
+    top: 20%;
+    left: 150px;
+}
 

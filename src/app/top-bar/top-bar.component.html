@@ -23,20 +23,16 @@
         </div>
         <div class="col-4 d-none d-lg-block container-fluid colonne">
             <div class="row contatti centrale">
-                <div class="col-4"></div>
-                <div class="col-4 contattiCol">
-                    <button class="btn btnContent contattiBtn" onclick="location.href='https://wa.me/393803279888'"><img src="assets/icona-whatsapp.png" alt="whatsapp_icon" class="contattiIcons"></button>
-                </div>
-                <div class="col-4 contattiCol">
-                    <button class="btn btnContent contattiBtn" routerLink="contatti"><img  src="assets/icona-mail.png" alt="mail_icon" class="contattiIcons"></button>
-                </div>
+                    <button class="btn btnContent contattiBtn" routerLink="contatti"><img src="assets/icona-mail.png" alt="mail_icon" class="contattiIcons"></button>
+                    <button class="btn btnContent contattiBtn" routerLink="contatti"><img src="assets/icona-whatsapp.png" alt="whatsapp_icon" class="contattiIcons"><h3 class="telefono">338 3279888</h3></button>
+                    
             </div>
         </div>
     </div>
 
 
     <nav class="navbar navbar-expand-lg navbar-light text-white">
-        <button (click)="isAboutbarCollapsed = !isAboutbarCollapsed" class="navbar-toggler d-block d-md-none" type="button" data-toggle="collapse" data-target="#aboutbarSupportedContent" aria-controls="aboutbarSupportedContent" aria-expandable="false" aria-label="Toggle about">
+        <button (click)="aboutBar()" class="navbar-toggler d-block d-md-none" type="button" data-toggle="collapse" data-target="#aboutbarSupportedContent" aria-controls="aboutbarSupportedContent" aria-expandable="false" aria-label="Toggle about">
             <span class="navbar-toggler-icon bg-white"></span>
         </button>
 
@@ -44,7 +40,7 @@
             <img class="content" src="assets/Logo_Team_Solid.png" height="60" class="d-inline-block align-top" alt="">
         </a>
 
-        <button (click)="isNavbarCollapsed = !isNavbarCollapsed" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button (click)="navBar()" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon bg-white"></span>
         </button>
 

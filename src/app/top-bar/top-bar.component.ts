@@ -28,6 +28,16 @@ export class TopBarComponent implements OnInit {
     if(this.router.url == "/stradale"){this.stradale=true};
   }
 
+  aboutBar(){
+    this.isAboutbarCollapsed = !this.isAboutbarCollapsed;
+    if(this.isNavbarCollapsed == false){this.isNavbarCollapsed=true}
+  }
+
+  navBar(){
+    this.isNavbarCollapsed = !this.isNavbarCollapsed;
+    if(this.isAboutbarCollapsed == false){this.isAboutbarCollapsed=true}
+  }
+
   linguaIta(){
     this.util.cambiaLingua("ita");
   }
