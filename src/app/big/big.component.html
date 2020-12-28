@@ -1,5 +1,5 @@
 <div class="row" id="heroDiv">
-  <ngb-carousel *ngIf="images" [pauseOnHover] class="col-12" [interval]="3000">
+  <ngb-carousel *ngIf="images" class="col-12" [interval]="2000">
     <ng-template ngbSlide *ngFor="let elem of images">
       <div class="picsum-img-wrapper">
         <img [src]="elem.url" alt="Random first slide">

@@ -26,7 +26,7 @@ nav{
 }
 .contatti{
     padding: 0px;
-    text-align: right;
+    text-align: center;
     margin: 0;
     position: absolute;
     top: 50%;
@@ -36,7 +36,10 @@ nav{
 
 .content{
     text-align: center;
-    height: 100%;
+    height: 50px;
+}
+.mail{
+    text-align: center !important;
 }
 .btnContent{
     height: 50px;
@@ -44,9 +47,26 @@ nav{
     border-radius: 0px;
     width: 50%;
 }
+.contattiCol{
+    width: 50%;
+}
+.contattiBtn{
+    text-align: center;
+    width: 70px;
+    height: 100%;
+    color: white;
+}
+.contattiIcons{
+    height: 50px;
+}
 .icons{
     height: 25px;
 }
 .centrale{
     text-align: center;
 }
+.colonne{
+    text-align: center;
+}
+
+

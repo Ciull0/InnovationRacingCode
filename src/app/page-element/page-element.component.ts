@@ -10,6 +10,8 @@ export class PageElementComponent implements OnInit {
   @Input() infoBlock;
   constructor() { }
 
+  slide = true;
+
   ngOnInit(): void {
   }
 
