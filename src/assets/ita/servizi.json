@@ -1,26 +1,11 @@
 [
-    {
-    "title": "I Servizi che Offriamo",
-    "imgGallery": [
-      {
-        "url": "assets/Logo_Team.png",
-        "title": "Gallery1",
-        "subTitle": "Gara della Foto"
-      },
-      {
-        "url": "assets/ricambi1.jpg",
-        "title": "Gallery2",
-        "subTitle": "Gara dei Ricambi"
-      }
-    ]
-  },
   {
-    "title": "Officina",
-    "imgGallery": [
+    "sezione": "sospensioni",
+    "GalleryTop": [
       {
         "url": "assets/moto1.jpg",
-        "title": "Moto Cross",
-        "subTitle": "Corse di cross brrrrr"
+        "title_Foto": "Moto Cross",
+        "subTitle_Foto": "Corse di cross brrrrr"
       },
       {
         "url": "assets/strada2.jpg",
@@ -28,41 +13,59 @@
         "subTitle": "Corse di Corsa viummmm"
       }
     ],
-    "listElements": [
+    "GalleryBottom": [
+      {
+        "url": "assets/moto1.jpg"
+      },
+      {
+        "url": "assets/strada2.jpg"
+      }
+    ],
+    "title": "Sospensioni",
+    "subTitle": "Sottotitolo",
+    "features": [
       "Posizione gara 1",
       "Posizione gara 2"
     ],
-    "id": "elem1"
+    "footer": "FooterTitle"
   },
   {
-    "title": "Sospension",
-    "imgGallery": [
+    "sezione": "motori",
+    "GalleryTop": [
       {
-        "url": "assets/moto2.jpg",
-        "title": "Moto Cross",
-        "subTitle": "Corse di cross brrrrr"
+        "url": "assets/moto1.jpg",
+        "title_Foto": "Moto Cross",
+        "subTitle_Foto": "Corse di cross brrrrr"
       },
       {
-        "url": "assets/strada3.jpg",
+        "url": "assets/strada2.jpg",
         "title": "Moto Stradale",
         "subTitle": "Corse di Corsa viummmm"
       }
     ],
-    "listElements": [
-      "Posizione gara 1",
-      "Posizione gara 2",
-      "Posizione gara 3",
-      "Posizione gara 4"
+    "GalleryBottom": [
+      {
+        "url": "assets/moto1.jpg"
+      },
+      {
+        "url": "assets/strada2.jpg"
+      }
     ],
-    "id": "elem2"
-  },
-  {
     "title": "Motori",
-    "imgGallery": [
+    "subTitle": "Sottotitolo Stradale",
+    "features": [
+      "Posizione gara 1",
+      "Posizione gara 2"
+    ],
+    "footer": "FooterTitle Stradale"
+  },
+  {
+    "sezione": "elaborazioni",
+    "GalleryTop": [
       {
         "url": "assets/moto1.jpg",
-        "title": "Moto Cross",
-        "subTitle": "Corse di cross brrrrr"
+        "title_Foto": "Moto Cross",
+        "subTitle_Foto": "Corse di cross brrrrr"
       },
       {
         "url": "assets/strada2.jpg",
@@ -70,19 +73,29 @@
         "subTitle": "Corse di Corsa viummmm"
       }
     ],
-    "listElements": [
-      "Posizione gara 1",
-      "Posizione gara 2"
+    "GalleryBottom": [
+      {
+        "url": "assets/moto1.jpg"
+      },
+      {
+        "url": "assets/strada2.jpg"
+      }
     ],
-    "id": "elem1"
-  },
-  {
     "title": "Elaborazioni & Allestimenti",
-    "imgGallery": [
+    "subTitle": "Sottotitolo Stradale",
+    "features": [
+      "Posizione gara 1",
+      "Posizione gara 2"
+    ],
+    "footer": "FooterTitle Stradale"
+  },
+  {
+    "sezione": "Elettronica",
+    "GalleryTop": [
       {
         "url": "assets/moto1.jpg",
-        "title": "Moto Cross",
-        "subTitle": "Corse di cross brrrrr"
+        "title_Foto": "Moto Cross",
+        "subTitle_Foto": "Corse di cross brrrrr"
       },
       {
         "url": "assets/strada2.jpg",
@@ -90,79 +103,29 @@
         "subTitle": "Corse di Corsa viummmm"
       }
     ],
-    "listElements": [
-      "Posizione gara 1",
-      "Posizione gara 2"
-    ],
-    "id": "elem1"
-  },
-  {
-    "title": "Moto D'Epoca",
-    "imgGallery": [
+    "GalleryBottom": [
       {
-        "url": "assets/moto1.jpg",
-        "title": "Moto Cross",
-        "subTitle": "Corse di cross brrrrr"
+        "url": "assets/moto1.jpg"
       },
       {
-        "url": "assets/strada2.jpg",
-        "title": "Moto Stradale",
-        "subTitle": "Corse di Corsa viummmm"
+        "url": "assets/strada2.jpg"
       }
     ],
-    "listElements": [
-      "Posizione gara 1",
-      "Posizione gara 2"
-    ],
-    "id": "elem1"
-  },
-  {
-    "title": "Residenza Moto",
-    "imgGallery": [
-      {
-        "url": "assets/moto1.jpg",
-        "title": "Moto Cross",
-        "subTitle": "Corse di cross brrrrr"
-      },
-      {
-        "url": "assets/strada2.jpg",
-        "title": "Moto Stradale",
-        "subTitle": "Corse di Corsa viummmm"
-      }
-    ],
-    "listElements": [
-      "Posizione gara 1",
-      "Posizione gara 2"
-    ],
-    "id": "elem1"
-  },
-  {
-    "title": "Pneumatici",
-    "imgGallery": [
-      {
-        "url": "assets/moto1.jpg",
-        "title": "Moto Cross",
-        "subTitle": "Corse di cross brrrrr"
-      },
-      {
-        "url": "assets/strada2.jpg",
-        "title": "Moto Stradale",
-        "subTitle": "Corse di Corsa viummmm"
-      }
-    ],
-    "listElements": [
-      "Posizione gara 1",
-      "Posizione gara 2"
-    ],
-    "id": "elem1"
-  },
-  {
     "title": "Elettronica",
-    "imgGallery": [
+    "subTitle": "Sottotitolo Stradale",
+    "features": [
+      "Posizione gara 1",
+      "Posizione gara 2"
+    ],
+    "footer": "FooterTitle Stradale"
+  },
+  {
+    "sezione": "epoca",
+    "GalleryTop": [
       {
         "url": "assets/moto1.jpg",
-        "title": "Moto Cross",
-        "subTitle": "Corse di cross brrrrr"
+        "title_Foto": "Moto Cross",
+        "subTitle_Foto": "Corse di cross brrrrr"
       },
       {
         "url": "assets/strada2.jpg",
@@ -170,10 +133,50 @@
         "subTitle": "Corse di Corsa viummmm"
       }
     ],
-    "listElements": [
+    "GalleryBottom": [
+      {
+        "url": "assets/moto1.jpg"
+      },
+      {
+        "url": "assets/strada2.jpg"
+      }
+    ],
+    "title": "Moto D'Epoca",
+    "subTitle": "Sottotitolo Stradale",
+    "features": [
       "Posizione gara 1",
       "Posizione gara 2"
     ],
-    "id": "elem1"
+    "footer": "FooterTitle Stradale"
+  },
+  {
+    "sezione": "residenza",
+    "GalleryTop": [
+      {
+        "url": "assets/moto1.jpg",
+        "title_Foto": "Moto Cross",
+        "subTitle_Foto": "Corse di cross brrrrr"
+      },
+      {
+        "url": "assets/strada2.jpg",
+        "title": "Moto Stradale",
+        "subTitle": "Corse di Corsa viummmm"
+      }
+    ],
+    "GalleryBottom": [
+      {
+        "url": "assets/moto1.jpg"
+      },
+      {
+        "url": "assets/strada2.jpg"
+      }
+    ],
+    "title": "Residenza Moto",
+    "subTitle": "Sottotitolo Stradale",
+    "features": [
+      "Posizione gara 1",
+      "Posizione gara 2"
+    ],
+    "footer": "FooterTitle Stradale"
   }
 ]

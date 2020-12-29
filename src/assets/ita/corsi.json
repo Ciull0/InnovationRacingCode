@@ -1,57 +1,62 @@
 [
-    {
-        "title": "Corsi Di Moto",
-        "imgGallery": [
-          {
-            "url": "assets/Logo_Team.png",
-            "title": "Gallery1",
-            "subTitle": "Gara della Foto"
-          },
-          {
-            "url": "assets/ricambi1.jpg",
-            "title": "Gallery2",
-            "subTitle": "Gara dei Ricambi"
-          }
-        ]
+  {
+    "sezione": "fuoristrada",
+    "GalleryTop": [
+      {
+        "url": "assets/moto1.jpg",
+        "title_Foto": "Moto Cross",
+        "subTitle_Foto": "Corse di cross brrrrr"
       },
       {
-        "title": "Fuori Strada",
-        "imgGallery": [
-          {
-            "url": "assets/moto1.jpg",
-            "title": "Moto Cross",
-            "subTitle": "Corse di cross brrrrr"
-          },
-          {
-            "url": "assets/strada2.jpg",
-            "title": "Moto Stradale",
-            "subTitle": "Corse di Corsa viummmm"
-          }
-        ],
-        "listElements": [
-          "Posizione gara 1",
-          "Posizione gara 2"
-        ],
-        "id": "elem1"
-      },
-      {
-        "title": "Velocità",
-        "imgGallery": [
-          {
-            "url": "assets/moto1.jpg",
-            "title": "Moto Cross",
-            "subTitle": "Corse di cross brrrrr"
-          },
-          {
-            "url": "assets/strada2.jpg",
-            "title": "Moto Stradale",
-            "subTitle": "Corse di Corsa viummmm"
-          }
-        ],
-        "listElements": [
-          "Posizione gara 1",
-          "Posizione gara 2"
-        ],
-        "id": "elem1"
+        "url": "assets/strada2.jpg",
+        "title": "Moto Stradale",
+        "subTitle": "Corse di Corsa viummmm"
       }
+    ],
+    "GalleryBottom": [
+      {
+        "url": "assets/moto1.jpg"
+      },
+      {
+        "url": "assets/strada2.jpg"
+      }
+    ],
+    "title": "Fuoristrada",
+    "subTitle": "Sottotitolo",
+    "features": [
+      "Posizione gara 1",
+      "Posizione gara 2"
+    ],
+    "footer": "FooterTitle"
+  },
+  {
+    "sezione": "velocita",
+    "GalleryTop": [
+      {
+        "url": "assets/moto1.jpg",
+        "title_Foto": "Moto Cross",
+        "subTitle_Foto": "Corse di cross brrrrr"
+      },
+      {
+        "url": "assets/strada2.jpg",
+        "title": "Moto Stradale",
+        "subTitle": "Corse di Corsa viummmm"
+      }
+    ],
+    "GalleryBottom": [
+      {
+        "url": "assets/moto1.jpg"
+      },
+      {
+        "url": "assets/strada2.jpg"
+      }
+    ],
+    "title": "Velocità",
+    "subTitle": "Sottotitolo Stradale",
+    "features": [
+      "Posizione gara 1",
+      "Posizione gara 2"
+    ],
+    "footer": "FooterTitle Stradale"
+  }
 ]
