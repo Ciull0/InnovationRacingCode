@@ -5,12 +5,14 @@
           {
             "url": "assets/Logo_Team.png",
             "title": "Gallery1",
-            "subTitle": "Gara della Foto"
+            "subTitle": "Gara della Foto", 
+"alt": "altPerSeo"
           },
           {
-            "url": "assets/ricambi1.jpg",
-            "title": "Gallery2",
-            "subTitle": "Gara dei Ricambi"
+            "url": "assets/Logo_Team.png",
+            "title": "Gallery1",
+            "subTitle": "Gara della Foto", 
+"alt": "altPerSeo"
           }
         ]
       },
@@ -18,14 +20,10 @@
         "title": "Società",
         "imgGallery": [
           {
-            "url": "assets/moto1.jpg",
-            "title": "Moto Cross",
-            "subTitle": "Corse di cross brrrrr"
-          },
-          {
-            "url": "assets/strada2.jpg",
-            "title": "Moto Stradale",
-            "subTitle": "Corse di Corsa viummmm"
+            "url": "assets/Logo_Team.png",
+            "title": "Gallery1",
+            "subTitle": "Gara della Foto", 
+"alt": "altPerSeo"
           }
         ],
         "listElements": [
@@ -38,14 +36,10 @@
         "title": "Pagamenti e Copyright",
         "imgGallery": [
           {
-            "url": "assets/moto1.jpg",
-            "title": "Moto Cross",
-            "subTitle": "Corse di cross brrrrr"
-          },
-          {
-            "url": "assets/strada2.jpg",
-            "title": "Moto Stradale",
-            "subTitle": "Corse di Corsa viummmm"
+            "url": "assets/Logo_Team.png",
+            "title": "Gallery1",
+            "subTitle": "Gara della Foto", 
+"alt": "altPerSeo"
           }
         ],
         "listElements": [

@@ -1,11 +1,11 @@
-<div class="row rigaTitolo">
-    <h1>{{infoBlock.title}}</h1>
-</div>
+<br>
 <div class="row rigaElem">
-    <div class="col-12 col-md-8 colonne"><app-big [images]="infoBlock.imgGallery"></app-big></div>
+    <div class="col-12 col-md-8 colonne"><app-big [images]="infoBlock.GalleryBottom"></app-big></div>
     <div class="col-12 col-md-4 colonne">
-        <ul class="list-group lista">
-            <li class="list-group-item voceLista" *ngFor="let elem of infoBlock.listElements"><h3 class="font">{{elem}}</h3></li>
-        </ul>
+        <h1>{{infoBlock.title}}</h1>
+        <h3>{{infoBlock.subTitle}}</h3>
+        <p>{{infoBlock.body}}</p>
+        <h3>{{infoBlock.footer}}</h3>
+        <button routerLink="contatti">Contattaci!</button>
     </div>
 </div>

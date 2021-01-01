@@ -47,14 +47,10 @@
         "title": "Fuori Strada",
         "imgGallery": [
           {
-            "url": "assets/moto1.jpg",
-            "title": "Moto Cross",
-            "subTitle": "Corse di cross brrrrr"
-          },
-          {
-            "url": "assets/strada2.jpg",
-            "title": "Moto Stradale",
-            "subTitle": "Corse di Corsa viummmm"
+            "url": "assets/Logo_Team.png",
+            "title": "Gallery1",
+            "subTitle": "Gara della Foto", 
+"alt": "altPerSeo"
           }
         ],
         "listElements": [

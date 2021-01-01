@@ -27,9 +27,16 @@
     width: 50%;
     text-align: center;
 }
-.rowBtn{
-    width: initial;
-}
+
 .icons{
     height: 100%;
 }
+
+@media screen and (max-width: 992px){
+    .page{
+     padding-top: 80px;
+    }
+    .element{
+        height: 50px;
+    }
+ }

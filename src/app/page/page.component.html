@@ -4,11 +4,11 @@
             <app-left-bar class="d-none d-md-block" (categoriaMostrata)="cambiaCategoria($event)"></app-left-bar>
         </div>
         <div class="col-12 col-md-10 right">
-            <app-big [images]="infoPagina[0].imgGallery"></app-big>
+            <app-big [images]="infoPagina[0].GalleryTop"></app-big>
         </div>
     </div>
-    <div class="row" *ngFor="let elem of infoPagina">
-        <app-page-element class="col-12" id="{{elem.id}}" *ngIf="elem != infoPagina[0]" [infoBlock]="elem"></app-page-element>
+    <div class="row">
+        <app-page-element class="col-12" id="{{infoPagina[0].id}}"  [infoBlock]="infoPagina[0]"></app-page-element>
     </div>
     <app-contatti></app-contatti>
     <app-footer></app-footer>

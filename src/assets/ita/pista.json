@@ -3,14 +3,28 @@
     "sezione": "fuoristrada",
     "GalleryTop": [
       {
-        "url": "assets/moto1.jpg",
-        "title_Foto": "Moto Cross",
-        "subTitle_Foto": "Corse di cross brrrrr"
+        "url": "assets/_Misano.jpg",
+        "title": "Misano",
+        "subTitle": "Corse di cross brrrrr",
+        "alt": "Misano - Innovation Racing Team"
       },
       {
-        "url": "assets/strada2.jpg",
-        "title": "Moto Stradale",
-        "subTitle": "Corse di Corsa viummmm"
+        "url": "assets/imola.jpg",
+        "title": "Vallelunga",
+        "subTitle": "Corse di Corsa viummmm",
+        "alt": "Imola - Innovation Racing Team"
+      },
+      {
+        "url": "assets/vallelunga.jpg",
+        "title": "Vallelunga",
+        "subTitle": "Corse di Corsa viummmm",
+        "alt": "Vallelunga - Innovation Racing Team"
+      },
+      {
+        "url": "assets/mugello.jpg",
+        "title": "Mugello",
+        "subTitle": "Corse di Corsa viummmm",
+        "alt": "Mugello - Innovation Racing Team"
       }
     ],
     "GalleryBottom": [
@@ -23,40 +37,60 @@
     ],
     "title": "Enduro",
     "subTitle": "Sottotitolo",
-    "features": [
-      "Posizione gara 1",
-      "Posizione gara 2"
-    ],
+    "body": "Lorem Ipsum is simply dummy text of the #printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     "footer": "FooterTitle"
   },
   {
     "sezione": "velocita",
     "GalleryTop": [
       {
-        "url": "assets/moto1.jpg",
-        "title_Foto": "Moto Cross",
-        "subTitle_Foto": "Corse di cross brrrrr"
+        "url": "assets/_Misano.jpg",
+        "title": "Vivi l'esperienza dell'alta velocità",
+        "subTitle": "Il team offre la possibilità di provare la propria moto al massimo delle sue prestazioni in piena sicurezza nelle piste più belle con il supporto tecnico",
+        "alt": "Misano - Innovation Racing Team"
       },
       {
-        "url": "assets/strada2.jpg",
-        "title": "Moto Stradale",
-        "subTitle": "Corse di Corsa viummmm"
+        "url": "assets/imola.jpg",
+        "title": "Vivi l'esperienza dell'alta velocità",
+        "subTitle": "Il team offre la possibilità di provare la propria moto al massimo delle sue prestazioni in piena sicurezza nelle piste più belle con il supporto tecnico",
+        "alt": "Imola - Innovation Racing Team"
+      },
+      {
+        "url": "assets/vallelunga.jpg",
+        "title": "Vivi l'esperienza dell'alta velocità",
+        "subTitle": "Il team offre la possibilità di provare la propria moto al massimo delle sue prestazioni in piena sicurezza nelle piste più belle con il supporto tecnico",
+        "alt": "Vallelunga - Innovation Racing Team"
+      },
+      {
+        "url": "assets/mugello.jpg",
+        "title": "Vivi l'esperienza dell'alta velocità",
+        "subTitle": "Il team offre la possibilità di provare la propria moto al massimo delle sue prestazioni in piena sicurezza nelle piste più belle con il supporto tecnico",
+        "alt": "Mugello - Innovation Racing Team"
       }
     ],
     "GalleryBottom": [
       {
-        "url": "assets/moto1.jpg"
+        "url": "assets/1.jpg"
       },
       {
-        "url": "assets/strada2.jpg"
+        "url": "assets/2.jpg"
+      },
+      {
+        "url": "assets/3.jpg"
+      },
+      {
+        "url": "assets/4.jpg"
+      },
+      {
+        "url": "assets/5.jpg"
+      },
+      {
+        "url": "assets/6.jpg"
       }
     ],
-    "title": "Stradale",
-    "subTitle": "Sottotitolo Stradale",
-    "features": [
-      "Posizione gara 1",
-      "Posizione gara 2"
-    ],
-    "footer": "FooterTitle Stradale"
+    "title": "Giornate in pista Velocità",
+    "subTitle": "Vorresti provare ma non sei sicuro di fare il passo? Non è mai stato cosi facile, ci siamo noi ad accompagnarti!",
+    "body": "Tutti possono partecipare in sicurezza, sia i principianti che gli agonisti che hanno compiuto 18 anni. Tutto viene organizzato in una giornata in una determinata pista. Ma dove andiamo? Possiamo andare dalla pista più semplice e divertente come possiamo andare nei circuiti più belli d'Italia come Mugello, Imola, Misano e Vallelunga con il supporto del team che ti permetterà di provare o allenarti in assoluta tranquillità durante tutta la giornata. Se non possiedi la moto possiamo noleggiartela noi, devi soltanto possedere l'abbigliamento tecnico.",
+    "footer": "Una giornata che non dimenticherai tanto velocemente!"
   }
 ]

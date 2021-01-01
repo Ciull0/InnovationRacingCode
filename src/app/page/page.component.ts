@@ -21,14 +21,9 @@ export class PageComponent implements OnInit {
     this.route.params.subscribe(url => {
       let tmp:any = this.utilita.mandaInfo(url.pagina);
       tmp.then(dati=>{
-        this.infoPagina[0] = dati[0];
         for(let elem of dati){
-          if(elem.id == url.posizione){this.infoPagina[1]=elem}
-        }
-        for(let elem2 of dati){
-          if(elem2 != this.infoPagina[0] && elem2.id != url.posizione){
-            this.infoPagina.push(elem2);
-          }
+          console.log(url.posizione);
+          if(elem.sezione == url.posizione){this.infoPagina[0]=elem}
         }
       })
     });
