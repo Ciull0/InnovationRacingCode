@@ -2,13 +2,14 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { Subject } from 'rxjs';
+import { HomeComponent } from './home/home.component';
 
 @Injectable({
   providedIn: 'root'
 })
 export class UtilityService {
-
-  lang="ita";
+  lang:string = "ita";
+  langChange: Subject<string> = new Subject<string>();
   ambito:any="Default";
   ambitoChange: Subject<string> = new Subject<string>();
   
@@ -17,6 +18,9 @@ export class UtilityService {
   ) {
     this.ambitoChange.subscribe((value) =>{
       this.ambito = value;
+    })
+    this.langChange.subscribe((valore) =>{
+      this.lang = valore;
     })
    }
 
@@ -29,7 +33,8 @@ export class UtilityService {
    }
 
   cambiaLingua(lingua:string){
-    this.lang=lingua;
+    this.langChange.next(lingua);
+    console.log(this.lang);
   }
 
   mandaInfo(pagina:string){

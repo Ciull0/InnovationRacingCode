@@ -12,6 +12,7 @@ export class BigComponent implements OnInit {
   constructor() { }
   //images = [1,2,3,4].map((n) => `assets/carousel(${n}).jpg`);
   ngOnInit(): void {
+    console.log(this.images[0].alt);
   }
 
 }

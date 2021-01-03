@@ -1,0 +1,22 @@
+[
+    {
+      "title": "Titolo1",
+      "subTitle": "Testo di Informazioni Utili ma Breve",
+      "url": "assets/ricambi1.jpg"
+    },
+    {
+      "title": "Moto Stradale",
+      "subTitle": "Testo di Informazioni Utili ma Breve",
+      "url": "assets/strada4.png"
+    },
+    {
+      "title": "Moto Stradale 2",
+      "subTitle": "Testo di Informazioni Utili ma Breve",
+      "url": "assets/strada2.jpg"
+    },
+    {
+      "title": "Titolo4",
+      "subTitle": "Testo di Informazioni Utili ma Breve",
+      "url": "assets/ricambi2.jpg"
+    }
+  ]

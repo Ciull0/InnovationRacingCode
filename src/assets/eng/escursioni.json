@@ -1,0 +1,62 @@
+[
+      {
+        "sezione": "enduro",
+        "GalleryTop": [
+          {
+            "url": "assets/moto1.jpg",
+            "title_Foto": "Moto Cross",
+            "subTitle_Foto": "Corse di cross brrrrr"
+          },
+          {
+            "url": "assets/strada2.jpg",
+            "title": "Moto Stradale",
+            "subTitle": "Corse di Corsa viummmm"
+          }
+        ],
+        "GalleryBottom": [
+          {
+            "url": "assets/moto1.jpg"
+          },
+          {
+            "url": "assets/strada2.jpg"
+          }
+        ],
+        "title": "Enduro",
+        "subTitle": "Sottotitolo",
+        "features": [
+          "Posizione gara 1",
+          "Posizione gara 2"
+        ],
+        "footer": "FooterTitle"
+      },
+      {
+        "sezione": "stradale",
+        "GalleryTop": [
+          {
+            "url": "assets/moto1.jpg",
+            "title_Foto": "Moto Cross",
+            "subTitle_Foto": "Corse di cross brrrrr"
+          },
+          {
+            "url": "assets/strada2.jpg",
+            "title": "Moto Stradale",
+            "subTitle": "Corse di Corsa viummmm"
+          }
+        ],
+        "GalleryBottom": [
+          {
+            "url": "assets/moto1.jpg"
+          },
+          {
+            "url": "assets/strada2.jpg"
+          }
+        ],
+        "title": "Stradale",
+        "subTitle": "Sottotitolo Stradale",
+        "features": [
+          "Posizione gara 1",
+          "Posizione gara 2"
+        ],
+        "footer": "FooterTitle Stradale"
+      }
+]

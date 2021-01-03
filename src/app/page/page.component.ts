@@ -1,4 +1,3 @@
-import { elementEventFullName } from '@angular/compiler/src/view_compiler/view_compiler';
 import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { UtilityService } from '../utility.service';
@@ -14,10 +13,11 @@ export class PageComponent implements OnInit {
   constructor(
     private route:ActivatedRoute,
     private utilita:UtilityService
-  ) { }
+  ) {
+    
+   }
 
   ngOnInit(): void {
-    console.log("nuovo");
     this.route.params.subscribe(url => {
       let tmp:any = this.utilita.mandaInfo(url.pagina);
       tmp.then(dati=>{

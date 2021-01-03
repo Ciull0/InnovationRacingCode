@@ -1,0 +1,51 @@
+[
+    {
+        "title": "Calendario",
+        "imgGallery": [
+          {
+            "url": "assets/Logo_Team.png",
+            "title": "Gallery1",
+            "subTitle": "Gara della Foto", 
+"alt": "altPerSeo"
+          },
+          {
+            "url": "assets/Logo_Team.png",
+            "title": "Gallery1",
+            "subTitle": "Gara della Foto", 
+"alt": "altPerSeo"
+          }
+        ]
+      },
+      {
+        "title": "Fuori Strada",
+        "imgGallery": [
+          {
+            "url": "assets/Logo_Team.png",
+            "title": "Gallery1",
+            "subTitle": "Gara della Foto", 
+"alt": "altPerSeo"
+          }
+        ],
+        "listElements": [
+          "Posizione gara 1",
+          "Posizione gara 2"
+        ],
+        "id": "elem1"
+      },
+      {
+        "title": "Velocità",
+        "imgGallery": [
+          {
+            "url": "assets/Logo_Team.png",
+            "title": "Gallery1",
+            "subTitle": "Gara della Foto", 
+"alt": "altPerSeo"
+          }
+        ],
+        "listElements": [
+          "Posizione gara 1",
+          "Posizione gara 2"
+        ],
+        "id": "elem1"
+      }
+]

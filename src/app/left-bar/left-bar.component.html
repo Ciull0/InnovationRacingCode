@@ -1,30 +1,12 @@
 <div class="list-group leftBar ">
-    <button type="button" class="bg-dark text-white list-group-item list-group-item-action element" (click)="corse=!corse">Corsi Guida</button>
-    <div class="list-group" *ngIf="corse" >
-        <button type="button" routerLink="/corsi/fuoristrada" class="list-group-item list-group-item-action element">Fuori Strada</button>
-        <button type="button" routerLink="/corsi/velocita" class="list-group-item list-group-item-action element">Velocità</button>
+
+    <div *ngFor="let elem of links">
+        <button *ngIf="elem.links.length >1" type="button" (click)="elem.aperto = !elem.aperto" class="bg-dark text-white list-group-item list-group-item-action element">{{elem.sezione}}</button>
+        <div class="list-group" *ngIf="elem.aperto">
+            <button *ngFor="let link of elem.links" type="button" [routerLink]="[elem.url,link.url]" class="list-group-item list-group-item-action element">{{link.title}}</button>
+        </div>
+        <button [routerLink]="[elem.url,elem.links[0].url]" *ngIf="elem.links.length==1" type="button" class="bg-dark text-white list-group-item list-group-item-action element">{{elem.sezione}}</button>
     </div>
-    <button type="button" (click)="inPista = !inPista" class="bg-dark text-white list-group-item list-group-item-action element">Giornate In Pista</button>
-    <div class="list-group" *ngIf="inPista" >
-        <button type="button" routerLink="/pista/fuoristrada" class="list-group-item list-group-item-action element">Fuori Strada</button>
-        <button type="button" routerLink="/pista/velocita" class="list-group-item list-group-item-action element">Velocità</button>
-    </div>
-    <button type="button" (click)="team = !team" class="bg-dark text-white list-group-item list-group-item-action element">Escursioni</button>
-    <div class="list-group" *ngIf="team">
-        <button type="button" routerLink="/team/storia" class="list-group-item list-group-item-action element">Enduro</button>
-        <button type="button" routerLink="/team/noi" class="list-group-item list-group-item-action element">Stradale</button>
-    </div>
-    <!--<button type="button" (click)="crossodromo = !crossodromo" class="list-group-item list-group-item-action element">Pista OffRoad</button>
-    <div class="list-group" *ngIf="crossodromo">
-        <button type="button" class="list-group-item list-group-item-action element">Orari Apertura</button>
-        <button type="button" class="list-group-item list-group-item-action element">Luogo</button>
-        <button type="button" class="list-group-item list-group-item-action element">Bar</button>
-        <button type="button" class="list-group-item list-group-item-action element">Eventi</button>
-    </div>-->
-    <!--<button type="button" routerLink="/noleggio/moto" class="bg-dark text-white list-group-item list-group-item-action element">Noleggio Moto</button>-->
-    <button type="button" routerLink="/blog/stampa" class="bg-dark text-white list-group-item list-group-item-action element">Blog</button>
-    <button type="button" routerLink="/calendario/eventi" class="bg-dark text-white list-group-item list-group-item-action element">Calendario</button>
-    <button type="button" routerLink="/sponsor/Partner" class="bg-dark text-white list-group-item list-group-item-action element">Sponsor Partner</button>
     <button type="button" (click)="contatti = !contatti" class="d-lg-none bg-dark text-white list-group-item list-group-item-action element">Contatti</button>
     <div class="list-group d-lg-none" *ngIf="contatti">
         <button type="button" onclick="location.href='https://wa.me/393803279888'" class="list-group-item list-group-item-action element"><img src="assets/icona-whatsapp.png" alt="whatsapp_icon" class="icons">848465451</button>

@@ -12,6 +12,7 @@ export class TopBarComponent implements OnInit {
   isAboutbarCollapsed = true;
   stradale=false;
   fuoristrada=false;
+  links = [];
 
   @Output() categoriaMostrata = new EventEmitter<string>();
   constructor(
@@ -21,11 +22,16 @@ export class TopBarComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    console.log("di qua");
     this.stradale=false;
     this.fuoristrada=false;
     if(this.router.url == "/fuoristrada"){this.fuoristrada=true}
-    if(this.router.url == "/stradale"){this.stradale=true};
+    if(this.router.url == "/stradale"){this.stradale=true}
+    this.route.params.subscribe(url => {
+      let tmp:any = this.util.mandaInfo("topbar");
+      tmp.then(dati=>{
+        this.links = dati;
+      })
+    });
   }
 
   aboutBar(){
@@ -43,6 +49,7 @@ export class TopBarComponent implements OnInit {
   }
   linguaEng(){
     this.util.cambiaLingua("eng");
+    this.router.navigateByUrl("");
   }
 
   /*cambiaVendita(){

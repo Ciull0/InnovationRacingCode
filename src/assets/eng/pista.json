@@ -1,91 +1,96 @@
 [
-    {
-        "title": "Giornate In Pista",
-        "imgGallery": [
-          {
-            "url": "assets/inPista_gallery (1).jpeg",
-            "title": "Live the experience of high speed",
-            "subTitle": "The team offers you the opportunity to try your bike at maximum performance in complete safety on the most beautiful tracks with technical support."
-          },{
-            "url": "assets/inPista_gallery (1).jpg",
-            "title": "Live the experience of high speed",
-            "subTitle": "The team offers you the opportunity to try your bike at maximum performance in complete safety on the most beautiful tracks with technical support."
-          },
-          {
-            "url": "assets/inPista_gallery (2).jpeg",
-            "title": "Live the experience of high speed",
-            "subTitle": "The team offers you the opportunity to try your bike at maximum performance in complete safety on the most beautiful tracks with technical support."
-          },
-          {
-            "url": "assets/inPista_gallery (2).jpg",
-            "title": "Live the experience of high speed",
-            "subTitle": "The team offers you the opportunity to try your bike at maximum performance in complete safety on the most beautiful tracks with technical support."
-          },
-          {
-            "url": "assets/inPista_gallery (3).jpeg",
-            "title": "Live the experience of high speed",
-            "subTitle": "The team offers you the opportunity to try your bike at maximum performance in complete safety on the most beautiful tracks with technical support."
-          },
-          {
-            "url": "assets/inPista_gallery (3).jpg",
-            "title": "Live the experience of high speed",
-            "subTitle": "The team offers you the opportunity to try your bike at maximum performance in complete safety on the most beautiful tracks with technical support."
-          },
-          {
-            "url": "assets/inPista_gallery (4).jpeg",
-            "title": "Live the experience of high speed",
-            "subTitle": "The team offers you the opportunity to try your bike at maximum performance in complete safety on the most beautiful tracks with technical support."
-          },
-          {
-            "url": "assets/inPista_gallery (4).jpg",
-            "title": "Live the experience of high speed",
-            "subTitle": "The team offers you the opportunity to try your bike at maximum performance in complete safety on the most beautiful tracks with technical support."
-          }
-        ]
+  {
+    "sezione": "fuoristrada",
+    "GalleryTop": [
+      {
+        "url": "assets/misano.jpg",
+        "title": "Misano",
+        "subTitle": "Corse di cross brrrrr",
+        "alt": "Misano - Innovation Racing Team"
       },
       {
-        "title": "Fuori Strada",
-        "imgGallery": [
-          {
-            "url": "assets/Logo_Team.png",
-            "title": "Gallery1",
-            "subTitle": "Gara della Foto", 
-"alt": "altPerSeo"
-          }
-        ],
-        "listElements": [
-          "Posizione gara 1",
-          "Posizione gara 2"
-        ],
-        "id": "fuoristrada"
+        "url": "assets/imola.jpg",
+        "title": "Vallelunga",
+        "subTitle": "Corse di Corsa viummmm",
+        "alt": "Imola - Innovation Racing Team"
       },
       {
-        "title": "Speed Track Days",
-        "imgGallery": [
-          {
-            "url": "assets/inPista_corsa (1).jpeg",
-            "title": "Would you like to try but are not sure to take the step?",
-            "subTitle": "it has never been so easy, we are there to accompany you!"
-          },
-          {
-            "url": "assets/inPista_corsa (2).jpeg",
-            "title": "Would you like to try but are not sure to take the step?",
-            "subTitle": "it has never been so easy, we are there to accompany you!"
-          },
-          {
-            "url": "assets/inPista_corsa (1).png",
-            "title": "Would you like to try but are not sure to take the step?",
-            "subTitle": "it has never been so easy, we are there to accompany you!"
-          }
-        ],
-        "listElements": [
-          "Everyone can participate safely, both beginners and racers who have reached 18 years of age.",
-          "Everything is organized in one day in a specific track.",
-          "But where do we go?",
-          "We can go from the simplest and most fun track as we can go to the most beautiful circuits in Italy such as Mugello, Imola, Misano, and Vallelunga with the support of the team that will allow you to try or train in absolute tranquility throughout the day.",
-          "If you don't have a motorcycle we can rent it to you, you just need to have the technical clothing.",
-          "A day you will not forget so quickly!"
-        ],
-        "id": "corsa"
+        "url": "assets/vallelunga.jpg",
+        "title": "Vallelunga",
+        "subTitle": "Corse di Corsa viummmm",
+        "alt": "Vallelunga - Innovation Racing Team"
+      },
+      {
+        "url": "assets/mugello.jpg",
+        "title": "Mugello",
+        "subTitle": "Corse di Corsa viummmm",
+        "alt": "Mugello - Innovation Racing Team"
       }
+    ],
+    "GalleryBottom": [
+      {
+        "url": "assets/moto1.jpg"
+      },
+      {
+        "url": "assets/strada2.jpg"
+      }
+    ],
+    "title": "Enduro",
+    "subTitle": "Sottotitolo",
+    "body": "Lorem Ipsum is simply dummy text of the #printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "footer": "FooterTitle"
+  },
+  {
+    "sezione": "velocita",
+    "GalleryTop": [
+      {
+        "url": "assets/misano.jpg",
+        "title": "Vivi l'esperienza dell'alta velocità",
+        "subTitle": "Il team offre la possibilità di provare la propria moto al massimo delle sue prestazioni in piena sicurezza nelle piste più belle con il supporto tecnico",
+        "alt": "Misano - Innovation Racing Team"
+      },
+      {
+        "url": "assets/imola.jpg",
+        "title": "Vivi l'esperienza dell'alta velocità",
+        "subTitle": "Il team offre la possibilità di provare la propria moto al massimo delle sue prestazioni in piena sicurezza nelle piste più belle con il supporto tecnico",
+        "alt": "Imola - Innovation Racing Team"
+      },
+      {
+        "url": "assets/vallelunga.jpg",
+        "title": "Vivi l'esperienza dell'alta velocità",
+        "subTitle": "Il team offre la possibilità di provare la propria moto al massimo delle sue prestazioni in piena sicurezza nelle piste più belle con il supporto tecnico",
+        "alt": "Vallelunga - Innovation Racing Team"
+      },
+      {
+        "url": "assets/mugello.jpg",
+        "title": "Vivi l'esperienza dell'alta velocità",
+        "subTitle": "Il team offre la possibilità di provare la propria moto al massimo delle sue prestazioni in piena sicurezza nelle piste più belle con il supporto tecnico",
+        "alt": "Mugello - Innovation Racing Team"
+      }
+    ],
+    "GalleryBottom": [
+      {
+        "url": "assets/1.jpg"
+      },
+      {
+        "url": "assets/2.jpg"
+      },
+      {
+        "url": "assets/3.jpg"
+      },
+      {
+        "url": "assets/4.jpg"
+      },
+      {
+        "url": "assets/5.jpg"
+      },
+      {
+        "url": "assets/6.jpg"
+      }
+    ],
+    "title": "Giornate in pista Velocità",
+    "subTitle": "Vorresti provare ma non sei sicuro di fare il passo? Non è mai stato cosi facile, ci siamo noi ad accompagnarti!",
+    "body": "Tutti possono partecipare in sicurezza, sia i principianti che gli agonisti che hanno compiuto 18 anni. Tutto viene organizzato in una giornata in una determinata pista. Ma dove andiamo? Possiamo andare dalla pista più semplice e divertente come possiamo andare nei circuiti più belli d'Italia come Mugello, Imola, Misano e Vallelunga con il supporto del team che ti permetterà di provare o allenarti in assoluta tranquillità durante tutta la giornata. Se non possiedi la moto possiamo noleggiartela noi, devi soltanto possedere l'abbigliamento tecnico.",
+    "footer": "Una giornata che non dimenticherai tanto velocemente!"
+  }
 ]
