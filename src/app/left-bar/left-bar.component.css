@@ -39,4 +39,10 @@
     .element{
         height: 50px;
     }
+    button{
+        font-size: small;
+    }
+    .rowBtn{
+        width: 111%;
+    }
  }
