@@ -2,7 +2,7 @@ nav{
     position: absolute top;
 }
 .logoBar{
-    height: 100px;
+    height: 130px;
     padding: 0px;
     text-align: center;
 }
@@ -20,9 +20,11 @@ nav{
 }
 .navbar{
     height: 80px;
+    padding: 0px !important;
 }
 .buttonRow{
     padding-top: 0px;
+    padding-bottom: 0px;
 }
 .contatti{
     padding: 0px;
@@ -51,13 +53,13 @@ nav{
     width: 50%;
 }
 .contattiBtn{
-    text-align: center;
-    width: 70px;
+    text-align: left;
+    width: 50%;
     height: 100%;
     color: white;
 }
 .contattiIcons{
-    height: 50px;
+    height: 25px;
 }
 .icons{
     height: 25px;
@@ -70,8 +72,11 @@ nav{
     text-align: center;
 }
 .telefono{
-    position: absolute;
     top: 20%;
     left: 150px;
+    font-size: x-large;
+}
+.text-white{
+    height: 100%;
 }
 

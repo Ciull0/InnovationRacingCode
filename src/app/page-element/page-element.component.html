@@ -4,8 +4,8 @@
     <div class="col-12 col-md-4 colonne">
         <h1>{{infoBlock.title}}</h1>
         <h3>{{infoBlock.subTitle}}</h3>
-        <p>{{infoBlock.body}}</p>
+        <p *ngFor="let riga of tmp">{{riga}}</p>
         <h3>{{infoBlock.footer}}</h3>
-        <button routerLink="contatti">Contattaci!</button>
+        <button class="btn btn-dark" routerLink="contatti">Contattaci!</button>
     </div>
 </div>

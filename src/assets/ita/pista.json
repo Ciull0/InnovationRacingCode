@@ -3,42 +3,57 @@
     "sezione": "fuoristrada",
     "GalleryTop": [
       {
-        "url": "assets/misano.jpg",
-        "title": "Misano",
+        "url": "assets/OTTOBIANO.jpg",
+        "title": "",
         "subTitle": "Corse di cross brrrrr",
-        "alt": "Misano - Innovation Racing Team"
+        "alt": "Ottobiano – Innovation Racing Team"
       },
       {
-        "url": "assets/imola.jpg",
-        "title": "Vallelunga",
+        "url": "assets/PONTE A EGOLA.jpg",
+        "title": "",
         "subTitle": "Corse di Corsa viummmm",
-        "alt": "Imola - Innovation Racing Team"
+        "alt": "Ponte a Egola - Innovation Racing Team"
       },
       {
-        "url": "assets/vallelunga.jpg",
-        "title": "Vallelunga",
+        "url": "assets/MONTEVARCHI.jpeg",
+        "title": "",
         "subTitle": "Corse di Corsa viummmm",
-        "alt": "Vallelunga - Innovation Racing Team"
+        "alt": "Montevarchi- Innovation Racing Team"
       },
       {
-        "url": "assets/mugello.jpg",
-        "title": "Mugello",
+        "url": "assets/Faenza.jpg",
+        "title": "",
         "subTitle": "Corse di Corsa viummmm",
-        "alt": "Mugello - Innovation Racing Team"
+        "alt": "Faenza - Innovation Racing Team"
       }
     ],
     "GalleryBottom": [
       {
-        "url": "assets/moto1.jpg"
+        "url": "assets/pista_fuoristrada.jpg"
       },
       {
-        "url": "assets/strada2.jpg"
+        "url": "assets/pista_fuoristrada_2.jpg"
+      },
+      {
+        "url": "assets/pista_fuoristrada_3.jpg"
+      },
+      {
+        "url": "assets/pista_fuoristrada_4.jpg"
+      },
+      {
+        "url": "assets/pista_fuoristrada_5.jpg"
+      },
+      {
+        "url": "assets/pista_fuoristrada_6.jpg"
+      },
+      {
+        "url": "assets/pista_fuoristrada_7.jpg"
       }
     ],
-    "title": "Enduro",
-    "subTitle": "Sottotitolo",
-    "body": "Lorem Ipsum is simply dummy text of the #printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "footer": "FooterTitle"
+    "title": "Giornate in Pista Offroad",
+    "subTitle": "Vorresti provare ma non sei sicuro di fare il passo? Non è mai stato così facile, ci siamo noi ad accompagnarti!",
+    "body": "Non fermarti a guardare ! sali in sella con noi per passare una giornata all’insegna del divertimento. Tutti possono partecipare in sicurezza, bambini e adulti sia  principianti che agonisti. Tutto viene organizzato in una giornata in una determinata pista alla portata di tutti con il supporto del team  che ti permette di provare o allenarti durante tutta la giornata. Possiamo andare dalla pista più semplice e divertente come possiamo andare nei circuiti più belli d’Italia come Ottobiano, Ponte a Egola, Montevarchi e Faenza con il supporto del team che ti permetterà di provare o allenarti in assoluta tranquillità durante tutta la giornata. Se non possiedi  l’abbigliamento tecnico e la moto puoi noleggiare da noi tutto il necessario.",
+    "footer": "Vivi l’esperienza dell’Off-Road"
   },
   {
     "sezione": "velocita",
