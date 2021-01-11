@@ -3,51 +3,62 @@
     "sezione": "fuoristrada",
     "GalleryTop": [
       {
-        "url": "assets/OTTOBIANO.jpg",
+        "urlMobile":"3.jpg",
+        "url": "OTTOBIANO.jpg",
         "title": "",
-        "subTitle": "Corse di cross brrrrr",
+        "subTitle": "",
         "alt": "Ottobiano – Innovation Racing Team"
       },
       {
-        "url": "assets/PONTE A EGOLA.jpg",
+        "urlMobile":"3.jpg",
+        "url": "PONTE A EGOLA.jpg",
         "title": "",
-        "subTitle": "Corse di Corsa viummmm",
+        "subTitle": "",
         "alt": "Ponte a Egola - Innovation Racing Team"
       },
       {
-        "url": "assets/MONTEVARCHI.jpeg",
+        "urlMobile":"3.jpg",
+        "url": "MONTEVARCHI.jpeg",
         "title": "",
-        "subTitle": "Corse di Corsa viummmm",
+        "subTitle": "",
         "alt": "Montevarchi- Innovation Racing Team"
       },
       {
-        "url": "assets/Faenza.jpg",
+        "urlMobile":"3.jpg",
+        "url": "Faenza.jpg",
         "title": "",
-        "subTitle": "Corse di Corsa viummmm",
+        "subTitle": "",
         "alt": "Faenza - Innovation Racing Team"
       }
     ],
     "GalleryBottom": [
       {
-        "url": "assets/pista_fuoristrada.jpg"
+        "urlMobile":"3.jpg",
+        "url": "pista_fuoristrada.jpg"
       },
       {
-        "url": "assets/pista_fuoristrada_2.jpg"
+        "urlMobile":"3.jpg",
+        "url": "pista_fuoristrada_2.jpg"
       },
       {
-        "url": "assets/pista_fuoristrada_3.jpg"
+        "urlMobile":"3.jpg",
+        "url": "pista_fuoristrada_3.jpg"
       },
       {
-        "url": "assets/pista_fuoristrada_4.jpg"
+        "urlMobile":"3.jpg",
+        "url": "pista_fuoristrada_4.jpg"
       },
       {
-        "url": "assets/pista_fuoristrada_5.jpg"
+        "urlMobile":"3.jpg",
+        "url": "pista_fuoristrada_5.jpg"
       },
       {
-        "url": "assets/pista_fuoristrada_6.jpg"
+        "urlMobile":"3.jpg",
+        "url": "pista_fuoristrada_6.jpg"
       },
       {
-        "url": "assets/pista_fuoristrada_7.jpg"
+        "urlMobile":"3.jpg",
+        "url": "pista_fuoristrada_7.jpg"
       }
     ],
     "title": "Giornate in Pista Offroad",
@@ -59,48 +70,58 @@
     "sezione": "velocita",
     "GalleryTop": [
       {
-        "url": "assets/misano.jpg",
-        "title": "Vivi l'esperienza dell'alta velocità",
-        "subTitle": "Il team offre la possibilità di provare la propria moto al massimo delle sue prestazioni in piena sicurezza nelle piste più belle con il supporto tecnico",
+        "urlMobile":"3.jpg",
+        "url": "misano.jpg",
+        "title": "",
+        "subTitle": "",
         "alt": "Misano - Innovation Racing Team"
       },
       {
-        "url": "assets/imola.jpg",
-        "title": "Vivi l'esperienza dell'alta velocità",
-        "subTitle": "Il team offre la possibilità di provare la propria moto al massimo delle sue prestazioni in piena sicurezza nelle piste più belle con il supporto tecnico",
+        "urlMobile":"3.jpg",
+        "url": "imola.jpg",
+        "title": "",
+        "subTitle": "",
         "alt": "Imola - Innovation Racing Team"
       },
       {
-        "url": "assets/vallelunga.jpg",
-        "title": "Vivi l'esperienza dell'alta velocità",
-        "subTitle": "Il team offre la possibilità di provare la propria moto al massimo delle sue prestazioni in piena sicurezza nelle piste più belle con il supporto tecnico",
+        "urlMobile":"3.jpg",
+        "url": "vallelunga.jpg",
+        "title": "",
+        "subTitle": "",
         "alt": "Vallelunga - Innovation Racing Team"
       },
       {
-        "url": "assets/mugello.jpg",
-        "title": "Vivi l'esperienza dell'alta velocità",
-        "subTitle": "Il team offre la possibilità di provare la propria moto al massimo delle sue prestazioni in piena sicurezza nelle piste più belle con il supporto tecnico",
+        "urlMobile":"3.jpg",
+        "url": "mugello.jpg",
+        "title": "",
+        "subTitle": "",
         "alt": "Mugello - Innovation Racing Team"
       }
     ],
     "GalleryBottom": [
       {
-        "url": "assets/1.jpg"
+        "urlMobile":"3.jpg",
+        "url": "1.jpg"
       },
       {
-        "url": "assets/2.jpg"
+        "urlMobile":"3.jpg",
+        "url": "2.jpg"
       },
       {
-        "url": "assets/3.jpg"
+        "urlMobile":"3.jpg",
+        "url": "3.jpg"
       },
       {
-        "url": "assets/4.jpg"
+        "urlMobile":"3.jpg",
+        "url": "4.jpg"
       },
       {
-        "url": "assets/5.jpg"
+        "urlMobile":"3.jpg",
+        "url": "5.jpg"
       },
       {
-        "url": "assets/6.jpg"
+        "urlMobile":"3.jpg",
+        "url": "6.jpg"
       }
     ],
     "title": "Giornate in pista Velocità",

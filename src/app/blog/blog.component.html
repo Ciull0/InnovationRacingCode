@@ -1,0 +1,23 @@
+<div class="container-fluid page">
+    <div class="row primaRiga">
+        <div class="col-2 left">
+            <app-left-bar class="d-none d-md-block"></app-left-bar>
+        </div>
+        <div class="col-12 col-md-10 right">
+            <app-big [images]="gallery.GalleryTop"></app-big>
+        </div>
+    </div>
+    <div class="row secondariga">
+        <div class="col-12 col-md-6 col-lg-3 card colonne" *ngFor="let articolo of articoli">
+            <div class="card" [routerLink]="[articolo.link]">
+                <img class="card-img-top" [src]="'assets/'+articolo.cover" alt={{articolo.link}}>
+                <div class="card-body">
+                    <h5 class="card-title">{{articolo.title}}</h5>
+                    <h6 class="card-subtitle">{{articolo.subtitle}}</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <app-contatti></app-contatti>
+    <app-footer></app-footer>
+</div>

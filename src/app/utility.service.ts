@@ -37,8 +37,8 @@ export class UtilityService {
     console.log(this.lang);
   }
 
-  mandaInfo(pagina:string){
-    let address = "assets/"+this.lang+"/"+pagina+".json";
+  mandaInfo(pagina:string, lingua:string = "ita"){
+    let address = "assets/"+lingua+"/"+pagina+".json";
     return new Promise( (resolve, reject) =>{
       this.http.get(address).subscribe(
         (success:any)=>{

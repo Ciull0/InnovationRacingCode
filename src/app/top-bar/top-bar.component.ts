@@ -27,7 +27,7 @@ export class TopBarComponent implements OnInit {
     if(this.router.url == "/fuoristrada"){this.fuoristrada=true}
     if(this.router.url == "/stradale"){this.stradale=true}
     this.route.params.subscribe(url => {
-      let tmp:any = this.util.mandaInfo("topbar");
+      let tmp:any = this.util.mandaInfo("topbar",this.util.lang);
       tmp.then(dati=>{
         this.links = dati;
       })
@@ -49,7 +49,6 @@ export class TopBarComponent implements OnInit {
   }
   linguaEng(){
     this.util.cambiaLingua("eng");
-    this.router.navigateByUrl("");
   }
 
   /*cambiaVendita(){

@@ -20,6 +20,9 @@ import { ElementComponent } from './element/element.component';
 import { PageComponent } from './page/page.component';
 import { PageElementComponent } from './page-element/page-element.component';
 import { ContattiComponent } from './contatti/contatti.component';
+import { SponsorComponent } from './sponsor/sponsor.component';
+import { BlogComponent } from './blog/blog.component';
+import { ArticoloComponent } from './articolo/articolo.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +40,10 @@ import { ContattiComponent } from './contatti/contatti.component';
     ElementComponent,
     PageComponent,
     PageElementComponent,
-    ContattiComponent
+    ContattiComponent,
+    SponsorComponent,
+    BlogComponent,
+    ArticoloComponent
   ],
   imports: [
     BrowserModule,

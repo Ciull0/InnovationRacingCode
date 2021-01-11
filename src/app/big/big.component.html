@@ -1,8 +1,9 @@
 <div class="row" id="heroDiv">
-  <ngb-carousel *ngIf="images" class="col-12" [interval]="2000">
+  <ngb-carousel *ngIf="images" class="col-12" [interval]="5000">
     <ng-template ngbSlide *ngFor="let elem of images">
       <div class="picsum-img-wrapper">
-        <img [src]="elem.url" [alt]="elem.alt">
+        <img class="d-md-block d-none" [src]="'assets/'+elem.url" [alt]="elem.alt">
+        <img class="d-md-none d-block" [src]="'assets/'+elem.urlMobile" [alt]="elem.alt">
       </div>
       <div class="carousel-caption">
         <h1 class="title">{{elem.title}}</h1>

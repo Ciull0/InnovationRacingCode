@@ -22,7 +22,6 @@ export class PageComponent implements OnInit {
       let tmp:any = this.utilita.mandaInfo(url.pagina);
       tmp.then(dati=>{
         for(let elem of dati){
-          console.log(url.posizione);
           if(elem.sezione == url.posizione){this.infoPagina[0]=elem}
         }
       })

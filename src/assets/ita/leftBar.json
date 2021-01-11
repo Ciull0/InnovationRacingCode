@@ -61,7 +61,7 @@
         "sezione": "Calendario",
         "links": [
           {
-            "url": "calendario",
+            "url": "calendario/eventi",
             "title": "Calendario"
           }
         ]
@@ -72,7 +72,7 @@
         "sezione": "Sponsor Partner",
         "links": [
           {
-            "url": "partner",
+            "url": "sponsor/partner",
             "title": "Partner"
           }
         ]
