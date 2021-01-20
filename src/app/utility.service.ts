@@ -1,15 +1,12 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { RouterLink } from '@angular/router';
-import { Subject } from 'rxjs';
-import { HomeComponent } from './home/home.component';
+import { BehaviorSubject, Observable, Subject } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class UtilityService {
-  lang:string = "ita";
-  langChange: Subject<string> = new Subject<string>();
+  private lang: BehaviorSubject<string>
   ambito:any="Default";
   ambitoChange: Subject<string> = new Subject<string>();
   
@@ -19,9 +16,15 @@ export class UtilityService {
     this.ambitoChange.subscribe((value) =>{
       this.ambito = value;
     })
-    this.langChange.subscribe((valore) =>{
-      this.lang = valore;
-    })
+    this.lang = new BehaviorSubject<string>("ita");
+   }
+
+   getLingua(): Observable<string>{
+     return this.lang.asObservable();
+   }
+   setLingua(nuovaLingua:string):void{
+     this.lang.next(nuovaLingua);
+     console.log(this.lang);
    }
 
    cambiaAmbito(nuovoAmbito:string){
@@ -31,11 +34,9 @@ export class UtilityService {
    ottieniAmbito(){
      return(this.ambito);
    }
-
-  cambiaLingua(lingua:string){
-    this.langChange.next(lingua);
-    console.log(this.lang);
-  }
+   ottieniLingua(){
+     return this.lang;
+   }
 
   mandaInfo(pagina:string, lingua:string = "ita"){
     let address = "assets/"+lingua+"/"+pagina+".json";

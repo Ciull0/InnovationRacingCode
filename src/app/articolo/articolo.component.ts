@@ -14,6 +14,11 @@ export class ArticoloComponent implements OnInit {
     private utilita: UtilityService
   ) { }
   articolo
+  heroBlock = {
+    "title": "a",
+    "subtitle":"b",
+    "url":"c"
+  }
   ngOnInit(): void {
     this.route.params.subscribe(url => {
       let tmp:any = this.utilita.mandaInfo("articoli");
@@ -24,6 +29,10 @@ export class ArticoloComponent implements OnInit {
         for(let b of this.articolo.blocchi){
           b.tmp = b.body.split(".");
         }
+        console.log(this.articolo);
+        this.heroBlock.title=this.articolo.title;
+        this.heroBlock.subtitle=this.articolo.subtitle;
+        this.heroBlock.url=this.articolo.cover;
       })
     });
   }

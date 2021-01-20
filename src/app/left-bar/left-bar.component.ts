@@ -10,13 +10,10 @@ import { UtilityService } from '../utility.service';
 export class LeftBarComponent implements OnInit {
   stradale=false;
   fuoristrada=false;
-  cosaAppare="Corsa";
-  corse = false;
-  team = false;
-  crossodromo = false;
   contatti = false;
   inPista = false;
   links = [];
+  lingua;
 
   @Output() categoriaMostrata = new EventEmitter<string>();
   constructor(
@@ -26,25 +23,30 @@ export class LeftBarComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
+    this.util.getLingua().subscribe( (ling)=>{
+      this.lingua = ling;
+      this.route.params.subscribe(url => {
+        let tmp:any = this.util.mandaInfo("leftBar",this.lingua);
+        tmp.then(dati=>{
+          console.log(dati);
+          this.links = dati;
+        })
+      });
+    })
+    
     this.stradale=false;
     this.fuoristrada=false;
     if(this.router.url == "/fuoristrada"){this.fuoristrada=true}
     if(this.router.url == "/stradale"){this.stradale=true};
-    this.route.params.subscribe(url => {
-      let tmp:any = this.util.mandaInfo("leftBar");
-      tmp.then(dati=>{
-        this.links = dati;
-      })
-    });
   }
 
   
 
   linguaIta(){
-    this.util.cambiaLingua("ita");
+    this.util.setLingua("ita");
   }
   linguaEng(){
-    this.util.cambiaLingua("eng");
+    this.util.setLingua("eng");
   }
 
 }

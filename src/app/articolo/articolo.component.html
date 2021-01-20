@@ -3,21 +3,17 @@
         <div class="col-2 left">
             <app-left-bar class="d-none d-md-block"></app-left-bar>
         </div>
-        <div class="col-12 col-md-5 right text-center">
-            <img [src]="'assets/'+articolo.cover" alt={{articolo.link}}>
-        </div>
-        <div class="col-12 col-md-5">
-            <h1>{{articolo.title}}</h1>
-            <h3>{{articolo.subtitle}}</h3>
+        <div class="col-12 col-md-10">
+            <app-hero [info]="heroBlock"></app-hero>
         </div>
     </div>
     <div class="row" *ngFor="let blocco of articolo.blocchi">
         <div class="col-12 separatore"></div>
         <div class="misto row" *ngIf="blocco.foto!='' && blocco.body!=''">
-            <div class="col-12 col-md-6 col-lg-8 text-center">
+            <div class="col-12 text-center">
                 <img [src]="'assets/'+blocco.foto" alt="">
             </div>
-            <div class="col-12 col-md-6 col-lg-4">
+            <div class="col-12">
                 <h1>{{blocco.titolo}}</h1>
                 <h3>{{blocco.sottotitolo}}</h3>
                 <p *ngFor="let p of blocco.tmp">{{p}}</p>

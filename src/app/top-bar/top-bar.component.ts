@@ -13,6 +13,7 @@ export class TopBarComponent implements OnInit {
   stradale=false;
   fuoristrada=false;
   links = [];
+  lingua;
 
   @Output() categoriaMostrata = new EventEmitter<string>();
   constructor(
@@ -26,12 +27,15 @@ export class TopBarComponent implements OnInit {
     this.fuoristrada=false;
     if(this.router.url == "/fuoristrada"){this.fuoristrada=true}
     if(this.router.url == "/stradale"){this.stradale=true}
-    this.route.params.subscribe(url => {
-      let tmp:any = this.util.mandaInfo("topbar",this.util.lang);
-      tmp.then(dati=>{
-        this.links = dati;
-      })
-    });
+    this.util.getLingua().subscribe( (ling)=>{
+      this.lingua = ling;
+      this.route.params.subscribe(url => {
+        let tmp:any = this.util.mandaInfo("topbar",this.lingua);
+        tmp.then(dati=>{
+          this.links = dati;
+        })
+      });
+    })
   }
 
   aboutBar(){
@@ -45,10 +49,10 @@ export class TopBarComponent implements OnInit {
   }
 
   linguaIta(){
-    this.util.cambiaLingua("ita");
+    this.util.setLingua("ita");
   }
   linguaEng(){
-    this.util.cambiaLingua("eng");
+    this.util.setLingua("eng");
   }
 
   /*cambiaVendita(){

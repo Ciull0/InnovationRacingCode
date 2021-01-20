@@ -23,6 +23,7 @@ import { ContattiComponent } from './contatti/contatti.component';
 import { SponsorComponent } from './sponsor/sponsor.component';
 import { BlogComponent } from './blog/blog.component';
 import { ArticoloComponent } from './articolo/articolo.component';
+import { HeroComponent } from './hero/hero.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { ArticoloComponent } from './articolo/articolo.component';
     ContattiComponent,
     SponsorComponent,
     BlogComponent,
-    ArticoloComponent
+    ArticoloComponent,
+    HeroComponent
   ],
   imports: [
     BrowserModule,

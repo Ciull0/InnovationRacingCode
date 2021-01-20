@@ -1,14 +1,8 @@
 [
     {
-        "GalleryTop":[
-            {
-              "urlMobile":"3.jpg",
-              "url": "Faenza.jpg",
-              "title": "",
-              "subTitle": "",
-              "alt": "Faenza - Innovation Racing Team"
-            }
-        ]    
+        "title": "BLOG",
+        "subtitle": "Le ultime news da Innovation Racing Team",
+        "url": "logo_trasparent.png"   
     },
     {
         "link" : "prova1",

@@ -8,7 +8,8 @@ import { UtilityService } from '../utility.service';
   styleUrls: ['./page.component.css']
 })
 export class PageComponent implements OnInit {
-  infoPagina = [];
+  infoPagina;
+  lingua;
 
   constructor(
     private route:ActivatedRoute,
@@ -18,14 +19,17 @@ export class PageComponent implements OnInit {
    }
 
   ngOnInit(): void {
-    this.route.params.subscribe(url => {
-      let tmp:any = this.utilita.mandaInfo(url.pagina);
-      tmp.then(dati=>{
-        for(let elem of dati){
-          if(elem.sezione == url.posizione){this.infoPagina[0]=elem}
-        }
-      })
-    });
+    this.utilita.getLingua().subscribe( (ling)=>{
+      this.lingua = ling;
+      this.route.params.subscribe(url => {
+        let tmp:any = this.utilita.mandaInfo(url.pagina,this.lingua);
+        tmp.then(dati=>{
+          for(let elem of dati){
+            if(elem.sezione == url.posizione){this.infoPagina=elem}
+          }
+        })
+      });
+    })
   }
 
 

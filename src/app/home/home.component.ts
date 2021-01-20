@@ -15,18 +15,24 @@ export class HomeComponent implements OnInit {
   stradale = false;
   fuoristrada = true;
   ambito:string;
-  lang:string;
+  lingua;
   
   constructor(
-    private utility: UtilityService,
+    private util: UtilityService,
     private route: ActivatedRoute
-  ) {
-    this.lang = utility.lang;
-  }
+  ) {}
+
+
+  
   ngOnInit(): void {
-    let tmp:any = this.utility.mandaInfo("home");
+    this.util.getLingua().subscribe( (ling)=>{
+      this.lingua = ling;
+      this.route.params.subscribe(url => {
+        let tmp:any = this.util.mandaInfo("home",this.lingua);
         tmp.then(dati=>{
-        this.elemSelezionati = dati;
+          this.elemSelezionati = dati;
+        })
+      });
     })
     this.stradale=false;
     this.fuoristrada=true;

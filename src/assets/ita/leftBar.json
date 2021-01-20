@@ -56,15 +56,15 @@
         ]
     },
     {
-        "aperto": false,
-        "url": "calendario",
-        "sezione": "Calendario",
-        "links": [
-          {
-            "url": "calendario/eventi",
-            "title": "Calendario"
-          }
-        ]
+      "aperto": false,
+      "url": "calendario",
+      "sezione": "Calendario",
+      "links": [
+        {
+          "url": "calendario",
+          "title": "Blog"
+        }
+      ]
     },
     {
         "aperto": false,

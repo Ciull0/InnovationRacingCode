@@ -13,6 +13,10 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
+    path: "eng",
+    component: HomeComponent
+  },
+  {
     path: "contatti",
     component: ContattiComponent
   },
@@ -38,38 +42,6 @@ const routes: Routes = [
   },
   {
     path: ":pagina/:posizione",
-    component: PageComponent
-  },
-  {
-    path: "eng",
-    component: HomeComponent
-  },
-  {
-    path: "contatti/eng",
-    component: ContattiComponent
-  },
-  {
-    path: "stradale/eng",
-    component: HomeComponent
-  },
-  {
-    path:"fuoristrada/eng",
-    component: HomeComponent
-  },
-  {
-    path: "blog/eng",
-    component: BlogComponent
-  },
-  {
-    path: "blog/:articolo/eng",
-    component: ArticoloComponent,
-  },
-  {
-    path: "sponsor/:sponsor/eng",
-    component: SponsorComponent
-  },
-  {
-    path: ":pagina/:posizione/eng",
     component: PageComponent
   }
 ];

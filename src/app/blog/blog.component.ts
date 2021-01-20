@@ -10,7 +10,7 @@ export class BlogComponent implements OnInit {
 
   constructor(private util: UtilityService) { }
   articoli = []
-  gallery = []
+  gallery
   ngOnInit(): void {
     let tmp:any = this.util.mandaInfo("articoli");
       tmp.then(dati=>{
