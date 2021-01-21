@@ -14,28 +14,24 @@
     },
     "GalleryTop": [
       {
-        "urlMobile":"3.jpg",
         "url": "OTTOBIANO.jpg",
         "title": "",
         "subTitle": "",
         "alt": "Ottobiano – Innovation Racing Team"
       },
       {
-        "urlMobile":"3.jpg",
         "url": "PONTE A EGOLA.jpg",
         "title": "",
         "subTitle": "",
         "alt": "Ponte a Egola - Innovation Racing Team"
       },
       {
-        "urlMobile":"3.jpg",
         "url": "MONTEVARCHI.jpeg",
         "title": "",
         "subTitle": "",
         "alt": "Montevarchi- Innovation Racing Team"
       },
       {
-        "urlMobile":"3.jpg",
         "url": "Faenza.jpg",
         "title": "",
         "subTitle": "",
@@ -50,31 +46,24 @@
     },
     "GalleryBottom": [
       {
-        "urlMobile":"3.jpg",
         "url": "pista_fuoristrada.jpg"
       },
       {
-        "urlMobile":"3.jpg",
         "url": "pista_fuoristrada_2.jpg"
       },
       {
-        "urlMobile":"3.jpg",
         "url": "pista_fuoristrada_3.jpg"
       },
       {
-        "urlMobile":"3.jpg",
         "url": "pista_fuoristrada_4.jpg"
       },
       {
-        "urlMobile":"3.jpg",
         "url": "pista_fuoristrada_5.jpg"
       },
       {
-        "urlMobile":"3.jpg",
         "url": "pista_fuoristrada_6.jpg"
       },
       {
-        "urlMobile":"3.jpg",
         "url": "pista_fuoristrada_7.jpg"
       }
     ]
@@ -94,28 +83,24 @@
     },
     "GalleryTop": [
       {
-        "urlMobile":"3.jpg",
         "url": "misano.jpg",
         "title": "",
         "subTitle": "",
         "alt": "Misano - Innovation Racing Team"
       },
       {
-        "urlMobile":"3.jpg",
         "url": "imola.jpg",
         "title": "",
         "subTitle": "",
         "alt": "Imola - Innovation Racing Team"
       },
       {
-        "urlMobile":"3.jpg",
         "url": "vallelunga.jpg",
         "title": "",
         "subTitle": "",
         "alt": "Vallelunga - Innovation Racing Team"
       },
       {
-        "urlMobile":"3.jpg",
         "url": "mugello.jpg",
         "title": "",
         "subTitle": "",
@@ -130,27 +115,21 @@
     },
     "GalleryBottom": [
       {
-        "urlMobile":"3.jpg",
         "url": "1.jpg"
       },
       {
-        "urlMobile":"3.jpg",
         "url": "2.jpg"
       },
       {
-        "urlMobile":"3.jpg",
         "url": "3.jpg"
       },
       {
-        "urlMobile":"3.jpg",
         "url": "4.jpg"
       },
       {
-        "urlMobile":"3.jpg",
         "url": "5.jpg"
       },
       {
-        "urlMobile":"3.jpg",
         "url": "6.jpg"
       }
     ]

@@ -1,18 +1,19 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit, ViewChild } from '@angular/core';
+import { NgbCarousel, NgbCarouselConfig, NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-big',
   templateUrl: './big.component.html',
-  styleUrls: ['./big.component.css']
+  styleUrls: ['./big.component.css'],
 })
 export class BigComponent implements OnInit {
 
   @Input() images;
+  @ViewChild('carousel', {static: true}) carousel: NgbCarousel;
 
   constructor() { }
-  //images = [1,2,3,4].map((n) => `assets/carousel(${n}).jpg`);
   ngOnInit(): void {
-    console.log(this.images[0].alt);
+    this.carousel.next();
   }
 
 }

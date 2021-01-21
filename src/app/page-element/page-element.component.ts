@@ -11,12 +11,9 @@ export class PageElementComponent implements OnInit {
   constructor() { }
 
   slide = true;
-  tmpTop = [];
-  tmpBottom = [];
 
   ngOnInit(): void {
-    this.tmpTop = this.infoBlock.testoTop.body.split(".");
-    this.tmpBottom = this.infoBlock.testoBottom.body.split(".");
+    
   }
 
 }

@@ -1,13 +1,15 @@
 .card{
-    background-color: cornflowerblue;
+    background-color: inherit;
     max-height: 425px;
     height: 100%;
     width: 100%;
 }
 .card-img{
-    height: 100%;
+    display: inline-block;
     width: 100%;
-    object-fit: cover;
+    height: 100%;
+    object-fit: contain;
+    max-height: 425px;
     opacity: 0.2;
 }
 

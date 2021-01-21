@@ -1,62 +1,224 @@
 [
+  {
+    "hero":{
+      "title": "Off-road Excursions",
+      "subtitle": "",
+      "url": "school.jpg"
+    },
+    "sezione": "enduro",
+    "testoTop":{
+      "title": "Off-road Excursions",
+      "subTitle" : "If you love motorbikes, nature, and company, this is the one for you!",
+      "body": "Live a full experience that you will not forget, thanks to our territory and our guides each path will be right for you. We organize tours in Tuscany and outside the region, where we will not think of anything, the team will take care of everything you need. Each tour is open to everyone, from beginners to experts, the day starts from the meeting point in our office and from there each group will start its own path. During the excursion, we will cross fantastic landscapes that will lead us to visit typical places of the territory, with a stop for lunch in typical Tuscan kitchens. At the end of the tour, we meet up at the farmhouse where it is possible to have dinner and stay overnight. Tours can be organized from two to four days and are suitable for individuals and families where we offer a variety of activities for everyone, such as a playground, minicross school, spa, tastings and much more. In order to participate you need a driving license and at least 16 years of age, you can choose to use your own bike or you can hire everything you need from the bike to technical clothing from us.",
+      "footer": "Choose your destination and live this experience to the full!"
+    },
+    "GalleryTop": [
       {
-        "sezione": "enduro",
-        "GalleryTop": [
-          {
-            "url": "assets/moto1.jpg",
-            "title_Foto": "Moto Cross",
-            "subTitle_Foto": "Corse di cross brrrrr"
-          },
-          {
-            "url": "assets/strada2.jpg",
-            "title": "Moto Stradale",
-            "subTitle": "Corse di Corsa viummmm"
-          }
-        ],
-        "GalleryBottom": [
-          {
-            "url": "assets/moto1.jpg"
-          },
-          {
-            "url": "assets/strada2.jpg"
-          }
-        ],
-        "title": "Enduro",
-        "subTitle": "Sottotitolo",
-        "features": [
-          "Posizione gara 1",
-          "Posizione gara 2"
-        ],
-        "footer": "FooterTitle"
+        "url": "escursioni fuoristrada (1).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Toscana Panorama Escursione Cibo Vacanze Paesaggi Degustazioni Enduro – Innovation Racing Team"
       },
       {
-        "sezione": "stradale",
-        "GalleryTop": [
-          {
-            "url": "assets/moto1.jpg",
-            "title_Foto": "Moto Cross",
-            "subTitle_Foto": "Corse di cross brrrrr"
-          },
-          {
-            "url": "assets/strada2.jpg",
-            "title": "Moto Stradale",
-            "subTitle": "Corse di Corsa viummmm"
-          }
-        ],
-        "GalleryBottom": [
-          {
-            "url": "assets/moto1.jpg"
-          },
-          {
-            "url": "assets/strada2.jpg"
-          }
-        ],
-        "title": "Stradale",
-        "subTitle": "Sottotitolo Stradale",
-        "features": [
-          "Posizione gara 1",
-          "Posizione gara 2"
-        ],
-        "footer": "FooterTitle Stradale"
+        "url": "escursioni fuoristrada (2).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Toscana Panorama Escursione Cibo Vacanze Paesaggi Degustazioni Enduro - Innovation Racing Team"
+      },
+      {
+        "url": "escursioni fuoristrada (3).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Toscana Panorama Escursione Cibo Vacanze Paesaggi Degustazioni Enduroi- Innovation Racing Team"
+      },
+      {
+        "url": "escursioni fuoristrada (4).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Toscana Panorama Escursione Cibo Vacanze Paesaggi Degustazioni Enduro - Innovation Racing Team"
+      },
+      {
+        "url": "escursioni fuoristrada (5).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Toscana Panorama Escursione Cibo Vacanze Paesaggi Degustazioni Enduro - Innovation Racing Team"
+      },
+      {
+        "url": "escursioni fuoristrada (6).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Toscana Panorama Escursione Cibo Vacanze Paesaggi Degustazioni Enduro - Innovation Racing Team"
+      },
+      {
+        "url": "escursioni fuoristrada (7).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Toscana Panorama Escursione Cibo Vacanze Paesaggi Degustazioni Enduro - Innovation Racing Team"
+      },
+      {
+        "url": "escursioni fuoristrada (8).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Toscana Panorama Escursione Cibo Vacanze Paesaggi Degustazioni Enduro - Innovation Racing Team"
+      },
+      {
+        "url": "escursioni fuoristrada (9).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Toscana Panorama Escursione Cibo Vacanze Paesaggi Degustazioni Enduro - Innovation Racing Team"
+      },
+      {
+        "url": "escursioni fuoristrada (10).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Toscana Panorama Escursione Cibo Vacanze Paesaggi Degustazioni Enduro - Innovation Racing Team"
+      },
+      {
+        "url": "escursioni fuoristrada (11).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Toscana Panorama Escursione Cibo Vacanze Paesaggi Degustazioni Enduro - Innovation Racing Team"
+      },
+      {
+        "url": "escursioni fuoristrada (12).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Toscana Panorama Escursione Cibo Vacanze Paesaggi Degustazioni Enduro - Innovation Racing Team"
+      },
+      {
+        "url": "escursioni fuoristrada (13).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Toscana Panorama Escursione Cibo Vacanze Paesaggi Degustazioni Enduro - Innovation Racing Team"
+      },
+      {
+        "url": "escursioni fuoristrada (14).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Toscana Panorama Escursione Cibo Vacanze Paesaggi Degustazioni Enduro - Innovation Racing Team"
+      },
+      {
+        "url": "escursioni fuoristrada (15).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Toscana Panorama Escursione Cibo Vacanze Paesaggi Degustazioni Enduro - Innovation Racing Team"
       }
+    ],
+    "testoBottom":{
+      "title": "",
+      "subTitle": "",
+      "body": "",
+      "footer": ""
+    },
+    "GalleryBottom": [
+      {
+        "url": "escursioni fuoristrada bottom (1).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Toscana Panorama Escursione Cibo Vacanze Paesaggi Degustazioni Enduro – Innovation Racing Team"
+      },
+      {
+        "url": "escursioni fuoristrada bottom (2).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Toscana Panorama Escursione Cibo Vacanze Paesaggi Degustazioni Enduro - Innovation Racing Team"
+      },
+      {
+        "url": "escursioni fuoristrada bottom (3).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Toscana Panorama Escursione Cibo Vacanze Paesaggi Degustazioni Enduroi- Innovation Racing Team"
+      },
+      {
+        "url": "escursioni fuoristrada bottom (4).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Toscana Panorama Escursione Cibo Vacanze Paesaggi Degustazioni Enduro - Innovation Racing Team"
+      },
+      {
+        "url": "escursioni fuoristrada bottom (5).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Toscana Panorama Escursione Cibo Vacanze Paesaggi Degustazioni Enduro - Innovation Racing Team"
+      },
+      {
+        "url": "escursioni fuoristrada bottom (6).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Toscana Panorama Escursione Cibo Vacanze Paesaggi Degustazioni Enduro - Innovation Racing Team"
+      },
+      {
+        "url": "escursioni fuoristrada bottom (7).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Toscana Panorama Escursione Cibo Vacanze Paesaggi Degustazioni Enduro - Innovation Racing Team"
+      }
+    ]
+  },
+  {
+    "sezione": "velocita",
+    "hero":{
+      "title": "GIORNATE IN PISTA VELOCITà",
+      "subtitle": "Splendide giornate, nelle migliori piste veloci, accompagnati da personale qualificato",
+      "url": "logo_trasparent.png"
+    },
+    "testoTop":{
+      "title": "Giornate in pista Velocità",
+      "subTitle": "Vorresti provare ma non sei sicuro di fare il passo? Non è mai stato cosi facile, ci siamo noi ad accompagnarti!",
+      "body": "Tutti possono partecipare in sicurezza, sia i principianti che gli agonisti che hanno compiuto 18 anni. Tutto viene organizzato in una giornata in una determinata pista. Ma dove andiamo? Possiamo andare dalla pista più semplice e divertente come possiamo andare nei circuiti più belli d'Italia come Mugello, Imola, Misano e Vallelunga con il supporto del team che ti permetterà di provare o allenarti in assoluta tranquillità durante tutta la giornata. Se non possiedi la moto possiamo noleggiartela noi, devi soltanto possedere l'abbigliamento tecnico.",
+      "footer": "Una giornata che non dimenticherai tanto velocemente!"
+    },
+    "GalleryTop": [
+      {
+        "url": "misanescursioni fuoristrada (o).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Misano Toscana Panorama Escursione Cibo Vacanze Paesaggi Degustazioni Enduro - Innovation Racing Team"
+      },
+      {
+        "url": "imolescursioni fuoristrada (a).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Imola Toscana Panorama Escursione Cibo Vacanze Paesaggi Degustazioni Enduro - Innovation Racing Team"
+      },
+      {
+        "url": "vallelungescursioni fuoristrada (a).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Vallelunga Toscana Panorama Escursione Cibo Vacanze Paesaggi Degustazioni Enduro - Innovation Racing Team"
+      },
+      {
+        "url": "mugellescursioni fuoristrada (o).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Mugello Toscana Panorama Escursione Cibo Vacanze Paesaggi Degustazioni Enduro - Innovation Racing Team"
+      }
+    ],
+    "testoBottom":{
+      "title": "Giornate in pista Velocità",
+      "subTitle": "Vorresti provare ma non sei sicuro di fare il passo? Non è mai stato cosi facile, ci siamo noi ad accompagnarti!",
+      "body": "Tutti possono partecipare in sicurezza, sia i principianti che gli agonisti che hanno compiuto 18 anni. Tutto viene organizzato in una giornata in una determinata pista. Ma dove andiamo? Possiamo andare dalla pista più semplice e divertente come possiamo andare nei circuiti più belli d'Italia come Mugello, Imola, Misano e Vallelunga con il supporto del team che ti permetterà di provare o allenarti in assoluta tranquillità durante tutta la giornata. Se non possiedi la moto possiamo noleggiartela noi, devi soltanto possedere l'abbigliamento tecnico.",
+      "footer": "Una giornata che non dimenticherai tanto velocemente!"
+    },
+    "GalleryBottom": [
+      {
+        "url": "escursioni fuoristrada (1).jpg"
+      },
+      {
+        "url": "escursioni fuoristrada (2).jpg"
+      },
+      {
+        "url": "escursioni fuoristrada (3).jpg"
+      },
+      {
+        "url": "escursioni fuoristrada (4).jpg"
+      },
+      {
+        "url": "escursioni fuoristrada (5).jpg"
+      },
+      {
+        "url": "escursioni fuoristrada (6).jpg"
+      }
+    ]
+  }
 ]

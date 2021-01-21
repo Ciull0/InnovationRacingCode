@@ -14,7 +14,9 @@ img{
     object-fit: contain;
     max-height: 900px;
 }
-
+.heroZone{
+    background-color: cornflowerblue;
+}
 .left,.right{ 
     width: 100%;
     padding: 0px;
