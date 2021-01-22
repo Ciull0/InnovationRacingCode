@@ -1,62 +1,173 @@
 [
+  {
+    "hero":{
+      "title": "Off-Road Driving Courses",
+      "subtitle": "",
+      "url": "school.jpg"
+    },
+    "sezione": "offroad",
+    "testoTop":{
+      "title": "Off-Road Driving Courses",
+      "subTitle" : "Innovation Racing Team organizes the off-road school, a real off-road academy!",
+      "body": "Everyone can participate en safety, children, and adults from the first steps to expert driving up to competitive driving thanks to expert teachers and level drivers. The courses can be held in groups for maximum convenience or privately for maximum results. The school is organized every weekend, the program on Sundays, on our training field or on the best tracks in Tuscany in complete safety. It is also possible to have midweek sessions by appointment. Do you have a problem? Don't worry! In case you need it, you have the support of a qualified team that will take care of the organization and resolution of all technical problems, leaving you with no worries and, if you want, we will also take care of your motor  for all ordinary and extraordinary maintenance, transport to the track and subsequent storage. If you don't have the technical clothing and the motorbike, #you can rent everything you need from us.#",
+      "footer": "Be part of the off-road school!"
+    },
+    "GalleryTop": [
       {
-        "sezione": "enduro",
-        "GalleryTop": [
-          {
-            "url": "assets/moto1.jpg",
-            "title_Foto": "Moto Cross",
-            "subTitle_Foto": "Corse di cross brrrrr"
-          },
-          {
-            "url": "assets/strada2.jpg",
-            "title": "Moto Stradale",
-            "subTitle": "Corse di Corsa viummmm"
-          }
-        ],
-        "GalleryBottom": [
-          {
-            "url": "assets/moto1.jpg"
-          },
-          {
-            "url": "assets/strada2.jpg"
-          }
-        ],
-        "title": "Enduro",
-        "subTitle": "Sottotitolo",
-        "features": [
-          "Posizione gara 1",
-          "Posizione gara 2"
-        ],
-        "footer": "FooterTitle"
+        "url": "Corsi Offroad (1).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "scuola school motocross off-road fuoristrada – Innovation Racing Team"
       },
       {
-        "sezione": "stradale",
-        "GalleryTop": [
-          {
-            "url": "assets/moto1.jpg",
-            "title_Foto": "Moto Cross",
-            "subTitle_Foto": "Corse di cross brrrrr"
-          },
-          {
-            "url": "assets/strada2.jpg",
-            "title": "Moto Stradale",
-            "subTitle": "Corse di Corsa viummmm"
-          }
-        ],
-        "GalleryBottom": [
-          {
-            "url": "assets/moto1.jpg"
-          },
-          {
-            "url": "assets/strada2.jpg"
-          }
-        ],
-        "title": "Stradale",
-        "subTitle": "Sottotitolo Stradale",
-        "features": [
-          "Posizione gara 1",
-          "Posizione gara 2"
-        ],
-        "footer": "FooterTitle Stradale"
+        "url": "Corsi Offroad (2).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "scuola school motocross off-road fuoristrada - Innovation Racing Team"
+      },
+      {
+        "url": "Corsi Offroad (3).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "scuola school motocross off-road fuoristradai- Innovation Racing Team"
+      },
+      {
+        "url": "Corsi Offroad (4).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "scuola school motocross off-road fuoristrada - Innovation Racing Team"
+      },
+      {
+        "url": "Corsi Offroad (5).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "scuola school motocross off-road fuoristrada - Innovation Racing Team"
+      },
+      {
+        "url": "Corsi Offroad (6).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "scuola school motocross off-road fuoristrada - Innovation Racing Team"
+      },
+      {
+        "url": "Corsi Offroad (7).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "scuola school motocross off-road fuoristrada - Innovation Racing Team"
+      },
+      {
+        "url": "Corsi Offroad (8).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "scuola school motocross off-road fuoristrada - Innovation Racing Team"
+      },
+      {
+        "url": "Corsi Offroad (9).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "scuola school motocross off-road fuoristrada - Innovation Racing Team"
+      },
+      {
+        "url": "Corsi Offroad (10).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "scuola school motocross off-road fuoristrada - Innovation Racing Team"
+      },
+      {
+        "url": "Corsi Offroad (11).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "scuola school motocross off-road fuoristrada - Innovation Racing Team"
+      },
+      {
+        "url": "Corsi Offroad (12).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "scuola school motocross off-road fuoristrada - Innovation Racing Team"
+      },
+      {
+        "url": "Corsi Offroad (13).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "scuola school motocross off-road fuoristrada - Innovation Racing Team"
       }
+    ],
+    "testoBottom":{
+      "title": "",
+      "subTitle": "",
+      "body": "",
+      "footer": ""
+    },
+    "GalleryBottom": [
+      {
+        "url": "school of road finito finito.mp4"
+      }
+    ]
+  },
+  {
+    "sezione": "velocita",
+    "hero":{
+      "title": "GIORNATE IN PISTA VELOCITà",
+      "subtitle": "Splendide giornate, nelle migliori piste veloci, accompagnati da personale qualificato",
+      "url": "logo_trasparent.png"
+    },
+    "testoTop":{
+      "title": "Giornate in pista Velocità",
+      "subTitle": "Vorresti provare ma non sei sicuro di fare il passo? Non è mai stato cosi facile, ci siamo noi ad accompagnarti!",
+      "body": "Tutti possono partecipare in sicurezza, sia i principianti che gli agonisti che hanno compiuto 18 anni. Tutto viene organizzato in una giornata in una determinata pista. Ma dove andiamo? Possiamo andare dalla pista più semplice e divertente come possiamo andare nei circuiti più belli d'Italia come Mugello, Imola, Misano e Vallelunga con il supporto del team che ti permetterà di provare o allenarti in assoluta tranquillità durante tutta la giornata. Se non possiedi la moto possiamo noleggiartela noi, devi soltanto possedere l'abbigliamento tecnico.",
+      "footer": "Una giornata che non dimenticherai tanto velocemente!"
+    },
+    "GalleryTop": [
+      {
+        "url": "misanCorsi Offroad (o).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Misano scuola school motocross off-road fuoristrada - Innovation Racing Team"
+      },
+      {
+        "url": "imolCorsi Offroad (a).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Imola scuola school motocross off-road fuoristrada - Innovation Racing Team"
+      },
+      {
+        "url": "vallelungCorsi Offroad (a).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Vallelunga scuola school motocross off-road fuoristrada - Innovation Racing Team"
+      },
+      {
+        "url": "mugellCorsi Offroad (o).jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Mugello scuola school motocross off-road fuoristrada - Innovation Racing Team"
+      }
+    ],
+    "testoBottom":{
+      "title": "Giornate in pista Velocità",
+      "subTitle": "Vorresti provare ma non sei sicuro di fare il passo? Non è mai stato cosi facile, ci siamo noi ad accompagnarti!",
+      "body": "Tutti possono partecipare in sicurezza, sia i principianti che gli agonisti che hanno compiuto 18 anni. Tutto viene organizzato in una giornata in una determinata pista. Ma dove andiamo? Possiamo andare dalla pista più semplice e divertente come possiamo andare nei circuiti più belli d'Italia come Mugello, Imola, Misano e Vallelunga con il supporto del team che ti permetterà di provare o allenarti in assoluta tranquillità durante tutta la giornata. Se non possiedi la moto possiamo noleggiartela noi, devi soltanto possedere l'abbigliamento tecnico.",
+      "footer": "Una giornata che non dimenticherai tanto velocemente!"
+    },
+    "GalleryBottom": [
+      {
+        "url": "Corsi Offroad (1).jpg"
+      },
+      {
+        "url": "Corsi Offroad (2).jpg"
+      },
+      {
+        "url": "Corsi Offroad (3).jpg"
+      },
+      {
+        "url": "Corsi Offroad (4).jpg"
+      },
+      {
+        "url": "Corsi Offroad (5).jpg"
+      },
+      {
+        "url": "Corsi Offroad (6).jpg"
+      }
+    ]
+  }
 ]

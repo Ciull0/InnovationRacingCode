@@ -90,32 +90,6 @@
         ]
     },
     {
-        "url": "crossodromo",
-        "sezione": "Crossodromo",
-        "links": [
-          {
-            "url": "orari",
-            "title": "Orari Apertura"
-          },
-          {
-            "url": "luogo",
-            "title": "Luogo"
-          },
-          {
-            "url": "bar",
-            "title": "Bar"
-          },
-          {
-            "url": "eventi",
-            "title": "Eventi"
-          },
-          {
-            "url": "rimessaggio",
-            "title": "Rimessaggio"
-          }
-        ]
-    },
-    {
         "url": "sponsor",
         "sezione": "Sponsor Tecnici",
         "links": [

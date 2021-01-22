@@ -5,7 +5,7 @@
     <div class="col-md-8 col-12 colonne">
         <h1>{{infoBlock.testoTop.title}}</h1>
         <h3>{{infoBlock.testoTop.subTitle}}</h3>
-        <p *ngFor="let riga of this.infoBlock.testoTop.body.split('.')">{{riga}}</p>
+        <p id="bodyTop"></p>
         <h3>{{infoBlock.testoTop.footer}}</h3>
         <button class="btn btn-dark btn-lg" routerLink="contatti">Contattaci!</button>
     </div>
@@ -16,7 +16,7 @@
     <div class="col-12 colonne">
         <h1>{{infoBlock.testoBottom.title}}</h1>
         <h3>{{infoBlock.testoBottom.subTitle}}</h3>
-        <p *ngFor="let riga of this.infoBlock.testoBottom.body.split('.')">{{riga}}</p>
+        <p id="bodyBottom"></p>
         <h3>{{infoBlock.testoBottom.footer}}</h3>
         <button *ngIf="infoBlock.testoBottom.body != '' || infoBlock.testoBottom.subTitle != '' || infoBlock.testoBottom.title != ''" class="btn btn-dark btn-lg" routerLink="contatti">Contattaci!</button>
     </div>

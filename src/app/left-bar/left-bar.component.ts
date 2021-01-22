@@ -28,7 +28,6 @@ export class LeftBarComponent implements OnInit {
       this.route.params.subscribe(url => {
         let tmp:any = this.util.mandaInfo("leftBar",this.lingua);
         tmp.then(dati=>{
-          console.log(dati);
           this.links = dati;
         })
       });
