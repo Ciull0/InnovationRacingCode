@@ -1,5 +1,10 @@
 [
     {
+    "title": "STRADALE",
+    "subtitle": "Stradale",
+    "url": "logo_trasparent.png"
+    },
+    {
       "title": "Titolo1",
       "subTitle": "Testo di Informazioni Utili ma Breve",
       "url": "assets/ricambi1.jpg"

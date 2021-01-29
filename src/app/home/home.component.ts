@@ -1,5 +1,5 @@
 import { Component, OnInit} from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { UtilityService } from '../utility.service';
 
 @Component({
@@ -19,7 +19,7 @@ export class HomeComponent implements OnInit {
   
   constructor(
     private util: UtilityService,
-    private route: ActivatedRoute
+    private route: Router
   ) {}
 
 
@@ -27,12 +27,28 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     this.util.getLingua().subscribe( (ling)=>{
       this.lingua = ling;
-      this.route.params.subscribe(url => {
-        let tmp:any = this.util.mandaInfo("home",this.lingua);
-        tmp.then(dati=>{
+      console.log(this.route.url)
+      switch (this.route.url.slice(1)){
+        case "stradale":
+          var tmp:any = this.util.mandaInfo("stradale",this.lingua);
+          tmp.then(dati=>{
           this.elemSelezionati = dati;
-        })
-      });
+          })
+          break;
+        case "fuoristrada":
+          var tmp:any = this.util.mandaInfo("fuoristrada",this.lingua);
+          tmp.then(dati=>{
+            this.elemSelezionati = dati;
+          })
+          break;
+        default:
+          var tmp:any = this.util.mandaInfo("home",this.lingua);
+          tmp.then(dati=>{
+            this.elemSelezionati = dati;
+          })
+          break;
+      }
+      
     })
     this.stradale=false;
     this.fuoristrada=true;

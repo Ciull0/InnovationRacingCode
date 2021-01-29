@@ -24,6 +24,7 @@ import { SponsorComponent } from './sponsor/sponsor.component';
 import { BlogComponent } from './blog/blog.component';
 import { ArticoloComponent } from './articolo/articolo.component';
 import { HeroComponent } from './hero/hero.component';
+import { YouTubePlayerModule } from '@angular/youtube-player';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { HeroComponent } from './hero/hero.component';
     AppRoutingModule,
     NgbModule,
     NoopAnimationsModule,
-    HttpClientModule
+    HttpClientModule,
+    YouTubePlayerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

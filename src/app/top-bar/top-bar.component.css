@@ -2,7 +2,7 @@ nav{
     position: absolute top;
 }
 .logoBar{
-    height: 130px;
+    height: 100px;
     padding: 0px;
     text-align: center;
 }
@@ -19,7 +19,7 @@ nav{
     background-color: #221E1E;
 }
 .navbar{
-    height: 80px;
+    height: 40px;
     padding: 0px !important;
 }
 .buttonRow{

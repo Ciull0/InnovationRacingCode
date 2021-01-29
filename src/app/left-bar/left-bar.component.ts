@@ -22,7 +22,22 @@ export class LeftBarComponent implements OnInit {
     private util: UtilityService
   ) { }
 
-  ngOnInit(): void {
+  ngOnInit(): void {this.util.getAmbito().subscribe( (val)=>{
+    switch(val){
+        case "stradale":
+          this.stradale=true;
+          this.fuoristrada=false;
+          break;
+        case "fuoristrada":
+          this.fuoristrada=true;
+          this.stradale=false;
+          break;
+        default:
+          this.fuoristrada=false;
+          this.stradale=false;
+          break;
+      }
+    })
     this.util.getLingua().subscribe( (ling)=>{
       this.lingua = ling;
       this.route.params.subscribe(url => {
@@ -35,11 +50,41 @@ export class LeftBarComponent implements OnInit {
     
     this.stradale=false;
     this.fuoristrada=false;
-    if(this.router.url == "/fuoristrada"){this.fuoristrada=true}
-    if(this.router.url == "/stradale"){this.stradale=true};
   }
 
-  
+  setFuoristrada(){
+    if(this.fuoristrada == true){
+      this.util.setAmbito("Default");
+      this.fuoristrada = false;
+      this.stradale=false;
+      this.router.navigateByUrl("")
+    }else{
+      this.util.setAmbito("fuoristrada");
+      this.fuoristrada=true;
+      this.stradale=false;
+      this.router.navigateByUrl("fuoristrada")
+    }
+  }
+  setStradale(){
+    if(this.stradale == true){
+      this.util.setAmbito("Default");
+      this.stradale = false;
+      this.fuoristrada = false;
+      this.router.navigateByUrl("")
+    }else{
+      this.util.setAmbito("stradale");
+      this.stradale = true;
+      this.fuoristrada = false;
+      this.router.navigateByUrl("stradale")
+    }
+  }
+
+  goHome(){
+    this.util.setAmbito("Default");
+    this.fuoristrada=false;
+    this.stradale=false;
+    this.router.navigateByUrl("")
+  }
 
   linguaIta(){
     this.util.setLingua("ita");

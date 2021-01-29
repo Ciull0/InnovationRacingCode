@@ -13,10 +13,10 @@ export class AppComponent {
 
   @HostListener("window:scroll", []) onWindoScroll(){
     var st = window.pageXOffset || document.documentElement.scrollTop;
-    if(st > this.lastScroll+50){
+    if(st > this.lastScroll+30){
       this.navBar = false;
     }
-    if( st < this.lastScroll-50){
+    if( st < this.lastScroll-30){
       this.navBar = true;
     }
     this.lastScroll = st<=0? 0:st;

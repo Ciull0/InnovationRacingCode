@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { UtilityService } from '../utility.service';
 
 @Component({
@@ -10,31 +10,33 @@ import { UtilityService } from '../utility.service';
 export class ArticoloComponent implements OnInit {
 
   constructor(
-    private route: ActivatedRoute,
-    private utilita: UtilityService
+    private route: Router,
+    private util: UtilityService
   ) { }
   articolo
+  lingua
   heroBlock = {
     "title": "a",
     "subtitle":"b",
     "url":"c"
   }
   ngOnInit(): void {
-    this.route.params.subscribe(url => {
-      let tmp:any = this.utilita.mandaInfo("articoli");
-      tmp.then(dati=>{
-        for(let elem of dati){
-          if(elem.link == url.articolo){this.articolo = elem}
+
+    this.util.getLingua().subscribe( (ling)=>{
+      this.lingua = ling;
+      this.util.mandaInfo(this.route.url.split('/')[1]).then( (data:[])=>{
+        let tmp = []
+        tmp = data
+        for(let articolo of tmp){
+          if(articolo.url === this.route.url.split('/')[2]){
+            this.articolo = articolo;
+          }
         }
-        for(let b of this.articolo.blocchi){
-          b.tmp = b.body.split(".");
-        }
-        console.log(this.articolo);
         this.heroBlock.title=this.articolo.title;
         this.heroBlock.subtitle=this.articolo.subtitle;
         this.heroBlock.url=this.articolo.cover;
       })
-    });
+    })
   }
 
 }

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
+import { faThumbsDown } from '@fortawesome/free-regular-svg-icons';
 import { UtilityService } from '../utility.service';
 
 @Component({
@@ -7,20 +9,20 @@ import { UtilityService } from '../utility.service';
   styleUrls: ['./blog.component.css']
 })
 export class BlogComponent implements OnInit {
-
-  constructor(private util: UtilityService) { }
-  articoli = []
+  constructor(private util: UtilityService, private route: Router) { }
+  articoli
   gallery
+  lingua
   ngOnInit(): void {
-    let tmp:any = this.util.mandaInfo("articoli");
-      tmp.then(dati=>{
-        this.gallery = dati[0]
-        dati.splice(0,1)
-        this.articoli=dati
-        /*for(let a of this.articoli){
-          a.link = "blog/" + a.link
-        }*/
-        console.log(this.articoli)
+    this.util.getLingua().subscribe( (ling)=>{
+      this.lingua = ling;
+      console.log(this.route.url.split('/'));
+      this.util.mandaInfo(this.route.url.split('/')[1]).then( (data:[])=>{
+        let tmp = []
+        tmp = data
+        this.gallery = tmp[0]
+        this.articoli = tmp.slice(1)
+      })
     })
   }
 

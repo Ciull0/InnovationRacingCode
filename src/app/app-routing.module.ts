@@ -37,8 +37,28 @@ const routes: Routes = [
     component: ArticoloComponent,
   },
   {
-    path: "sponsor/:sponsor",
-    component: SponsorComponent
+    path: "calendario",
+    component: BlogComponent
+  },
+  {
+    path: "calendario/:articolo",
+    component: ArticoloComponent,
+  },
+  {
+    path: "sponsorPartner",
+    component: BlogComponent
+  },
+  {
+    path: "sponsorTecnici",
+    component: BlogComponent
+  },
+  {
+    path: "sponsorPartner/:sponsor",
+    component: ArticoloComponent
+  },
+  {
+    path: "sponsorTecnici/:sponsor",
+    component: ArticoloComponent
   },
   {
     path: ":pagina/:posizione",

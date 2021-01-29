@@ -5,7 +5,7 @@
         <div class="list-group" *ngIf="elem.aperto">
             <button *ngFor="let link of elem.links" type="button" [routerLink]="['/',elem.url,link.url]" class="list-group-item list-group-item-action element">{{link.title}}</button>
         </div>
-        <button [routerLink]="['/',elem.links[0].url]" *ngIf="elem.links.length==1" type="button" class="bg-dark text-white list-group-item list-group-item-action element">{{elem.sezione}}</button>
+        <button [routerLink]="['/'+elem.links[0].url]" *ngIf="elem.links.length==1" type="button" class="bg-dark text-white list-group-item list-group-item-action element">{{elem.sezione}}</button>
     </div>
     <button type="button" (click)="contatti = !contatti" class="d-lg-none bg-dark text-white list-group-item list-group-item-action element">Contatti</button>
     <div class="list-group d-lg-none" *ngIf="contatti">
@@ -13,14 +13,14 @@
         <button type="button" routerLink="/contatti" class="list-group-item list-group-item-action element"><img src="assets/icona-mail.png" alt="mail_icon" class="icons"> mail@mail.mail</button>
     </div>
     <div class="row rowBtn">
-        <button class="col-6 col-md-12 d-lg-none bg-dark text-white list-group-item list-group-item-action element optionBtn" (click)="linguaIta()"><img routerLink="fuoristrada" class="content" src="assets/ita.svg.webp" alt=""></button>
-        <button class="col-6 col-md-12 d-lg-none bg-dark text-white list-group-item list-group-item-action element optionBtn" (click)="linguaEng()"><img routerLink="fuoristrada" class="content" src="assets/eng.svg.webp" alt=""></button>
+        <button class="col-6 col-md-12 d-lg-none bg-dark text-white list-group-item list-group-item-action element optionBtn" (click)="linguaIta()"><img (click)="linguaIta()" class="content" src="assets/ita.svg.webp" alt=""></button>
+        <button class="col-6 col-md-12 d-lg-none bg-dark text-white list-group-item list-group-item-action element optionBtn" (click)="linguaEng()"><img (click)="linguaEng()" class="content" src="assets/eng.svg.webp" alt=""></button>
     </div>
     <div class="row rowBtn">
-        <button *ngIf="fuoristrada==false" class="col-6 col-md-12 d-lg-none bg-dark text-white list-group-item list-group-item-action element optionBtn" routerLink="fuoristrada"><img routerLink="fuoristrada" class="content" src="assets/cross-logo-light.png" alt=""></button>
-        <button *ngIf="fuoristrada==true" class="col-6 col-md-12 d-lg-none bg-danger text-white list-group-item list-group-item-action element optionBtn" routerLink="fuoristrada"><img routerLink="fuoristrada" class="content" src="assets/cross-logo-light.png" alt=""></button>
-        <button *ngIf="stradale==false" class="col-6 col-md-12 d-lg-none bg-dark text-white list-group-item list-group-item-action element optionBtn" routerLink="stradale"><img routerLink="stradale" class="content" src="assets/corsa-logo-light.png" alt=""></button>
-        <button *ngIf="stradale==true" class="col-6 col-md-12 d-lg-none bg-danger text-white list-group-item list-group-item-action element optionBtn" routerLink="stradale"><img routerLink="stradale" class="content" src="assets/corsa-logo-light.png" alt=""></button>
+        <button *ngIf="fuoristrada==false" class="col-6 col-md-12 d-lg-none bg-dark text-white list-group-item list-group-item-action element optionBtn" (click)="setFuoristrada()"><img (click)="setFuoristrada()" class="content" src="assets/cross-logo-light.png" alt=""></button>
+        <button *ngIf="fuoristrada==true" class="col-6 col-md-12 d-lg-none bg-danger text-white list-group-item list-group-item-action element optionBtn" (click)="setFuoristrada()"><img (click)="setFuoristrada()" class="content" src="assets/cross-logo-light.png" alt=""></button>
+        <button *ngIf="stradale==false" class="col-6 col-md-12 d-lg-none bg-dark text-white list-group-item list-group-item-action element optionBtn" (click)="setStradale()"><img (click)="setStradale()" class="content" src="assets/corsa-logo-light.png" alt=""></button>
+        <button *ngIf="stradale==true" class="col-6 col-md-12 d-lg-none bg-danger text-white list-group-item list-group-item-action element optionBtn" (click)="setStradale()"><img (click)="setStradale()" class="content" src="assets/corsa-logo-light.png" alt=""></button>
     </div>
     <!--<button type="button" class="bg-warning text-white list-group-item list-group-item-action element bg-danger text-center" (click)="mettiCross()"><img class="content" src="assets/cross-logo.png" alt=""></button>
     <button type="button" class="bg-danger text-white list-group-item list-group-item-action element bg-danger text-center" (click)="mettiCorse()"><img class="content" src="assets/corsa-logo.png" alt=""></button>-->

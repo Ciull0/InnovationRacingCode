@@ -9,11 +9,12 @@
     </div>
     <div class="row secondariga">
         <div class="col-12 col-md-6 col-lg-3 card colonne" *ngFor="let articolo of articoli">
-            <div class="card" [routerLink]="[articolo.link]">
+            <div class="card" [routerLink]="[articolo.url]">
                 <img class="card-img-top" [src]="'assets/'+articolo.cover" alt={{articolo.link}}>
                 <div class="card-body">
                     <h5 class="card-title">{{articolo.title}}</h5>
                     <h6 class="card-subtitle">{{articolo.subtitle}}</h6>
+                    <a routerLink="/prenota" class="btn btn-success btn-small">Prenota</a>
                 </div>
             </div>
         </div>

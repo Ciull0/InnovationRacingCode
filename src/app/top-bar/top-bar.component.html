@@ -9,22 +9,27 @@
                     <button class="btn  btnContent" (click)="linguaEng()"><img (click)="linguaEng()" class="icons" src="assets/eng.svg.webp" alt=""></button>
                 </div>
                 <div class="col-3">
-                    <button *ngIf="fuoristrada==false" class="btn btnContent" routerLink="fuoristrada"><img routerLink="fuoristrada" class="content" src="assets/cross-logo-light.png" alt=""></button>
-                    <button *ngIf="fuoristrada==true" class="btn bg-danger btnContent" routerLink="fuoristrada"><img routerLink="fuoristrada" class="content" src="assets/cross-logo-dark.png" alt=""></button>
+                    <button *ngIf="fuoristrada==false" class="btn btnContent" (click)="setFuoristrada()"><img (click)="setFuoristrada()" class="content" src="assets/cross-logo-light.png" alt=""></button>
+                    <button *ngIf="fuoristrada==true" class="btn bg-danger btnContent" (click)="setFuoristrada()"><img (click)="setFuoristrada()" class="content" src="assets/cross-logo-dark.png" alt=""></button>
                 </div>
                 <div class="col-3">
-                    <button *ngIf="stradale==false" class="btn btnContent" routerLink="stradale"><img routerLink="stradale" class="content" src="assets/corsa-logo-light.png" alt=""></button>
-                    <button *ngIf="stradale==true" class="btn bg-danger btnContent" routerLink="stradale"><img routerLink="stradale" class="content" src="assets/corsa-logo-dark.png" alt=""></button>
+                    <button *ngIf="stradale==false" class="btn btnContent" (click)="setStradale()"><img (click)="setStradale()" class="content" src="assets/corsa-logo-light.png" alt=""></button>
+                    <button *ngIf="stradale==true" class="btn bg-danger btnContent" (click)="setStradale()"><img (click)="setStradale()" class="content" src="assets/corsa-logo-dark.png" alt=""></button>
                 </div>
             </div>
         </div>
         <div class="col-4 logoBar  d-none d-lg-block ">
-            <img class="content" src="assets/Logo_Team_Solid.png" routerLink="" class="logo" alt="" >
+            <img class="content" src="assets/Logo_Team_Solid.png" (click)="goHome()" class="logo" alt="" >
         </div>
         <div class="col-4 d-none d-lg-block container-fluid colonne">
             <div class="row contatti centrale">
-                    <button class="btn btnContent contattiBtn" [routerLink]="['contatti']"><img src="assets/icona-mail.png" alt="mail_icon" class="contattiIcons"><h3 class="telefono">Contattaci</h3></button>
-                    <button class="btn btnContent contattiBtn" [routerLink]="['contatti']"><img src="assets/icona-whatsapp.png" alt="whatsapp_icon" class="contattiIcons"><h3 class="telefono">338 3279888</h3></button>
+                    <button class="btn btnContent contattiBtn" [routerLink]="['contatti']"><img src="assets/icona-mail.png" alt="mail_icon" class="contattiIcons">
+                        <h3 *ngIf="lingua == 'ita'" class="telefono">Contattaci</h3>
+                        <h3 *ngIf="lingua == 'eng'" class="telefono">Contact Us</h3>
+                    </button>
+                    <button class="btn btnContent contattiBtn" [routerLink]="['contatti']"><img src="assets/icona-whatsapp.png" alt="whatsapp_icon" class="contattiIcons">
+                        <h3 class="telefono">338 3279888</h3>
+                    </button>
             </div>
         </div>
     </div>
@@ -52,7 +57,7 @@
                             <button *ngFor="let link of elem.links" [routerLink]="[elem.url,link.url]" ngbDropdownItem>{{link.title}}</button>
                         </div>
                     </div>
-                    <a class="nav-link bg-dark" *ngIf="elem.url =='sponsor'" [routerLink]="[elem.url,elem.links[0].url]">{{elem.sezione}}</a>
+                    <a class="nav-link bg-dark" *ngIf="elem.url =='sponsorTecnici'" [routerLink]="[elem.url,elem.links[0].url]">{{elem.sezione}}</a>
                 </li>
 
                 <!--<li class="nav-item">

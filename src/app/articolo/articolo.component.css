@@ -35,7 +35,7 @@ img{
 }
 .page{
     overflow-x: hidden;
-    padding-top: 180px;
+    padding-top: 150px;
 }
 
 @media screen and (max-width: 992px){

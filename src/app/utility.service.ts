@@ -7,15 +7,12 @@ import { BehaviorSubject, Observable, Subject } from 'rxjs';
 })
 export class UtilityService {
   private lang: BehaviorSubject<string>
-  ambito:any="Default";
-  ambitoChange: Subject<string> = new Subject<string>();
+  private ambito: BehaviorSubject<string>
   
   constructor(
     private http: HttpClient
   ) {
-    this.ambitoChange.subscribe((value) =>{
-      this.ambito = value;
-    })
+    this.ambito = new BehaviorSubject<string>("Default");
     this.lang = new BehaviorSubject<string>("ita");
    }
 
@@ -24,18 +21,13 @@ export class UtilityService {
    }
    setLingua(nuovaLingua:string):void{
      this.lang.next(nuovaLingua);
-     console.log(this.lang);
    }
 
-   cambiaAmbito(nuovoAmbito:string){
-     this.ambito = nuovoAmbito;
+   getAmbito(): Observable<string>{
+     return this.ambito.asObservable();
    }
-
-   ottieniAmbito(){
-     return(this.ambito);
-   }
-   ottieniLingua(){
-     return this.lang;
+   setAmbito(nuovoAmbito:string){
+     this.ambito.next(nuovoAmbito);
    }
 
   mandaInfo(pagina:string, lingua:string = "ita"){

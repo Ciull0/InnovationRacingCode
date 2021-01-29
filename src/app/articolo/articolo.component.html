@@ -35,6 +35,17 @@
         </div>
     </div>
     <div class="separatore"></div>
+    <div class="linkInterni">
+        <button class="btn btn-warning btnLinks" *ngFor="let btn of articolo.linkInterni" [routerLink]="['/'+btn.url]">{{btn.title}}</button>
+    </div>
+    <br>
+    <div class="linkEsterni">
+        <a class="btn btn-danger btnLinks" *ngFor="let btn of articolo.linkEsterni" href={{btn.url}} target="_blank">{{btn.title}}</a>
+    </div>
+    <br>
+    <button *ngIf="lingua == 'ita'" class="btn btn-dark btn-lg" routerLink="/contatti">Contattaci!</button>
+    <button *ngIf="lingua == 'eng'" class="btn btn-dark btn-lg" routerLink="/contatti">Contact Us!</button>
+
     <app-contatti></app-contatti>
     <app-footer></app-footer>
 </div>

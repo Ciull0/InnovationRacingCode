@@ -90,11 +90,11 @@
         ]
     },
     {
-        "url": "sponsor",
+        "url": "sponsorTecnici",
         "sezione": "Sponsor Tecnici",
         "links": [
           {
-            "url": "tecnici",
+            "url": "",
             "title": "Tecnici"
           }
         ]

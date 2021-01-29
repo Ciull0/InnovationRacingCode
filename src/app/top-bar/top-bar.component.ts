@@ -23,8 +23,22 @@ export class TopBarComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    this.stradale=false;
-    this.fuoristrada=false;
+    this.util.getAmbito().subscribe( (val)=>{
+      switch(val){
+        case "stradale":
+          this.stradale=true;
+          this.fuoristrada=false;
+          break;
+        case "fuoristrada":
+          this.fuoristrada=true;
+          this.stradale=false;
+          break;
+        default:
+          this.fuoristrada=false;
+          this.stradale=false;
+          break;
+      }
+    })
     if(this.router.url == "/fuoristrada"){this.fuoristrada=true}
     if(this.router.url == "/stradale"){this.stradale=true}
     this.util.getLingua().subscribe( (ling)=>{
@@ -53,6 +67,39 @@ export class TopBarComponent implements OnInit {
   }
   linguaEng(){
     this.util.setLingua("eng");
+  }
+  setFuoristrada(){
+    if(this.fuoristrada == true){
+      this.util.setAmbito("Default");
+      this.fuoristrada = false;
+      this.stradale=false;
+      this.router.navigateByUrl("")
+    }else{
+      this.util.setAmbito("fuoristrada");
+      this.fuoristrada=true;
+      this.stradale=false;
+      this.router.navigateByUrl("fuoristrada")
+    }
+  }
+  setStradale(){
+    if(this.stradale == true){
+      this.util.setAmbito("Default");
+      this.stradale = false;
+      this.fuoristrada = false;
+      this.router.navigateByUrl("")
+    }else{
+      this.util.setAmbito("stradale");
+      this.stradale = true;
+      this.fuoristrada = false;
+      this.router.navigateByUrl("stradale")
+    }
+  }
+
+  goHome(){
+    this.util.setAmbito("Default");
+    this.fuoristrada=false;
+    this.stradale=false;
+    this.router.navigateByUrl("")
   }
 
   /*cambiaVendita(){

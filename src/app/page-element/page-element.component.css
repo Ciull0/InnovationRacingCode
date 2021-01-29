@@ -1,5 +1,5 @@
 .lista{
-    height: 900px;
+    height: 600px;
     padding-top: 0px;
     padding-bottom: 0px;
 }
@@ -11,7 +11,25 @@
 }
 p{
     font-size: large;
+    font-family: 'Roboto';
 }
 .colonne{
     text-align: center;
+}
+.ytVideo{
+    width: 100%;
+    height: 100%;
+}
+.btn-lg{
+    background-color: orange;
+    color: black;
+}
+.btnLinks{
+    margin: 20px;
+}
+.linkEsterni{
+    background-color: gray;
+}
+.linkInterni{
+    background-color: grey;
 }
