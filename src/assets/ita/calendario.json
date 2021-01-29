@@ -2,7 +2,18 @@
   {
       "title": "CALENDARIO",
       "subtitle": "Gli ultimi eventi da Innovation Racing Team",
-      "url": "logo_trasparent.png"   
+      "url": "logo_trasparent.png",
+      "cover" : "Logo_Team.png",
+      "blocchi" : [
+          {
+              "foto": "",
+              "titolo": "",
+              "sottotitolo": "",
+              "body": "",
+              "footer" : "",
+              "keyword": ""
+          }
+      ] 
   },
   {
       "url" : "prova1",

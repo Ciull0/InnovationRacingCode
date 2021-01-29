@@ -57,7 +57,7 @@
                             <button *ngFor="let link of elem.links" [routerLink]="[elem.url,link.url]" ngbDropdownItem>{{link.title}}</button>
                         </div>
                     </div>
-                    <a class="nav-link bg-dark" *ngIf="elem.url =='sponsorTecnici'" [routerLink]="[elem.url,elem.links[0].url]">{{elem.sezione}}</a>
+                    <a class="nav-link bg-dark" *ngIf="elem.url =='sponsorTecnici'" [routerLink]="[elem.url]">{{elem.sezione}}</a>
                 </li>
 
                 <!--<li class="nav-item">
