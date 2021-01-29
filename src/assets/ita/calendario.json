@@ -13,7 +13,27 @@
               "footer" : "",
               "keyword": ""
           }
-      ] 
+      ],
+      "linkInterni": [
+        {
+          "url": "contatti",
+          "title": "CONTATTI"
+        },
+        {
+          "url": "escursioni/enduro",
+          "title":"Escursioni Fuoristrada"
+        }
+      ],
+      "linkEsterni": [
+        {
+          "url": "https://www.youtube.com/watch?v=Uzm5myVoMAo",
+          "title": "Video Youtube"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Uzm5myVoMAo",
+          "title": "Video Youtube"
+        }
+      ]
   },
   {
       "url" : "prova1",

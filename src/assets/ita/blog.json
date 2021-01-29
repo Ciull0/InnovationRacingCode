@@ -2,7 +2,38 @@
     {
         "title": "BLOG",
         "subtitle": "Le ultime news da Innovation Racing Team",
-        "url": "logo_trasparent.png"   
+        "url": "logo_trasparent.png",
+        "cover" : "Logo_Team.png",
+        "blocchi" : [
+            {
+                "foto": "misano.jpg",
+                "titolo": "Titolo Sezione",
+                "sottotitolo": "SottoTitolo della Sezione",
+                "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, mauris quis egestas gravida, nulla sapien iaculis odio, quis pulvinar erat mi id ligula. Morbi ultrices malesuada magna, non tincidunt est hendrerit ut. Quisque iaculis fermentum mollis. Nunc quis condimentum sapien. Praesent eget feugiat velit. Aenean metus risus, malesuada et imperdiet sit amet, interdum id odio. Ut cursus, massa quis ultrices egestas, turpis arcu interdum ligula, in facilisis ante leo ac odio. Fusce in sem iaculis ligula molestie eleifend.",
+                "footer" : "Pezzo finale in grassetto",
+                "keyword": "esteso,titolo,sottotitolo,finale"
+            }
+          ],
+          "linkInterni": [
+            {
+              "url": "contatti",
+              "title": "CONTATTI"
+            },
+            {
+              "url": "escursioni/enduro",
+              "title":"Escursioni Fuoristrada"
+            }
+          ],
+          "linkEsterni": [
+            {
+              "url": "https://www.youtube.com/watch?v=Uzm5myVoMAo",
+              "title": "Video Youtube"
+            },
+            {
+              "url": "https://www.youtube.com/watch?v=Uzm5myVoMAo",
+              "title": "Video Youtube"
+            }
+          ] 
     },
     {
         "url" : "prova1",
