@@ -8,24 +8,18 @@
         </div>
     </div>
     <div class="row" *ngFor="let blocco of articolo.blocchi">
-        <div class="col-12 separatore"></div>
+        <!-- <div class="col-12 separatore"></div> -->
         <div class="misto row" *ngIf="blocco.foto!='' && blocco.body!=''">
             <div class="col-12 text-center">
                 <img [src]="'assets/'+blocco.foto" alt="">
             </div>
             <div class="col-12">
-                <h1>{{blocco.titolo}}</h1>
-                <h3>{{blocco.sottotitolo}}</h3>
-                <p *ngFor="let p of blocco.tmp">{{p}}</p>
-                <h3>{{blocco.footer}}</h3>
+                <app-textbox [text]="blocco"></app-textbox>
             </div>
         </div>
         <div class="testo" *ngIf="blocco.foto=='' && blocco.body!=''">
             <div class="col-12">
-                <h1>{{blocco.titolo}}</h1>
-                <h3>{{blocco.sottotitolo}}</h3>
-                <p *ngFor="let p of blocco.tmp">{{p}}</p>
-                <h3>{{blocco.footer}}</h3>
+                <app-textbox [text]="blocco"></app-textbox>
             </div>
         </div>
         <div class="foto" *ngIf="blocco.foto!='' && blocco.body==''">

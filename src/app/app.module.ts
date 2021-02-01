@@ -25,6 +25,7 @@ import { BlogComponent } from './blog/blog.component';
 import { ArticoloComponent } from './articolo/articolo.component';
 import { HeroComponent } from './hero/hero.component';
 import { YouTubePlayerModule } from '@angular/youtube-player';
+import { TextboxComponent } from './textbox/textbox.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { YouTubePlayerModule } from '@angular/youtube-player';
     SponsorComponent,
     BlogComponent,
     ArticoloComponent,
-    HeroComponent
+    HeroComponent,
+    TextboxComponent
   ],
   imports: [
     BrowserModule,
