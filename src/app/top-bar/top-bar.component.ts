@@ -102,6 +102,12 @@ export class TopBarComponent implements OnInit {
     this.router.navigateByUrl("")
   }
 
+  goToLink(elem:any, link:any = ''){
+    this.aboutBar()
+    this.navBar()
+    this.router.navigate(['/',elem.url,link.url])
+  }
+
   /*cambiaVendita(){
     if(this.cosaAppare == "Cross"){
       this.cosaAppare = "Corsa";
@@ -111,4 +117,10 @@ export class TopBarComponent implements OnInit {
       this.categoriaMostrata.emit("Cross");
     }
   }*/
+
+  chiudiMenu(cosaFai:string){
+    if(cosaFai == "chiudi"){
+      this.aboutBar();
+    }
+  }
 }

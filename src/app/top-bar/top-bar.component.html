@@ -1,5 +1,5 @@
 <nav class="topBar sticky-top"> 
-    <div class="row logo text-white">
+    <div class="row logo text-white d-none d-lg-flex">
         <div class="col-4  d-none d-lg-block container-fluid">
             <div class="row contatti centrale">
                 <div class="col-3">
@@ -35,29 +35,32 @@
     </div>
 
 
-    <nav class="navbar navbar-expand-lg navbar-light text-white">
-        <button (click)="aboutBar()" class="navbar-toggler d-block d-md-none" type="button" data-toggle="collapse" data-target="#aboutbarSupportedContent" aria-controls="aboutbarSupportedContent" aria-expandable="false" aria-label="Toggle about">
-            <span class="navbar-toggler-icon bg-white"></span>
+    <nav class="navbar navbar-expand-lg navbar-dark text-white">
+        
+        <button (click)="navBar()" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
 
         <a class="navbar-brand d-lg-none" href="#">
             <img class="content" src="assets/Logo_Team_Solid.png" height="60" class="d-inline-block align-top" alt="">
         </a>
 
-        <button (click)="navBar()" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon bg-white"></span>
+        <button (click)="aboutBar()" class="navbar-toggler d-block d-md-none" type="button" data-toggle="collapse" data-target="#aboutbarSupportedContent" aria-controls="aboutbarSupportedContent" aria-expandable="false" aria-label="Toggle about">
+            <span class="navbar-toggler-icon" [ngStyle]="{backgroundImage: 'url(assets/calendar.svg)'}"></span>
         </button>
 
+        
+
         <div [ngbCollapse]="isNavbarCollapsed" class="buttonRow collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto nav-fill w-100 text-white">
-                <li class="nav-item active" *ngFor="let elem of links">
+            <ul class="navbar-nav bottonRow mr-auto nav-fill w-100 text-white">
+                <li class="nav-item" *ngFor="let elem of links">
                     <div ngbDropdown class="nav-item bg-dark" *ngIf="elem.links.length > 1">
                         <a class="nav-link" id="dropdownBasic1" ngbDropdownToggle>{{elem.sezione}}</a>
                         <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
-                            <button *ngFor="let link of elem.links" [routerLink]="[elem.url,link.url]" ngbDropdownItem>{{link.title}}</button>
+                            <button *ngFor="let link of elem.links" (click)="goToLink(elem,link)" ngbDropdownItem>{{link.title}}</button>
                         </div>
                     </div>
-                    <a class="nav-link bg-dark" *ngIf="elem.url =='sponsorTecnici'" [routerLink]="[elem.url]">{{elem.sezione}}</a>
+                    <a class="nav-link bg-dark" *ngIf="elem.url =='sponsorTecnici'" (click)="goToLink(elem)">{{elem.sezione}}</a>
                 </li>
 
                 <!--<li class="nav-item">
@@ -78,6 +81,6 @@
         </div>
     </nav>
     <div [ngbCollapse]="isAboutbarCollapsed" class="collapse navbar-collapse" id="aboutbarSupportedContent">
-        <app-left-bar></app-left-bar>
+        <app-left-bar (chiudiMenu)="chiudiMenu($event)"></app-left-bar>
     </div>
 </nav>

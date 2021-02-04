@@ -15,7 +15,7 @@ export class LeftBarComponent implements OnInit {
   links = [];
   lingua;
 
-  @Output() categoriaMostrata = new EventEmitter<string>();
+  @Output() chiudiMenu = new EventEmitter<string>();
   constructor(
     private router: Router,
     private route: ActivatedRoute,
@@ -93,4 +93,9 @@ export class LeftBarComponent implements OnInit {
     this.util.setLingua("eng");
   }
 
+  goToLink(elem:any,link:any){
+    elem.aperto = false;
+    this.chiudiMenu.emit("chiudi");
+    this.router.navigate(['/',elem.url,link.url])
+  }
 }

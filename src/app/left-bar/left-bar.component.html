@@ -3,7 +3,7 @@
     <div *ngFor="let elem of links">
         <button *ngIf="elem.links.length >1" type="button" (click)="elem.aperto = !elem.aperto" class="bg-dark text-white list-group-item list-group-item-action element">{{elem.sezione}}</button>
         <div class="list-group" *ngIf="elem.aperto">
-            <button *ngFor="let link of elem.links" type="button" [routerLink]="['/',elem.url,link.url]" class="list-group-item list-group-item-action element">{{link.title}}</button>
+            <button *ngFor="let link of elem.links" type="button" (click)="goToLink(elem,link)"  class="list-group-item list-group-item-action element">{{link.title}}</button>
         </div>
         <button [routerLink]="['/'+elem.links[0].url]" *ngIf="elem.links.length==1" type="button" class="bg-dark text-white list-group-item list-group-item-action element">{{elem.sezione}}</button>
     </div>

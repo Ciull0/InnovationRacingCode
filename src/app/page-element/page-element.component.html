@@ -3,36 +3,18 @@
     <div class="col-12 colonne"><app-big [images]="infoBlock.GalleryTop"></app-big></div>
     <div class="col-2 d-none d-md-block"></div>
     <div class="col-md-8 col-12 colonne">
-        <h1>{{infoBlock.testoTop.title}}</h1>
-        <h3>{{infoBlock.testoTop.subTitle}}</h3>
-        <div *ngFor="let elem of infoBlock.testoTop.body.split('.')">
-            <p>{{elem}}</p>
-        </div>
-        <h3>{{infoBlock.testoTop.footer}}</h3>
+        <app-textbox [text]="infoBlock.testoTop"></app-textbox>
         <button class="btn btn-dark btn-lg" routerLink="contatti">Contattaci!</button>
     </div>
     <div class="col-2 d-none d-md-block"></div>
 </div>
+<br> <br>
 <div class="row rigaElem">
-    <div class="col-12 colonne" *ngIf="infoBlock.GalleryBottom.length > 1"><app-big *ngIf="infoBlock.GalleryBottom.length >= 1" [images]="infoBlock.GalleryBottom"></app-big></div>
-    <div class="col-12 colonne" *ngIf="infoBlock.GalleryBottom.length == 1">
+    <div class="col-12 colonne"><app-big [images]="infoBlock.GalleryBottom"></app-big></div>
+    <div class="col-2 d-none d-md-block"></div>
+    <div class="col-md-8 col-12 colonne">
+        <app-textbox [text]="infoBlock.testoBottom"></app-textbox>
+        <button class="btn btn-dark btn-lg" routerLink="contatti">Contattaci!</button>
     </div>
-    <div class="col-12 colonne">
-        <h1>{{infoBlock.testoBottom.title}}</h1>
-        <h3>{{infoBlock.testoBottom.subTitle}}</h3>
-        <div *ngFor="let elem of infoBlock.testoBottom.body.split('.')">
-            <p>{{elem}}</p>
-        </div>
-        <h3>{{infoBlock.testoBottom.footer}}</h3>
-        <br>
-        <div class="linkInterni">
-            <button class="btn btn-warning btnLinks" *ngFor="let btn of infoBlock.linkInterni" [routerLink]="['/'+btn.url]">{{btn.title}}</button>
-        </div>
-        <br>
-        <div class="linkEsterni">
-            <a class="btn btn-danger btnLinks" *ngFor="let btn of infoBlock.linkEsterni" href={{btn.url}} target="_blank">{{btn.title}}</a>
-        </div>
-        <br>
-        <button *ngIf="infoBlock.testoBottom.body != '' || infoBlock.testoBottom.subTitle != '' || infoBlock.testoBottom.title != ''" class="btn btn-dark btn-lg" routerLink="/contatti">Contattaci!</button>
-    </div>
+    <div class="col-2 d-none d-md-block"></div>
 </div>

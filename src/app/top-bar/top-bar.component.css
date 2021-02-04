@@ -2,9 +2,13 @@ nav{
     position: absolute top;
 }
 .logoBar{
-    height: 100px;
+    height: 100%;
     padding: 0px;
     text-align: center;
+}
+.navbar-toggler-icon{
+    border: none;
+    fill: white !important;
 }
 .logo{
     height: 100%;
@@ -13,16 +17,20 @@ nav{
     color: white !important;
     border-left: 1px solid white;
     border-right: 1px solid white;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 .topBar{
     position: sticky;
     background-color: #221E1E;
+    height: 82px;
 }
 .navbar{
-    height: 40px;
+    margin-top: 0px;
     padding: 0px !important;
 }
 .buttonRow{
+    height: 100%;
     padding-top: 0px;
     padding-bottom: 0px;
 }

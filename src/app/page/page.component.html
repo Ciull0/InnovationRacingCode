@@ -1,14 +1,41 @@
 <div class="container-fluid page">
     <div class="row primaRiga">
         <div class="col-2 left">
-            <app-left-bar class="d-none d-md-block" (categoriaMostrata)="cambiaCategoria($event)"></app-left-bar>
+            <app-left-bar class="d-none d-md-block"></app-left-bar>
         </div>
         <div class="col-12 col-md-10 right">
             <app-hero [info]="infoPagina.hero" class="hero"></app-hero>
         </div>
     </div>
-    <div class="row">
-        <app-page-element class="col-12" id="{{infoPagina.id}}"  [infoBlock]="infoPagina"></app-page-element>
+    <div class="row rigaElem">
+        <div class="col-12 colonne" *ngIf="infoPagina.GalleryTop.length != 1">
+            <app-big [images]="infoPagina.GalleryTop"></app-big>
+        </div>
+        <div class="col-12 ytVideo" *ngIf="infoPagina.GalleryTop.length == 1" [innerHTML]="infoPagina.GalleryBottom[0].url">
+        </div>
+        <div class="col-2 d-none d-md-block"></div>
+        <div class="col-md-8 col-12 colonne">
+            <app-textbox [text]="infoPagina.testoTop"></app-textbox>
+            <br>
+            <button class="btn btn-dark btn-lg" routerLink="contatti">Contattaci!</button>
+        </div>
+        <div class="col-2 d-none d-md-block"></div>
+    </div>
+    <br><br>
+    <div class="row rigaElem">
+        <div class="col-12 colonne" *ngIf="infoPagina.GalleryTop.length != 1">
+            <app-big [images]="infoPagina.GalleryBottom"></app-big>
+        </div>
+        <div class="col-12 colonne videoplayer" *ngIf="infoPagina.GalleryTop.length == 1" [innerHTML]="infoPagina.GalleryBottom[0].url">
+        </div>
+        <br>
+        <div class="col-2 d-none d-md-block"></div>
+        <div class="col-md-8 col-12 colonne">
+            <app-textbox [text]="infoPagina.testoBottom"></app-textbox>
+            <br>
+            <button class="btn btn-dark btn-lg" routerLink="contatti">Contattaci!</button>
+        </div>
+        <div class="col-2 d-none d-md-block"></div>
     </div>
     <app-contatti></app-contatti>
     <app-footer></app-footer>

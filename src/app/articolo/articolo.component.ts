@@ -24,12 +24,13 @@ export class ArticoloComponent implements OnInit {
 
     this.util.getLingua().subscribe( (ling)=>{
       this.lingua = ling;
-      this.util.mandaInfo(this.route.url.split('/')[1]).then( (data:[])=>{
+      this.util.mandaInfo(this.route.url.split('/')[1],ling).then( (data:[])=>{
         let tmp = []
         tmp = data
         for(let articolo of tmp){
           if(articolo.url === this.route.url.split('/')[2]){
             this.articolo = articolo;
+            console.log(this.articolo)
           }
         }
         this.heroBlock.title=this.articolo.title;
