@@ -2,37 +2,37 @@
     {
       "aperto": false,
       "url": "corsi",
-      "sezione": "Driving Courses",
+        "sezione": "Corsi Guida",
       "links": [
         {
           "url": "offroad",
-          "title": "Offroad"
+          "title": "Off-Road"
         },
         {
           "url": "velocita",
-          "title": "Speed"
+          "title": "Velocità"
         }
       ]
     },
     {
         "aperto": false,
         "url": "pista",
-        "sezione": "Days on the Track",
+        "sezione": "Giornate In Pista",
         "links": [
             {
               "url": "fuoristrada",
-              "title": "Offroad"
+              "title": "Fuoristrada"
             },
             {
               "url": "velocita",
-              "title": "Speed"
+              "title": "Velocità"
             }
           ]
     },
     {
         "aperto": false,
         "url": "escursioni",
-        "sezione": "Tour",
+        "sezione": "Escursioni",
         "links": [
             {
               "url": "enduro",
@@ -40,7 +40,7 @@
             },
             {
               "url": "stradale",
-              "title": "On the Road"
+              "title": "Stradale"
             }
           ]
     },
@@ -58,7 +58,7 @@
     {
       "aperto": false,
       "url": "calendario",
-      "sezione": "Calendar",
+      "sezione": "Calendario",
       "links": [
         {
           "url": "calendario",
@@ -68,11 +68,11 @@
     },
     {
         "aperto": false,
-        "url": "sponsor",
-        "sezione": "Partners",
+        "url": "sponsorPartner",
+        "sezione": "Sponsor Partner",
         "links": [
           {
-            "url": "sponsor/partner",
+            "url": "sponsorPartner",
             "title": "Partner"
           }
         ]

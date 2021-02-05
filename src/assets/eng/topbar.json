@@ -5,37 +5,37 @@
       "links": [
         {
           "url": "storia",
-          "title": "Story"
+          "title": "Storia"
         },
         {
           "url": "noi",
-          "title": "About Us"
+          "title": "Chi Siamo"
         },
         {
           "url": "obiettivi",
-          "title": "Targets"
+          "title": "Obiettivi"
         },
         {
           "url": "abbigliamento",
-          "title": "Apparel"
+          "title": "Abbigliamento"
         },
         {
           "url": "struttura",
-          "title": "Structure of the Team with Skilled Staff"
+          "title": "Struttura del Team con Personale Qualificato"
         }
       ]
     },
     {
         "url": "corse",
-        "sezione": "Racing Department",
+        "sezione": "Reparto Corse",
         "links": [
           {
             "url": "piloti",
-            "title": "Pilots"
+            "title": "Piloti"
           },
           {
             "url": "campionati",
-            "title": "Championships"
+            "title": "Campionati"
           },
           {
             "url": "test",
@@ -43,59 +43,59 @@
           },
           {
             "url": "gara",
-            "title": "Race"
+            "title": "Gara"
           },
           {
             "url": "preparazione",
-            "title": "Motorbike Preparation"
+            "title": "Preparazione Moto"
           },
           {
             "url": "rimessaggio",
-            "title": "Storage"
+            "title": "Rimessaggio"
           },
           {
             "url": "tesseramento",
-            "title": "Membership"
+            "title": "Tesseramento"
           }
         ]
     },
     {
         "url": "servizi",
-        "sezione": "Services",
+        "sezione": "Servizi",
         "links": [
           {
             "url": "sospensioni",
-            "title": "Suspensions"
+            "title": "Sospensioni"
           },
           {
             "url": "motori",
-            "title": "Engines"
+            "title": "Motori"
           },
           {
             "url": "elaborazioni",
-            "title": "Elaboration/Preparation"
+            "title": "Eleborazioni/Allestimenti"
           },
           {
             "url": "elettronica",
-            "title": "Elettronics"
+            "title": "Elettronica"
           },
           {
             "url": "epoca",
-            "title": "Vintage Motorcycles"
+            "title": "Moto D'Epoca"
           },
           {
             "url": "residenza",
-            "title": "Motorbike Residence"
+            "title": "Residenza Moto"
           }
         ]
     },
     {
-        "url": "sponsor",
-        "sezione": "Tecnical Sponsors",
+        "url": "sponsorTecnici",
+        "sezione": "Sponsor Tecnici",
         "links": [
           {
-            "url": "tecnici",
-            "title": "Tecnical"
+            "url": "",
+            "title": "Tecnici"
           }
         ]
     }

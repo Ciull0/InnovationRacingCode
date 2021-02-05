@@ -87,26 +87,6 @@
         "subTitle": "",
         "alt": "Famiglia Agriturismo Toscana Panorama Escursione Cibo Vacanze Paesaggi Degustazioni Enduro - Innovation Racing Team"
       }
-    ],
-    "linkInterni": [
-      {
-        "url": "contatti",
-        "title": "CONTATTI"
-      },
-      {
-        "url": "escursioni/enduro",
-        "title":"Escursioni Fuoristrada"
-      }
-    ],
-    "linkEsterni": [
-      {
-        "url": "https://www.youtube.com/watch?v=Uzm5myVoMAo",
-        "title": "Video Youtube"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=Uzm5myVoMAo",
-        "title": "Video Youtube"
-      }
     ]
   },
   {
@@ -172,26 +152,6 @@
       },
       {
         "url": "escursioni fuoristrada (6).jpg"
-      }
-    ],
-    "linkInterni": [
-      {
-        "url": "contatti",
-        "title": "CONTATTI"
-      },
-      {
-        "url": "escursioni/enduro",
-        "title":"Escursioni Fuoristrada"
-      }
-    ],
-    "linkEsterni": [
-      {
-        "url": "https://www.youtube.com/watch?v=Uzm5myVoMAo",
-        "title": "Video Youtube"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=Uzm5myVoMAo",
-        "title": "Video Youtube"
       }
     ]
   }

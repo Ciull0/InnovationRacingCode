@@ -1,7 +1,7 @@
 [
   {
-      "title": "CALENDARIO",
-      "subtitle": "Gli ultimi eventi da Innovation Racing Team",
+      "title": "SPONSOR PARTNER",
+      "subtitle": "Gli sponsor Tecnici del Team",
       "url": "logo_trasparent.png",
       "cover" : "Logo_Team.png",
       "blocchi" : [
@@ -17,8 +17,8 @@
   },
   {
       "url" : "prova1",
-      "title" : "Evento 1 di prova",
-      "subtitle": "24/02/21 Al Mugello",
+      "title" : "Sponsor 1 di prova",
+      "subtitle": "Qualcosa sullo sponsor",
       "cover" : "Logo_Team.png",
       "blocchi" : [
           {
@@ -48,8 +48,8 @@
   },
   {
       "url" : "prova2",
-      "title" : "Evento 1 di prova",
-      "subtitle": "24/02/21 Al Mugello",
+      "title" : "Sponsor 1 di prova",
+      "subtitle": "Qualcosa sullo sponsor",
       "cover" : "Logo_Team.png",
       "blocchi" : [
           {
@@ -79,8 +79,8 @@
   },
   {
       "url" : "prova3",
-      "title" : "Evento 1 di prova",
-      "subtitle": "24/02/21 Al Mugello",
+      "title" : "Sponsor 1 di prova",
+      "subtitle": "Qualcosa sullo sponsor",
       "cover" : "Logo_Team.png",
       "blocchi" : [
           {
@@ -110,8 +110,8 @@
   },
   {
       "url" : "prova4",
-      "title" : "Evento 1 di prova",
-      "subtitle": "24/02/21 Al Mugello",
+      "title" : "Sponsor 1 di prova",
+      "subtitle": "Qualcosa sullo sponsor",
       "cover" : "Logo_Team.png",
       "blocchi" : [
           {
@@ -141,8 +141,8 @@
   },
   {
       "url" : "prova5",
-      "title" : "Evento 1 di prova",
-      "subtitle": "24/02/21 Al Mugello",
+      "title" : "Sponsor 1 di prova",
+      "subtitle": "Qualcosa sullo sponsor",
       "cover" : "Logo_Team.png",
       "blocchi" : [
           {
@@ -172,8 +172,8 @@
   },
   {
       "url" : "prova6",
-      "title" : "Evento 1 di prova",
-      "subtitle": "24/02/21 Al Mugello",
+      "title" : "Sponsor 1 di prova",
+      "subtitle": "Qualcosa sullo sponsor",
       "cover" : "Logo_Team.png",
       "blocchi" : [
           {
@@ -203,8 +203,8 @@
   },
   {
       "url" : "prova7",
-      "title" : "Evento 1 di prova",
-      "subtitle": "24/02/21 Al Mugello",
+      "title" : "Sponsor 1 di prova",
+      "subtitle": "Qualcosa sullo sponsor",
       "cover" : "Logo_Team.png",
       "blocchi" : [
           {
@@ -234,8 +234,8 @@
   },
   {
       "url" : "prova8",
-      "title" : "Evento 1 di prova",
-      "subtitle": "24/02/21 Al Mugello",
+      "title" : "Sponsor 1 di prova",
+      "subtitle": "Qualcosa sullo sponsor",
       "cover" : "Logo_Team.png",
       "blocchi" : [
           {

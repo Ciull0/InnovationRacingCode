@@ -1,96 +1,176 @@
 [
   {
+    "hero":{
+      "title": "GIORNATE IN PISTA FUORISTRADA",
+      "subtitle": "",
+      "url": "logo_trasparent.png"
+    },
     "sezione": "fuoristrada",
+    "testoTop":{
+      "title": "Giornate in Pista Offroad",
+      "subTitle": "Vorresti provare ma non sei sicuro di fare il passo? Non è mai stato così facile, ci siamo noi ad accompagnarti!",
+      "body": "Non fermarti a guardare ! sali in sella con noi per passare una giornata all’insegna del divertimento. Tutti possono partecipare in sicurezza, bambini e adulti sia  principianti che agonisti. Tutto viene organizzato in una giornata in una determinata pista alla portata di tutti con il supporto del team  che ti permette di provare o allenarti durante tutta la giornata.",
+      "footer": ""
+    },
     "GalleryTop": [
       {
-        "url": "assets/misano.jpg",
-        "title": "Misano",
-        "subTitle": "Corse di cross brrrrr",
-        "alt": "Misano - Innovation Racing Team"
+        "url": "OTTOBIANO.jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Ottobiano – Innovation Racing Team"
       },
       {
-        "url": "assets/imola.jpg",
-        "title": "Vallelunga",
-        "subTitle": "Corse di Corsa viummmm",
-        "alt": "Imola - Innovation Racing Team"
+        "url": "PONTE A EGOLA.jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Ponte a Egola - Innovation Racing Team"
       },
       {
-        "url": "assets/vallelunga.jpg",
-        "title": "Vallelunga",
-        "subTitle": "Corse di Corsa viummmm",
-        "alt": "Vallelunga - Innovation Racing Team"
+        "url": "MONTEVARCHI.jpeg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Montevarchi- Innovation Racing Team"
       },
       {
-        "url": "assets/mugello.jpg",
-        "title": "Mugello",
-        "subTitle": "Corse di Corsa viummmm",
-        "alt": "Mugello - Innovation Racing Team"
+        "url": "Faenza.jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Faenza - Innovation Racing Team"
       }
     ],
+    "testoBottom":{
+      "title": "",
+      "subTitle": "",
+      "body": "Possiamo andare dalla pista più semplice e divertente come possiamo andare nei circuiti più belli d’Italia come Ottobiano, Ponte a Egola, Montevarchi e Faenza con il supporto del team che ti permetterà di provare o allenarti in assoluta tranquillità durante tutta la giornata. Se non possiedi  l’abbigliamento tecnico e la moto puoi noleggiare da noi tutto il necessario.",
+      "footer": "Vivi l’esperienza dell’Off-Road"
+    },
     "GalleryBottom": [
       {
-        "url": "assets/moto1.jpg"
+        "url": "pista_fuoristrada.jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Ponte a Egola - Innovation Racing Team"
       },
       {
-        "url": "assets/strada2.jpg"
+        "url": "pista_fuoristrada_2.jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Ponte a Egola - Innovation Racing Team"
+      },
+      {
+        "url": "pista_fuoristrada_3.jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Ponte a Egola - Innovation Racing Team"
+      },
+      {
+        "url": "pista_fuoristrada_4.jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Ponte a Egola - Innovation Racing Team"
+      },
+      {
+        "url": "pista_fuoristrada_5.jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Ponte a Egola - Innovation Racing Team"
+      },
+      {
+        "url": "pista_fuoristrada_6.jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Ponte a Egola - Innovation Racing Team"
+      },
+      {
+        "url": "pista_fuoristrada_7.jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Ponte a Egola - Innovation Racing Team"
       }
-    ],
-    "title": "Enduro",
-    "subTitle": "Sottotitolo",
-    "body": "Lorem Ipsum is simply dummy text of the #printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "footer": "FooterTitle"
+    ]
   },
   {
     "sezione": "velocita",
+    "hero":{
+      "title": "GIORNATE IN PISTA VELOCITà",
+      "subtitle": "Splendide giornate, nelle migliori piste veloci, accompagnati da personale qualificato",
+      "url": "logo_trasparent.png"
+    },
+    "testoTop":{
+      "title": "Giornate in pista Velocità",
+      "subTitle": "Vorresti provare ma non sei sicuro di fare il passo? Non è mai stato cosi facile, ci siamo noi ad accompagnarti!",
+      "body": "Tutti possono partecipare in sicurezza, sia i principianti che gli agonisti che hanno compiuto 18 anni. Tutto viene organizzato in una giornata in una determinata pista. Ma dove andiamo? Possiamo andare dalla pista più semplice e divertente come possiamo andare nei circuiti più belli d'Italia come Mugello, Imola, Misano e Vallelunga con il supporto del team che ti permetterà di provare o allenarti in assoluta tranquillità durante tutta la giornata. Se non possiedi la moto possiamo noleggiartela noi, devi soltanto possedere l'abbigliamento tecnico.",
+      "footer": ""
+    },
     "GalleryTop": [
       {
-        "url": "assets/misano.jpg",
-        "title": "Vivi l'esperienza dell'alta velocità",
-        "subTitle": "Il team offre la possibilità di provare la propria moto al massimo delle sue prestazioni in piena sicurezza nelle piste più belle con il supporto tecnico",
+        "url": "misano.jpg",
+        "title": "",
+        "subTitle": "",
         "alt": "Misano - Innovation Racing Team"
       },
       {
-        "url": "assets/imola.jpg",
-        "title": "Vivi l'esperienza dell'alta velocità",
-        "subTitle": "Il team offre la possibilità di provare la propria moto al massimo delle sue prestazioni in piena sicurezza nelle piste più belle con il supporto tecnico",
+        "url": "imola.jpg",
+        "title": "",
+        "subTitle": "",
         "alt": "Imola - Innovation Racing Team"
       },
       {
-        "url": "assets/vallelunga.jpg",
-        "title": "Vivi l'esperienza dell'alta velocità",
-        "subTitle": "Il team offre la possibilità di provare la propria moto al massimo delle sue prestazioni in piena sicurezza nelle piste più belle con il supporto tecnico",
+        "url": "vallelunga.jpg",
+        "title": "",
+        "subTitle": "",
         "alt": "Vallelunga - Innovation Racing Team"
       },
       {
-        "url": "assets/mugello.jpg",
-        "title": "Vivi l'esperienza dell'alta velocità",
-        "subTitle": "Il team offre la possibilità di provare la propria moto al massimo delle sue prestazioni in piena sicurezza nelle piste più belle con il supporto tecnico",
+        "url": "mugello.jpg",
+        "title": "",
+        "subTitle": "",
         "alt": "Mugello - Innovation Racing Team"
       }
     ],
+    "testoBottom":{
+      "title": "",
+      "subTitle": "",
+      "body": "Tutti possono partecipare in sicurezza, sia i principianti che gli agonisti che hanno compiuto 18 anni. Tutto viene organizzato in una giornata in una determinata pista. Ma dove andiamo? Possiamo andare dalla pista più semplice e divertente come possiamo andare nei circuiti più belli d'Italia come Mugello, Imola, Misano e Vallelunga con il supporto del team che ti permetterà di provare o allenarti in assoluta tranquillità durante tutta la giornata. Se non possiedi la moto possiamo noleggiartela noi, devi soltanto possedere l'abbigliamento tecnico.",
+      "footer": "Una giornata che non dimenticherai tanto velocemente!"
+    },
     "GalleryBottom": [
       {
-        "url": "assets/1.jpg"
+        "url": "1.jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Mugello - Innovation Racing Team"
       },
       {
-        "url": "assets/2.jpg"
+        "url": "2.jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Mugello - Innovation Racing Team"
       },
       {
-        "url": "assets/3.jpg"
+        "url": "3.jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Mugello - Innovation Racing Team"
       },
       {
-        "url": "assets/4.jpg"
+        "url": "4.jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Mugello - Innovation Racing Team"
       },
       {
-        "url": "assets/5.jpg"
+        "url": "5.jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Mugello - Innovation Racing Team"
       },
       {
-        "url": "assets/6.jpg"
+        "url": "6.jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Mugello - Innovation Racing Team"
       }
-    ],
-    "title": "Giornate in pista Velocità",
-    "subTitle": "Vorresti provare ma non sei sicuro di fare il passo? Non è mai stato cosi facile, ci siamo noi ad accompagnarti!",
-    "body": "Tutti possono partecipare in sicurezza, sia i principianti che gli agonisti che hanno compiuto 18 anni. Tutto viene organizzato in una giornata in una determinata pista. Ma dove andiamo? Possiamo andare dalla pista più semplice e divertente come possiamo andare nei circuiti più belli d'Italia come Mugello, Imola, Misano e Vallelunga con il supporto del team che ti permetterà di provare o allenarti in assoluta tranquillità durante tutta la giornata. Se non possiedi la moto possiamo noleggiartela noi, devi soltanto possedere l'abbigliamento tecnico.",
-    "footer": "Una giornata che non dimenticherai tanto velocemente!"
+    ]
   }
 ]

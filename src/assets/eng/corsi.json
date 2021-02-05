@@ -1,16 +1,16 @@
 [
   {
     "hero":{
-      "title": "Off-Road Driving Courses",
+      "title": "Corsi Guida Off-Road",
       "subtitle": "",
       "url": "school.jpg"
     },
     "sezione": "offroad",
     "testoTop":{
-      "title": "Off-Road Driving Courses",
-      "subTitle" : "Innovation Racing Team organizes the off-road school, a real off-road academy!",
-      "body": "Everyone can participate en safety, children, and adults from the first steps to expert driving up to competitive driving thanks to expert teachers and level drivers. The courses can be held in groups for maximum convenience or privately for maximum results. The school is organized every weekend, the program on Sundays, on our training field or on the best tracks in Tuscany in complete safety. It is also possible to have midweek sessions by appointment. Do you have a problem? Don't worry! In case you need it, you have the support of a qualified team that will take care of the organization and resolution of all technical problems, leaving you with no worries and, if you want, we will also take care of your motor  for all ordinary and extraordinary maintenance, transport to the track and subsequent storage. If you don't have the technical clothing and the motorbike, #you can rent everything you need from us.#",
-      "footer": "Be part of the off-road school!"
+      "title": "Corsi di Guida Off-Road",
+      "subTitle" : "Innovation Racing Team organizza la school off-road una vera e propria accademia del fuoristrada!",
+      "body": "Tutti possono partecipare in sicurezza, bambini e adulti dai primi passi alla guida esperta fino all’agonismo grazie agli insegnanti esperti e piloti di livello. I corsi possono essere svolti in gruppo per avere la massima convenienza stando in compagnia o in forma privata per avere il massimo risultato. La scuola viene organizzata tutti i fine settimana, solitamente la domenica, sul nostro campo di allenamento oppure sulle migliori piste della toscana in piena sicurezza, è possibile prevedere anche sessioni infrasettimanali su prenotazione.",
+      "footer": ""
     },
     "GalleryTop": [
       {
@@ -32,31 +32,7 @@
         "alt": "scuola school motocross off-road fuoristradai- Innovation Racing Team"
       },
       {
-        "url": "Corsi Offroad (4).jpg",
-        "title": "",
-        "subTitle": "",
-        "alt": "scuola school motocross off-road fuoristrada - Innovation Racing Team"
-      },
-      {
-        "url": "Corsi Offroad (5).jpg",
-        "title": "",
-        "subTitle": "",
-        "alt": "scuola school motocross off-road fuoristrada - Innovation Racing Team"
-      },
-      {
         "url": "Corsi Offroad (6).jpg",
-        "title": "",
-        "subTitle": "",
-        "alt": "scuola school motocross off-road fuoristrada - Innovation Racing Team"
-      },
-      {
-        "url": "Corsi Offroad (7).jpg",
-        "title": "",
-        "subTitle": "",
-        "alt": "scuola school motocross off-road fuoristrada - Innovation Racing Team"
-      },
-      {
-        "url": "Corsi Offroad (8).jpg",
         "title": "",
         "subTitle": "",
         "alt": "scuola school motocross off-road fuoristrada - Innovation Racing Team"
@@ -78,25 +54,13 @@
         "title": "",
         "subTitle": "",
         "alt": "scuola school motocross off-road fuoristrada - Innovation Racing Team"
-      },
-      {
-        "url": "Corsi Offroad (12).jpg",
-        "title": "",
-        "subTitle": "",
-        "alt": "scuola school motocross off-road fuoristrada - Innovation Racing Team"
-      },
-      {
-        "url": "Corsi Offroad (13).jpg",
-        "title": "",
-        "subTitle": "",
-        "alt": "scuola school motocross off-road fuoristrada - Innovation Racing Team"
       }
     ],
     "testoBottom":{
       "title": "",
       "subTitle": "",
-      "body": "",
-      "footer": ""
+      "body": "*Hai un problema? Non preoccuparti!* nel caso ci fosse bisogno hai tutto il supporto del Team qualificato che penserà all’organizzazione ed alla risoluzione di tutti gli inconvenienti tecnici così da lasciarti senza pensieri e se vuoi possiamo anche prenderci cura della tua moto per tutte le manutenzioni ordinarie e straordinarie, per il trasporto in pista e per il successivo rimessaggio del mezzo. Se non possiedi l’abbigliamento tecnico e la moto puoi noleggiare da noi tutto il necessario.",
+      "footer": "Fai parte anche tu della School off-Road !"
     },
     "GalleryBottom": [
       {
@@ -119,25 +83,25 @@
     },
     "GalleryTop": [
       {
-        "url": "misanCorsi Offroad (o).jpg",
+        "url": "Corsi Offroad (1).jpg",
         "title": "",
         "subTitle": "",
         "alt": "Misano scuola school motocross off-road fuoristrada - Innovation Racing Team"
       },
       {
-        "url": "imolCorsi Offroad (a).jpg",
+        "url": "Corsi Offroad (2).jpg",
         "title": "",
         "subTitle": "",
         "alt": "Imola scuola school motocross off-road fuoristrada - Innovation Racing Team"
       },
       {
-        "url": "vallelungCorsi Offroad (a).jpg",
+        "url": "Corsi Offroad (3).jpg",
         "title": "",
         "subTitle": "",
         "alt": "Vallelunga scuola school motocross off-road fuoristrada - Innovation Racing Team"
       },
       {
-        "url": "mugellCorsi Offroad (o).jpg",
+        "url": "Corsi Offroad (4).jpg",
         "title": "",
         "subTitle": "",
         "alt": "Mugello scuola school motocross off-road fuoristrada - Innovation Racing Team"

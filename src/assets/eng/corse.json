@@ -13,6 +13,12 @@
         "subTitle": "Corse di Corsa viummmm"
       }
     ],
+    "testoTop":{
+      "title": "Piloti",
+      "subTitle": "Sottotitolo",
+      "body": "Lorem Ipsum is simply dummy text of the #printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "footer": "FooterTitle"
+    },
     "GalleryBottom": [
       {
         "url": "assets/moto1.jpg"
@@ -21,10 +27,12 @@
         "url": "assets/strada2.jpg"
       }
     ],
-    "title": "Piloti",
-    "subTitle": "Sottotitolo",
-    "body": "Lorem Ipsum is simply dummy text of the #printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "footer": "FooterTitle"
+    "testoBottom":{
+      "title": "Piloti",
+      "subTitle": "Sottotitolo",
+      "body": "Lorem Ipsum is simply dummy text of the #printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "footer": "FooterTitle"
+    }
   },
   {
     "sezione": "campionati",
@@ -40,6 +48,12 @@
         "subTitle": "Corse di Corsa viummmm"
       }
     ],
+    "testoTop":{
+      "title": "Piloti",
+      "subTitle": "Sottotitolo",
+      "body": "Lorem Ipsum is simply dummy text of the #printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "footer": "FooterTitle"
+    },
     "GalleryBottom": [
       {
         "url": "assets/moto1.jpg"
@@ -48,10 +62,12 @@
         "url": "assets/strada2.jpg"
       }
     ],
-    "title": "Campionati",
-    "subTitle": "Sottotitolo Stradale",
-    "body": "Lorem Ipsum is simply dummy text of the #printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "footer": "FooterTitle Stradale"
+    "testoBottom":{
+      "title": "Piloti",
+      "subTitle": "Sottotitolo",
+      "body": "Lorem Ipsum is simply dummy text of the #printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "footer": "FooterTitle"
+    }
   },
   {
     "sezione": "test",
@@ -67,6 +83,12 @@
         "subTitle": "Corse di Corsa viummmm"
       }
     ],
+    "testoTop":{
+      "title": "Piloti",
+      "subTitle": "Sottotitolo",
+      "body": "Lorem Ipsum is simply dummy text of the #printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "footer": "FooterTitle"
+    },
     "GalleryBottom": [
       {
         "url": "assets/moto1.jpg"
@@ -75,10 +97,12 @@
         "url": "assets/strada2.jpg"
       }
     ],
-    "title": "Test",
-    "subTitle": "Sottotitolo Stradale",
-    "body": "Lorem Ipsum is simply dummy text of the #printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "footer": "FooterTitle Stradale"
+    "testoBottom":{
+      "title": "Piloti",
+      "subTitle": "Sottotitolo",
+      "body": "Lorem Ipsum is simply dummy text of the #printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "footer": "FooterTitle"
+    }
   },
   {
     "sezione": "gara",
@@ -94,6 +118,12 @@
         "subTitle": "Corse di Corsa viummmm"
       }
     ],
+    "testoTop":{
+      "title": "Piloti",
+      "subTitle": "Sottotitolo",
+      "body": "Lorem Ipsum is simply dummy text of the #printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "footer": "FooterTitle"
+    },
     "GalleryBottom": [
       {
         "url": "assets/moto1.jpg"
@@ -102,10 +132,12 @@
         "url": "assets/strada2.jpg"
       }
     ],
-    "title": "Gara",
-    "subTitle": "Sottotitolo Stradale",
-    "body": "Lorem Ipsum is simply dummy text of the #printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "footer": "FooterTitle Stradale"
+    "testoBottom":{
+      "title": "Piloti",
+      "subTitle": "Sottotitolo",
+      "body": "Lorem Ipsum is simply dummy text of the #printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "footer": "FooterTitle"
+    }
   },
   {
     "sezione": "preparazione",
@@ -121,6 +153,12 @@
         "subTitle": "Corse di Corsa viummmm"
       }
     ],
+    "testoTop":{
+      "title": "Piloti",
+      "subTitle": "Sottotitolo",
+      "body": "Lorem Ipsum is simply dummy text of the #printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "footer": "FooterTitle"
+    },
     "GalleryBottom": [
       {
         "url": "assets/moto1.jpg"
@@ -129,10 +167,12 @@
         "url": "assets/strada2.jpg"
       }
     ],
-    "title": "Preparazione Moto",
-    "subTitle": "Sottotitolo Stradale",
-    "body": "Lorem Ipsum is simply dummy text of the #printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "footer": "FooterTitle Stradale"
+    "testoBottom":{
+      "title": "Piloti",
+      "subTitle": "Sottotitolo",
+      "body": "Lorem Ipsum is simply dummy text of the #printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "footer": "FooterTitle"
+    }
   },
   {
     "sezione": "rimessaggio",
@@ -148,6 +188,12 @@
         "subTitle": "Corse di Corsa viummmm"
       }
     ],
+    "testoTop":{
+      "title": "Piloti",
+      "subTitle": "Sottotitolo",
+      "body": "Lorem Ipsum is simply dummy text of the #printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "footer": "FooterTitle"
+    },
     "GalleryBottom": [
       {
         "url": "assets/moto1.jpg"
@@ -156,10 +202,12 @@
         "url": "assets/strada2.jpg"
       }
     ],
-    "title": "Rimessaggio",
-    "subTitle": "Sottotitolo Stradale",
-    "body": "Lorem Ipsum is simply dummy text of the #printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "footer": "FooterTitle Stradale"
+    "testoBottom":{
+      "title": "Piloti",
+      "subTitle": "Sottotitolo",
+      "body": "Lorem Ipsum is simply dummy text of the #printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "footer": "FooterTitle"
+    }
   },
   {
     "sezione": "tesseramento",
@@ -175,6 +223,12 @@
         "subTitle": "Corse di Corsa viummmm"
       }
     ],
+    "testoTop":{
+      "title": "Piloti",
+      "subTitle": "Sottotitolo",
+      "body": "Lorem Ipsum is simply dummy text of the #printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "footer": "FooterTitle"
+    },
     "GalleryBottom": [
       {
         "url": "assets/moto1.jpg"
@@ -183,9 +237,11 @@
         "url": "assets/strada2.jpg"
       }
     ],
-    "title": "Tesseramento",
-    "subTitle": "Sottotitolo Stradale",
-    "body": "Lorem Ipsum is simply dummy text of the #printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "footer": "FooterTitle Stradale"
+    "testoBottom":{
+      "title": "Piloti",
+      "subTitle": "Sottotitolo",
+      "body": "Lorem Ipsum is simply dummy text of the #printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "footer": "FooterTitle"
+    }
   }
 ]

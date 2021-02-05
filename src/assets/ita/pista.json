@@ -46,45 +46,46 @@
     },
     "GalleryBottom": [
       {
-        "url": "pista_fuoristrada.jpg"
+        "url": "pista_fuoristrada.jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Ponte a Egola - Innovation Racing Team"
       },
       {
-        "url": "pista_fuoristrada_2.jpg"
+        "url": "pista_fuoristrada_2.jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Ponte a Egola - Innovation Racing Team"
       },
       {
-        "url": "pista_fuoristrada_3.jpg"
+        "url": "pista_fuoristrada_3.jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Ponte a Egola - Innovation Racing Team"
       },
       {
-        "url": "pista_fuoristrada_4.jpg"
+        "url": "pista_fuoristrada_4.jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Ponte a Egola - Innovation Racing Team"
       },
       {
-        "url": "pista_fuoristrada_5.jpg"
+        "url": "pista_fuoristrada_5.jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Ponte a Egola - Innovation Racing Team"
       },
       {
-        "url": "pista_fuoristrada_6.jpg"
+        "url": "pista_fuoristrada_6.jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Ponte a Egola - Innovation Racing Team"
       },
       {
-        "url": "pista_fuoristrada_7.jpg"
-      }
-    ],
-    "linkInterni": [
-      {
-        "url": "contatti",
-        "title": "CONTATTI"
-      },
-      {
-        "url": "escursioni/enduro",
-        "title":"Escursioni Fuoristrada"
-      }
-    ],
-    "linkEsterni": [
-      {
-        "url": "https://www.youtube.com/watch?v=Uzm5myVoMAo",
-        "title": "Video Youtube"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=Uzm5myVoMAo",
-        "title": "Video Youtube"
+        "url": "pista_fuoristrada_7.jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Ponte a Egola - Innovation Racing Team"
       }
     ]
   },
@@ -135,42 +136,40 @@
     },
     "GalleryBottom": [
       {
-        "url": "1.jpg"
+        "url": "1.jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Mugello - Innovation Racing Team"
       },
       {
-        "url": "2.jpg"
+        "url": "2.jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Mugello - Innovation Racing Team"
       },
       {
-        "url": "3.jpg"
+        "url": "3.jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Mugello - Innovation Racing Team"
       },
       {
-        "url": "4.jpg"
+        "url": "4.jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Mugello - Innovation Racing Team"
       },
       {
-        "url": "5.jpg"
+        "url": "5.jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Mugello - Innovation Racing Team"
       },
       {
-        "url": "6.jpg"
-      }
-    ],
-    "linkInterni": [
-      {
-        "url": "contatti",
-        "title": "CONTATTI"
-      },
-      {
-        "url": "escursioni/enduro",
-        "title":"Escursioni Fuoristrada"
-      }
-    ],
-    "linkEsterni": [
-      {
-        "url": "https://www.youtube.com/watch?v=Uzm5myVoMAo",
-        "title": "Video Youtube"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=Uzm5myVoMAo",
-        "title": "Video Youtube"
+        "url": "6.jpg",
+        "title": "",
+        "subTitle": "",
+        "alt": "Mugello - Innovation Racing Team"
       }
     ]
   }

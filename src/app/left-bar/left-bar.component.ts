@@ -44,6 +44,7 @@ export class LeftBarComponent implements OnInit {
         let tmp:any = this.util.mandaInfo("leftBar",this.lingua);
         tmp.then(dati=>{
           this.links = dati;
+          console.log(this.links)
         })
       });
     })

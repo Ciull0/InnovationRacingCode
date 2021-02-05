@@ -6,33 +6,13 @@
       "cover" : "Logo_Team.png",
       "blocchi" : [
           {
-              "foto": "",
-              "titolo": "",
-              "sottotitolo": "",
-              "body": "",
-              "footer" : "",
-              "keyword": ""
+              "foto": "foto.jpeg",
+              "titolo": "Titolo",
+              "sottotitolo": "Sottotitolo",
+              "body": "body",
+              "footer" : "footer",
+              "keyword": "parola1,parola2"
           }
-      ],
-      "linkInterni": [
-        {
-          "url": "contatti",
-          "title": "CONTATTI"
-        },
-        {
-          "url": "escursioni/enduro",
-          "title":"Escursioni Fuoristrada"
-        }
-      ],
-      "linkEsterni": [
-        {
-          "url": "https://www.youtube.com/watch?v=Uzm5myVoMAo",
-          "title": "Video Youtube"
-        },
-        {
-          "url": "https://www.youtube.com/watch?v=Uzm5myVoMAo",
-          "title": "Video Youtube"
-        }
       ]
   },
   {
@@ -64,27 +44,7 @@
               "body": "",
               "footer" : ""
           }
-      ],
-    "linkInterni": [
-      {
-        "url": "contatti",
-        "title": "CONTATTI"
-      },
-      {
-        "url": "escursioni/enduro",
-        "title":"Escursioni Fuoristrada"
-      }
-    ],
-    "linkEsterni": [
-      {
-        "url": "https://www.youtube.com/watch?v=Uzm5myVoMAo",
-        "title": "Video Youtube"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=Uzm5myVoMAo",
-        "title": "Video Youtube"
-      }
-    ]
+      ]
   },
   {
       "url" : "prova2",
@@ -115,27 +75,7 @@
               "body": "",
               "footer" : ""
           }
-      ],
-    "linkInterni": [
-      {
-        "url": "contatti",
-        "title": "CONTATTI"
-      },
-      {
-        "url": "escursioni/enduro",
-        "title":"Escursioni Fuoristrada"
-      }
-    ],
-    "linkEsterni": [
-      {
-        "url": "https://www.youtube.com/watch?v=Uzm5myVoMAo",
-        "title": "Video Youtube"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=Uzm5myVoMAo",
-        "title": "Video Youtube"
-      }
-    ]
+      ]
   },
   {
       "url" : "prova3",
@@ -166,27 +106,7 @@
               "body": "",
               "footer" : ""
           }
-      ],
-    "linkInterni": [
-      {
-        "url": "contatti",
-        "title": "CONTATTI"
-      },
-      {
-        "url": "escursioni/enduro",
-        "title":"Escursioni Fuoristrada"
-      }
-    ],
-    "linkEsterni": [
-      {
-        "url": "https://www.youtube.com/watch?v=Uzm5myVoMAo",
-        "title": "Video Youtube"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=Uzm5myVoMAo",
-        "title": "Video Youtube"
-      }
-    ]
+      ]
   },
   {
       "url" : "prova4",
@@ -217,27 +137,7 @@
               "body": "",
               "footer" : ""
           }
-      ],
-    "linkInterni": [
-      {
-        "url": "contatti",
-        "title": "CONTATTI"
-      },
-      {
-        "url": "escursioni/enduro",
-        "title":"Escursioni Fuoristrada"
-      }
-    ],
-    "linkEsterni": [
-      {
-        "url": "https://www.youtube.com/watch?v=Uzm5myVoMAo",
-        "title": "Video Youtube"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=Uzm5myVoMAo",
-        "title": "Video Youtube"
-      }
-    ]
+      ]
   },
   {
       "url" : "prova5",
@@ -268,27 +168,7 @@
               "body": "",
               "footer" : ""
           }
-      ],
-    "linkInterni": [
-      {
-        "url": "contatti",
-        "title": "CONTATTI"
-      },
-      {
-        "url": "escursioni/enduro",
-        "title":"Escursioni Fuoristrada"
-      }
-    ],
-    "linkEsterni": [
-      {
-        "url": "https://www.youtube.com/watch?v=Uzm5myVoMAo",
-        "title": "Video Youtube"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=Uzm5myVoMAo",
-        "title": "Video Youtube"
-      }
-    ]
+      ]
   },
   {
       "url" : "prova6",
@@ -319,27 +199,7 @@
               "body": "",
               "footer" : ""
           }
-      ],
-    "linkInterni": [
-      {
-        "url": "contatti",
-        "title": "CONTATTI"
-      },
-      {
-        "url": "escursioni/enduro",
-        "title":"Escursioni Fuoristrada"
-      }
-    ],
-    "linkEsterni": [
-      {
-        "url": "https://www.youtube.com/watch?v=Uzm5myVoMAo",
-        "title": "Video Youtube"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=Uzm5myVoMAo",
-        "title": "Video Youtube"
-      }
-    ]
+      ]
   },
   {
       "url" : "prova7",
@@ -370,27 +230,7 @@
               "body": "",
               "footer" : ""
           }
-      ],
-    "linkInterni": [
-      {
-        "url": "contatti",
-        "title": "CONTATTI"
-      },
-      {
-        "url": "escursioni/enduro",
-        "title":"Escursioni Fuoristrada"
-      }
-    ],
-    "linkEsterni": [
-      {
-        "url": "https://www.youtube.com/watch?v=Uzm5myVoMAo",
-        "title": "Video Youtube"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=Uzm5myVoMAo",
-        "title": "Video Youtube"
-      }
-    ]
+      ]
   },
   {
       "url" : "prova8",
@@ -421,26 +261,6 @@
               "body": "",
               "footer" : ""
           }
-      ],
-    "linkInterni": [
-      {
-        "url": "contatti",
-        "title": "CONTATTI"
-      },
-      {
-        "url": "escursioni/enduro",
-        "title":"Escursioni Fuoristrada"
-      }
-    ],
-    "linkEsterni": [
-      {
-        "url": "https://www.youtube.com/watch?v=Uzm5myVoMAo",
-        "title": "Video Youtube"
-      },
-      {
-        "url": "https://www.youtube.com/watch?v=Uzm5myVoMAo",
-        "title": "Video Youtube"
-      }
-    ]
+      ]
   }
 ]

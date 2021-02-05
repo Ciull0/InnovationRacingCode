@@ -13,6 +13,12 @@
         "subTitle": "Corse di Corsa viummmm"
       }
     ],
+    "testoTop":{
+      "title": "Piloti",
+      "subTitle": "Sottotitolo",
+      "body": "body",
+      "footer": "FooterTitle"
+    },
     "GalleryBottom": [
       {
         "url": "assets/moto1.jpg"
@@ -21,10 +27,12 @@
         "url": "assets/strada2.jpg"
       }
     ],
-    "title": "Storia",
-    "subTitle": "Sottotitolo",
-    "body": "Lorem Ipsum is simply dummy text of the #printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "footer": "FooterTitle"
+    "testoBottom":{
+      "title": "Piloti",
+      "subTitle": "Sottotitolo",
+      "body": "body",
+      "footer": "FooterTitle"
+    }
   },
   {
     "sezione": "noi",
@@ -40,6 +48,12 @@
         "subTitle": "Corse di Corsa viummmm"
       }
     ],
+    "testoTop":{
+      "title": "Piloti",
+      "subTitle": "Sottotitolo",
+      "body": "body",
+      "footer": "FooterTitle"
+    },
     "GalleryBottom": [
       {
         "url": "assets/moto1.jpg"
@@ -48,13 +62,15 @@
         "url": "assets/strada2.jpg"
       }
     ],
-    "title": "Chi Siamo",
-    "subTitle": "Sottotitolo Stradale",
-    "body": "Lorem Ipsum is simply dummy text of the #printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "footer": "FooterTitle Stradale"
+    "testoBottom":{
+      "title": "Piloti",
+      "subTitle": "Sottotitolo",
+      "body": "body",
+      "footer": "FooterTitle"
+    }
   },
   {
-    "sezione": "obbiettivi",
+    "sezione": "obiettivi",
     "GalleryTop": [
       {
         "url": "assets/moto1.jpg",
@@ -67,6 +83,12 @@
         "subTitle": "Corse di Corsa viummmm"
       }
     ],
+    "testoTop":{
+      "title": "Piloti",
+      "subTitle": "Sottotitolo",
+      "body": "body",
+      "footer": "FooterTitle"
+    },
     "GalleryBottom": [
       {
         "url": "assets/moto1.jpg"
@@ -75,10 +97,12 @@
         "url": "assets/strada2.jpg"
       }
     ],
-    "title": "Obbiettivi",
-    "subTitle": "Sottotitolo Stradale",
-    "body": "Lorem Ipsum is simply dummy text of the #printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "footer": "FooterTitle Stradale"
+    "testoBottom":{
+      "title": "Piloti",
+      "subTitle": "Sottotitolo",
+      "body": "body",
+      "footer": "FooterTitle"
+    }
   },
   {
     "sezione": "abbigliamento",
@@ -94,6 +118,12 @@
         "subTitle": "Corse di Corsa viummmm"
       }
     ],
+    "testoTop":{
+      "title": "Piloti",
+      "subTitle": "Sottotitolo",
+      "body": "body",
+      "footer": "FooterTitle"
+    },
     "GalleryBottom": [
       {
         "url": "assets/moto1.jpg"
@@ -102,10 +132,12 @@
         "url": "assets/strada2.jpg"
       }
     ],
-    "title": "Abbigliamento",
-    "subTitle": "Sottotitolo Stradale",
-    "body": "Lorem Ipsum is simply dummy text of the #printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "footer": "FooterTitle Stradale"
+    "testoBottom":{
+      "title": "Piloti",
+      "subTitle": "Sottotitolo",
+      "body": "body",
+      "footer": "FooterTitle"
+    }
   },
   {
     "sezione": "struttura",
@@ -121,6 +153,12 @@
         "subTitle": "Corse di Corsa viummmm"
       }
     ],
+    "testoTop":{
+      "title": "Piloti",
+      "subTitle": "Sottotitolo",
+      "body": "body",
+      "footer": "FooterTitle"
+    },
     "GalleryBottom": [
       {
         "url": "assets/moto1.jpg"
@@ -129,9 +167,11 @@
         "url": "assets/strada2.jpg"
       }
     ],
-    "title": "Struttura del Team Con Personale Qualificiato",
-    "subTitle": "Sottotitolo Stradale",
-    "body": "Lorem Ipsum is simply dummy text of the #printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-    "footer": "FooterTitle Stradale"
+    "testoBottom":{
+      "title": "Piloti",
+      "subTitle": "Sottotitolo",
+      "body": "body",
+      "footer": "FooterTitle"
+    }
   }
 ]

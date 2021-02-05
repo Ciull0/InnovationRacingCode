@@ -1,5 +1,10 @@
 [
     {
+    "title": "FUORISTRADA",
+    "subtitle": "Fuoristrada",
+    "url": "logo_trasparent.png"
+    },
+    {
       "title": "Titolo1",
       "subTitle": "Testo di Informazioni Utili ma Breve",
       "url": "assets/moto2.jpg"
