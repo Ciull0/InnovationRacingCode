@@ -93,9 +93,13 @@ export class LeftBarComponent implements OnInit {
     this.util.setLingua("eng");
   }
 
-  goToLink(elem:any,link:any){
+  goToLink(elem:any,link:any = ''){
     elem.aperto = false;
     this.chiudiMenu.emit("chiudi");
-    this.router.navigate(['/',elem.url,link.url])
+    if(link == ''){
+      this.router.navigate(['/',elem.url])
+    }else{
+      this.router.navigate(['/',elem.url,link.url])
+    }
   }
 }

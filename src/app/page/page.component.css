@@ -17,6 +17,34 @@
     overflow-x: hidden;
     padding-top: 120px;
 }
+.videoplayer{
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    position: relative;
+}
+.videoplayer iframe,
+.videoplayer object,
+.videoplayer embed {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.ytVideo{
+    height: 100%;
+    height: auto;
+}
+.btn-lg{
+    background-color: orange;
+    color: black;
+}
+
+.contatti{
+    padding: 0px !important;
+}
 
 @media screen and (max-width: 992px){
    .page{

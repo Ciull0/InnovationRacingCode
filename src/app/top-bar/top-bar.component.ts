@@ -105,7 +105,11 @@ export class TopBarComponent implements OnInit {
   goToLink(elem:any, link:any = ''){
     this.aboutBar()
     this.navBar()
-    this.router.navigate(['/',elem.url,link.url])
+    if(link == ''){
+      this.router.navigate(['/',elem.url])
+    }else{
+      this.router.navigate(['/',elem.url,link.url])
+    }
   }
 
   /*cambiaVendita(){

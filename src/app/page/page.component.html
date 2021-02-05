@@ -8,36 +8,44 @@
         </div>
     </div>
     <div class="row rigaElem">
-        <div class="col-12 colonne" *ngIf="infoPagina.GalleryTop.length != 1">
+        <div class="col-12 colonne" *ngIf="infoPagina.GalleryTop.length >= 2">
             <app-big [images]="infoPagina.GalleryTop"></app-big>
         </div>
-        <div class="col-12 ytVideo" *ngIf="infoPagina.GalleryTop.length == 1" [innerHTML]="infoPagina.GalleryBottom[0].url">
+        <div class="col-12 ytVideo" *ngIf="infoPagina.GalleryTop.length <= 2" [innerHTML]="infoPagina.GalleryBottom[0].url">
+            <iframe id="player" type="text/html" width="640" height="390"
+            [src]="videoUrl|safe" frameborder="0"></iframe>
         </div>
         <div class="col-2 d-none d-md-block"></div>
         <div class="col-md-8 col-12 colonne">
             <app-textbox [text]="infoPagina.testoTop"></app-textbox>
             <br>
-            <button class="btn btn-dark btn-lg" routerLink="contatti">Contattaci!</button>
+            <button class="btn  btn-lg" routerLink="contatti">Contattaci!</button>
         </div>
         <div class="col-2 d-none d-md-block"></div>
     </div>
     <br><br>
     <div class="row rigaElem">
-        <div class="col-12 colonne" *ngIf="infoPagina.GalleryTop.length != 1">
-            <app-big [images]="infoPagina.GalleryBottom"></app-big>
+        <div class="col-12 colonne" >
+            <app-big *ngIf="infoPagina.GalleryBottom.length >= 2" [images]="infoPagina.GalleryBottom"></app-big>
         </div>
-        <div class="col-12 colonne videoplayer" *ngIf="infoPagina.GalleryTop.length == 1" [innerHTML]="infoPagina.GalleryBottom[0].url">
+        <div class="col-12 colonne videoplayer" *ngIf="infoPagina.GalleryBottom.length < 2">
+            <iframe id="player" type="text/html" class="ytVideo"
+            [src]="videoUrl|safe" frameborder="0"></iframe>
         </div>
         <br>
         <div class="col-2 d-none d-md-block"></div>
         <div class="col-md-8 col-12 colonne">
             <app-textbox [text]="infoPagina.testoBottom"></app-textbox>
             <br>
-            <button class="btn btn-dark btn-lg" routerLink="contatti">Contattaci!</button>
+            <button class="btn btn-lg" routerLink="contatti">Contattaci!</button>
         </div>
         <div class="col-2 d-none d-md-block"></div>
     </div>
-    <app-contatti></app-contatti>
+
+
+
+    
+    <app-contatti class="contatti"></app-contatti>
     <app-footer></app-footer>
 </div>
 

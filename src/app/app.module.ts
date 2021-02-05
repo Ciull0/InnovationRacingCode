@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, Pipe } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http'
 
 import { AppRoutingModule } from './app-routing.module';
@@ -17,7 +17,7 @@ import { FooterComponent } from './footer/footer.component';
 import { FormComponent } from './form/form.component';
 import { TwoElementsComponent } from './two-elements/two-elements.component';
 import { ElementComponent } from './element/element.component';
-import { PageComponent } from './page/page.component';
+import { PageComponent, SafePipe } from './page/page.component';
 import { PageElementComponent } from './page-element/page-element.component';
 import { ContattiComponent } from './contatti/contatti.component';
 import { SponsorComponent } from './sponsor/sponsor.component';
@@ -48,7 +48,8 @@ import { TextboxComponent } from './textbox/textbox.component';
     BlogComponent,
     ArticoloComponent,
     HeroComponent,
-    TextboxComponent
+    TextboxComponent,
+    SafePipe
   ],
   imports: [
     BrowserModule,

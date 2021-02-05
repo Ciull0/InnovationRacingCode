@@ -5,7 +5,7 @@
         <div class="list-group" *ngIf="elem.aperto">
             <button *ngFor="let link of elem.links" type="button" (click)="goToLink(elem,link)"  class="list-group-item list-group-item-action element">{{link.title}}</button>
         </div>
-        <button [routerLink]="['/'+elem.links[0].url]" *ngIf="elem.links.length==1" type="button" class="bg-dark text-white list-group-item list-group-item-action element">{{elem.sezione}}</button>
+        <button  (click)="goToLink(elem)" *ngIf="elem.links.length==1" type="button" class="bg-dark text-white list-group-item list-group-item-action element">{{elem.sezione}}</button>
     </div>
     <button type="button" (click)="contatti = !contatti" class="d-lg-none bg-dark text-white list-group-item list-group-item-action element">Contatti</button>
     <div class="list-group d-lg-none" *ngIf="contatti">
