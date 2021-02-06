@@ -18,7 +18,7 @@ export class TextboxComponent implements OnInit, OnChanges {
     private salitazer: DomSanitizer) { }
 
   ngOnInit(): void {
-    this.testoDaInserire = this.putLink(this.makeBold(this.makeRed(this.makeUnderline(this.makeItalics(this.text.body)))));
+    this.testoDaInserire =this.makeNewLine(this.putLink(this.makeBold(this.makeRed(this.makeUnderline(this.makeItalics(this.text.body))))));
     /*this.util.getLingua().subscribe( (ling)=>{
       let testoProva= "testo di prova con *grassetto*, _sottolineato_, $corsivo$, (red)rosso(red) e un (link)link esterno[https://www.youtube.com/?gl=IT&hl=it](link)" 
       this.lingua = ling;
@@ -32,7 +32,7 @@ export class TextboxComponent implements OnInit, OnChanges {
   }
 
   ngOnChanges():void{
-    this.testoDaInserire = this.putLink(this.makeBold(this.makeRed(this.makeUnderline(this.makeItalics(this.text.body)))));
+    this.testoDaInserire = this.makeNewLine(this.putLink(this.makeBold(this.makeRed(this.makeUnderline(this.makeItalics(this.text.body))))));
   }
 
   makeBold(testo:string){
@@ -54,6 +54,13 @@ export class TextboxComponent implements OnInit, OnChanges {
       testo = testo.replace(testo.slice(inizio,fine+1),"<i>"+testo.slice(inizio+1,fine)+"</i>");
       inizio=testo.indexOf("$",fine+1);
       fine=testo.indexOf("$",inizio+1);
+    }
+    return(testo)
+  }
+
+  makeNewLine(testo:string){
+    while(testo.indexOf('£') > 0){
+      testo = testo.replace('£','<br>')
     }
     return(testo)
   }
