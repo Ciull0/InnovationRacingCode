@@ -1,5 +1,10 @@
 [
   {
+    "hero":{
+      "title": "Storia",
+      "subtitle": "",
+      "url": "school.jpg"
+    },
     "sezione": "storia",
     "GalleryTop": [
       {
@@ -35,6 +40,11 @@
     }
   },
   {
+    "hero":{
+      "title": "Qualcosa su di Noi",
+      "subtitle": "",
+      "url": "school.jpg"
+    },
     "sezione": "noi",
     "GalleryTop": [
       {
@@ -70,6 +80,11 @@
     }
   },
   {
+    "hero":{
+      "title": "Obiettivi",
+      "subtitle": "",
+      "url": "school.jpg"
+    },
     "sezione": "obiettivi",
     "GalleryTop": [
       {
@@ -105,6 +120,11 @@
     }
   },
   {
+    "hero":{
+      "title": "Abbigliamento",
+      "subtitle": "",
+      "url": "school.jpg"
+    },
     "sezione": "abbigliamento",
     "GalleryTop": [
       {
@@ -140,6 +160,11 @@
     }
   },
   {
+    "hero":{
+      "title": "Struttura",
+      "subtitle": "",
+      "url": "school.jpg"
+    },
     "sezione": "struttura",
     "GalleryTop": [
       {

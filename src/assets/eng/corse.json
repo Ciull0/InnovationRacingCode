@@ -1,5 +1,10 @@
 [
   {
+    "hero":{
+      "title": "Piloti",
+      "subtitle": "",
+      "url": "school.jpg"
+    },
     "sezione": "piloti",
     "GalleryTop": [
       {
@@ -35,6 +40,11 @@
     }
   },
   {
+    "hero":{
+      "title": "Campionati",
+      "subtitle": "",
+      "url": "school.jpg"
+    },
     "sezione": "campionati",
     "GalleryTop": [
       {
@@ -70,6 +80,11 @@
     }
   },
   {
+    "hero":{
+      "title": "Test",
+      "subtitle": "",
+      "url": "school.jpg"
+    },
     "sezione": "test",
     "GalleryTop": [
       {
@@ -105,6 +120,11 @@
     }
   },
   {
+    "hero":{
+      "title": "Gara",
+      "subtitle": "",
+      "url": "school.jpg"
+    },
     "sezione": "gara",
     "GalleryTop": [
       {
@@ -140,6 +160,11 @@
     }
   },
   {
+    "hero":{
+      "title": "Preparazione",
+      "subtitle": "",
+      "url": "school.jpg"
+    },
     "sezione": "preparazione",
     "GalleryTop": [
       {
@@ -175,6 +200,11 @@
     }
   },
   {
+    "hero":{
+      "title": "Rimessaggio",
+      "subtitle": "",
+      "url": "school.jpg"
+    },
     "sezione": "rimessaggio",
     "GalleryTop": [
       {
@@ -210,6 +240,11 @@
     }
   },
   {
+    "hero":{
+      "title": "Tesseramento",
+      "subtitle": "",
+      "url": "school.jpg"
+    },
     "sezione": "tesseramento",
     "GalleryTop": [
       {

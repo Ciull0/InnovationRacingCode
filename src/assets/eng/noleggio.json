@@ -1,5 +1,10 @@
 [
   {
+    "hero":{
+      "title": "Noleggio Fuoristrada",
+      "subtitle": "",
+      "url": "school.jpg"
+    },
     "sezione": "fuoristrada",
     "GalleryTop": [
       {
@@ -27,6 +32,11 @@
     "footer": "FooterTitle"
   },
   {
+    "hero":{
+      "title": "Noleggio Velocità",
+      "subtitle": "",
+      "url": "school.jpg"
+    },
     "sezione": "velocita",
     "GalleryTop": [
       {

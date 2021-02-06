@@ -1,5 +1,11 @@
 [
   {
+    
+    "hero":{
+      "title": "Sospensioni",
+      "subtitle": "",
+      "url": "school.jpg"
+    },
     "sezione": "sospensioni",
     "GalleryTop": [
       {
@@ -35,6 +41,11 @@
     }
   },
   {
+    "hero":{
+      "title": "Motori",
+      "subtitle": "",
+      "url": "school.jpg"
+    },
     "sezione": "motori",
     "GalleryTop": [
       {
@@ -70,6 +81,11 @@
     }
   },
   {
+    "hero":{
+      "title": "Elaborazioni",
+      "subtitle": "",
+      "url": "school.jpg"
+    },
     "sezione": "elaborazioni",
     "GalleryTop": [
       {
@@ -105,6 +121,11 @@
     }
   },
   {
+    "hero":{
+      "title": "Elettronica",
+      "subtitle": "",
+      "url": "school.jpg"
+    },
     "sezione": "Elettronica",
     "GalleryTop": [
       {
@@ -140,6 +161,11 @@
     }
   },
   {
+    "hero":{
+      "title": "Epoca",
+      "subtitle": "",
+      "url": "school.jpg"
+    },
     "sezione": "epoca",
     "GalleryTop": [
       {
@@ -175,6 +201,11 @@
     }
   },
   {
+    "hero":{
+      "title": "Residenza",
+      "subtitle": "",
+      "url": "school.jpg"
+    },
     "sezione": "residenza",
     "GalleryTop": [
       {
