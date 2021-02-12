@@ -40,13 +40,10 @@ export class LeftBarComponent implements OnInit {
     })
     this.util.getLingua().subscribe( (ling)=>{
       this.lingua = ling;
-      this.route.params.subscribe(url => {
-        let tmp:any = this.util.mandaInfo("leftBar",this.lingua);
-        tmp.then(dati=>{
-          this.links = dati;
-          console.log(this.links)
-        })
-      });
+      let tmp:any = this.util.mandaInfo("leftBar",this.lingua);
+      tmp.then(dati=>{
+        this.links = dati;
+      })
     })
     
     this.stradale=false;
@@ -98,9 +95,9 @@ export class LeftBarComponent implements OnInit {
     elem.aperto = false;
     this.chiudiMenu.emit("chiudi");
     if(link == ''){
-      this.router.navigate(['/',elem.url])
+      this.router.navigate(['/',elem.url,this.lingua])
     }else{
-      this.router.navigate(['/',elem.url,link.url])
+      this.router.navigate(['/',elem.url,link.url,this.lingua])
     }
   }
 }

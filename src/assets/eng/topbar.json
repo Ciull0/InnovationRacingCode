@@ -1,102 +1,102 @@
 [
-    {
-      "url": "team",
-      "sezione": "Team",
-      "links": [
-        {
-          "url": "storia",
-          "title": "Storia"
-        },
-        {
-          "url": "noi",
-          "title": "Chi Siamo"
-        },
-        {
-          "url": "obiettivi",
-          "title": "Obiettivi"
-        },
-        {
-          "url": "abbigliamento",
-          "title": "Abbigliamento"
-        },
-        {
-          "url": "struttura",
-          "title": "Struttura del Team con Personale Qualificato"
-        }
-      ]
-    },
-    {
-        "url": "corse",
-        "sezione": "Reparto Corse",
-        "links": [
-          {
-            "url": "piloti",
-            "title": "Piloti"
-          },
-          {
-            "url": "campionati",
-            "title": "Campionati"
-          },
-          {
-            "url": "test",
-            "title": "Test"
-          },
-          {
-            "url": "gara",
-            "title": "Gara"
-          },
-          {
-            "url": "preparazione",
-            "title": "Preparazione Moto"
-          },
-          {
-            "url": "rimessaggio",
-            "title": "Rimessaggio"
-          },
-          {
-            "url": "tesseramento",
-            "title": "Tesseramento"
-          }
-        ]
-    },
-    {
-        "url": "servizi",
-        "sezione": "Servizi",
-        "links": [
-          {
-            "url": "sospensioni",
-            "title": "Sospensioni"
-          },
-          {
-            "url": "motori",
-            "title": "Motori"
-          },
-          {
-            "url": "elaborazioni",
-            "title": "Eleborazioni/Allestimenti"
-          },
-          {
-            "url": "elettronica",
-            "title": "Elettronica"
-          },
-          {
-            "url": "epoca",
-            "title": "Moto D'Epoca"
-          },
-          {
-            "url": "residenza",
-            "title": "Residenza Moto"
-          }
-        ]
-    },
-    {
-        "url": "sponsorTecnici",
-        "sezione": "Sponsor Tecnici",
-        "links": [
-          {
-            "url": "",
-            "title": "Tecnici"
-          }
-        ]
-    }
-  ]
+  {
+    "url": "team",
+    "sezione": "Team",
+    "links": [
+      {
+        "url": "storia",
+        "title": "History"
+      },
+      {
+        "url": "noi",
+        "title": "About Us"
+      },
+      {
+        "url": "obiettivi",
+        "title": "Goals"
+      },
+      {
+        "url": "abbigliamento",
+        "title": "Dressing"
+      },
+      {
+        "url": "struttura",
+        "title": "Team Structure with Skilled Professionals"
+      }
+    ]
+  },
+  {
+    "url": "corse",
+    "sezione": "Race Department",
+    "links": [
+      {
+        "url": "piloti",
+        "title": "Pilots"
+      },
+      {
+        "url": "campionati",
+        "title": "Championships"
+      },
+      {
+        "url": "test",
+        "title": "Test"
+      },
+      {
+        "url": "gara",
+        "title": "Race"
+      },
+      {
+        "url": "preparazione",
+        "title": "Moto Preparation"
+      },
+      {
+        "url": "rimessaggio",
+        "title": "Storage"
+      },
+      {
+        "url": "tesseramento",
+        "title": "Membership"
+      }
+    ]
+  },
+  {
+    "url": "servizi",
+    "sezione": "Services",
+    "links": [
+      {
+        "url": "sospensioni",
+        "title": "Suspensions"
+      },
+      {
+        "url": "motori",
+        "title": "Engines"
+      },
+      {
+        "url": "elaborazioni",
+        "title": "Elaborations/Preparations"
+      },
+      {
+        "url": "elettronica",
+        "title": "Electronics"
+      },
+      {
+        "url": "epoca",
+        "title": "Vintage Motorcycles"
+      },
+      {
+        "url": "residenza",
+        "title": "Motorcycle Residence"
+      }
+    ]
+  },
+  {
+    "url": "sponsorTecnici",
+    "sezione": "Tecnical Sponsor",
+    "links": [
+      {
+        "url": "",
+        "title": "Tecnici"
+      }
+    ]
+  }
+]

@@ -27,7 +27,6 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     this.util.getLingua().subscribe( (ling)=>{
       this.lingua = ling;
-      console.log(this.route.url)
       switch (this.route.url.slice(1)){
         case "stradale":
           var tmp:any = this.util.mandaInfo("stradale",this.lingua);
@@ -43,6 +42,7 @@ export class HomeComponent implements OnInit {
           break;
         default:
           var tmp:any = this.util.mandaInfo("home",this.lingua);
+          console.log("qui")
           tmp.then(dati=>{
             this.elemSelezionati = dati;
           })

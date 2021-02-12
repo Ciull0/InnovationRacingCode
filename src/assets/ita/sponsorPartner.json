@@ -1,266 +1,266 @@
 [
   {
-      "title": "SPONSOR PARTNER",
-      "subtitle": "Gli sponsor Tecnici del Team",
-      "url": "logo_trasparent.png",
-      "cover" : "Logo_Team.png",
-      "blocchi" : [
-          {
-              "foto": "foto.jpeg",
-              "titolo": "Titolo",
-              "sottotitolo": "Sottotitolo",
-              "body": "body",
-              "footer" : "footer",
-              "keyword": "parola1,parola2"
-          }
-      ]
+    "title": "SPONSOR PARTNERSHIP",
+    "subtitle": "",
+    "url": "logo_trasparent.png",
+    "cover": "Logo_Team.png",
+    "blocchi": [
+      {
+        "foto": "foto.jpeg",
+        "titolo": "Titolo",
+        "sottotitolo": "Sottotitolo",
+        "body": "body",
+        "footer": "footer",
+        "keyword": "parola1,parola2"
+      }
+    ]
   },
   {
-      "url" : "prova1",
-      "title" : "Sponsor 1 di prova",
-      "subtitle": "Qualcosa sullo sponsor",
-      "cover" : "Logo_Team.png",
-      "blocchi" : [
-          {
-              "foto": "misano.jpg",
-              "titolo": "Titolo Sezione",
-              "sottotitolo": "SottoTitolo della Sezione",
-              "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, mauris quis egestas gravida, nulla sapien iaculis odio, quis pulvinar erat mi id ligula. Morbi ultrices malesuada magna, non tincidunt est hendrerit ut. Quisque iaculis fermentum mollis. Nunc quis condimentum sapien. Praesent eget feugiat velit. Aenean metus risus, malesuada et imperdiet sit amet, interdum id odio. Ut cursus, massa quis ultrices egestas, turpis arcu interdum ligula, in facilisis ante leo ac odio. Fusce in sem iaculis ligula molestie eleifend.",
-              "footer" : "Pezzo finale in grassetto",
-              "keyword": "esteso,titolo,sottotitolo,finale"
-          },
-          {
-              "foto": "",
-              "titolo": "Titolo Sezione",
-              "sottotitolo": "SottoTitolo della Sezione",
-              "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, mauris quis egestas gravida, nulla sapien iaculis odio, quis pulvinar erat mi id ligula. Morbi ultrices malesuada magna, non tincidunt est hendrerit ut. Quisque iaculis fermentum mollis. Nunc quis condimentum sapien. Praesent eget feugiat velit. Aenean metus risus, malesuada et imperdiet sit amet, interdum id odio. Ut cursus, massa quis ultrices egestas, turpis arcu interdum ligula, in facilisis ante leo ac odio. Fusce in sem iaculis ligula molestie eleifend.",
-              "footer" : "Pezzo finale in grassetto",
-              "keyword": "esteso,titolo,sottotitolo,finale"
-          },
-          {
-              "foto": "misano.jpg",
-              "titolo": "",
-              "sottotitolo": "",
-              "body": "",
-              "footer" : ""
-          }
-      ]
+    "url": "annaricami",
+    "title": "Anna Ricami",
+    "subtitle": "",
+    "cover": "anna-ricami.png",
+    "blocchi": [
+      {
+        "foto": "anna-ricami-innovation-racing-team.jpg",
+        "titolo": "ciao",
+        "sottotitolo": "SottoTitolo della Sezione",
+        "body": "Anna Ricami da oltre 10 anni realizza ricami personalizzati a Siena, Firenze e Arezzo.  Ogni giorno dà vita alla tradizione del ricamo unendola alle tecniche contemporanee di design e produzione ricami.",
+        "footer": "",
+        "keyword": "esteso,titolo,sottotitolo,finale"
+      },
+      {
+        "foto": "",
+        "titolo": "Titolo Sezione",
+        "sottotitolo": "SottoTitolo della Sezione",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, mauris quis egestas gravida, nulla sapien iaculis odio, quis pulvinar erat mi id ligula. Morbi ultrices malesuada magna, non tincidunt est hendrerit ut. Quisque iaculis fermentum mollis. Nunc quis condimentum sapien. Praesent eget feugiat velit. Aenean metus risus, malesuada et imperdiet sit amet, interdum id odio. Ut cursus, massa quis ultrices egestas, turpis arcu interdum ligula, in facilisis ante leo ac odio. Fusce in sem iaculis ligula molestie eleifend.",
+        "footer": "Pezzo finale in grassetto",
+        "keyword": "esteso,titolo,sottotitolo,finale"
+      },
+      {
+        "foto": "misano.jpg",
+        "titolo": "",
+        "sottotitolo": "",
+        "body": "",
+        "footer": ""
+      }
+    ]
   },
   {
-      "url" : "prova2",
-      "title" : "Sponsor 1 di prova",
-      "subtitle": "Qualcosa sullo sponsor",
-      "cover" : "Logo_Team.png",
-      "blocchi" : [
-          {
-              "foto": "misano.jpg",
-              "titolo": "Titolo Sezione",
-              "sottotitolo": "SottoTitolo della Sezione",
-              "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, mauris quis egestas gravida, nulla sapien iaculis odio, quis pulvinar erat mi id ligula. Morbi ultrices malesuada magna, non tincidunt est hendrerit ut. Quisque iaculis fermentum mollis. Nunc quis condimentum sapien. Praesent eget feugiat velit. Aenean metus risus, malesuada et imperdiet sit amet, interdum id odio. Ut cursus, massa quis ultrices egestas, turpis arcu interdum ligula, in facilisis ante leo ac odio. Fusce in sem iaculis ligula molestie eleifend.",
-              "footer" : "Pezzo finale in grassetto",
-              "keyword": "esteso,titolo,sottotitolo,finale"
-          },
-          {
-              "foto": "",
-              "titolo": "Titolo Sezione",
-              "sottotitolo": "SottoTitolo della Sezione",
-              "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, mauris quis egestas gravida, nulla sapien iaculis odio, quis pulvinar erat mi id ligula. Morbi ultrices malesuada magna, non tincidunt est hendrerit ut. Quisque iaculis fermentum mollis. Nunc quis condimentum sapien. Praesent eget feugiat velit. Aenean metus risus, malesuada et imperdiet sit amet, interdum id odio. Ut cursus, massa quis ultrices egestas, turpis arcu interdum ligula, in facilisis ante leo ac odio. Fusce in sem iaculis ligula molestie eleifend.",
-              "footer" : "Pezzo finale in grassetto",
-              "keyword": "esteso,titolo,sottotitolo,finale"
-          },
-          {
-              "foto": "misano.jpg",
-              "titolo": "",
-              "sottotitolo": "",
-              "body": "",
-              "footer" : ""
-          }
-      ]
+    "url": "prova2",
+    "title": "Sponsor 1 di prova",
+    "subtitle": "Qualcosa sullo sponsor",
+    "cover": "Logo_Team.png",
+    "blocchi": [
+      {
+        "foto": "misano.jpg",
+        "titolo": "Titolo Sezione",
+        "sottotitolo": "SottoTitolo della Sezione",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, mauris quis egestas gravida, nulla sapien iaculis odio, quis pulvinar erat mi id ligula. Morbi ultrices malesuada magna, non tincidunt est hendrerit ut. Quisque iaculis fermentum mollis. Nunc quis condimentum sapien. Praesent eget feugiat velit. Aenean metus risus, malesuada et imperdiet sit amet, interdum id odio. Ut cursus, massa quis ultrices egestas, turpis arcu interdum ligula, in facilisis ante leo ac odio. Fusce in sem iaculis ligula molestie eleifend.",
+        "footer": "Pezzo finale in grassetto",
+        "keyword": "esteso,titolo,sottotitolo,finale"
+      },
+      {
+        "foto": "",
+        "titolo": "Titolo Sezione",
+        "sottotitolo": "SottoTitolo della Sezione",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, mauris quis egestas gravida, nulla sapien iaculis odio, quis pulvinar erat mi id ligula. Morbi ultrices malesuada magna, non tincidunt est hendrerit ut. Quisque iaculis fermentum mollis. Nunc quis condimentum sapien. Praesent eget feugiat velit. Aenean metus risus, malesuada et imperdiet sit amet, interdum id odio. Ut cursus, massa quis ultrices egestas, turpis arcu interdum ligula, in facilisis ante leo ac odio. Fusce in sem iaculis ligula molestie eleifend.",
+        "footer": "Pezzo finale in grassetto",
+        "keyword": "esteso,titolo,sottotitolo,finale"
+      },
+      {
+        "foto": "misano.jpg",
+        "titolo": "",
+        "sottotitolo": "",
+        "body": "",
+        "footer": ""
+      }
+    ]
   },
   {
-      "url" : "prova3",
-      "title" : "Sponsor 1 di prova",
-      "subtitle": "Qualcosa sullo sponsor",
-      "cover" : "Logo_Team.png",
-      "blocchi" : [
-          {
-              "foto": "misano.jpg",
-              "titolo": "Titolo Sezione",
-              "sottotitolo": "SottoTitolo della Sezione",
-              "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, mauris quis egestas gravida, nulla sapien iaculis odio, quis pulvinar erat mi id ligula. Morbi ultrices malesuada magna, non tincidunt est hendrerit ut. Quisque iaculis fermentum mollis. Nunc quis condimentum sapien. Praesent eget feugiat velit. Aenean metus risus, malesuada et imperdiet sit amet, interdum id odio. Ut cursus, massa quis ultrices egestas, turpis arcu interdum ligula, in facilisis ante leo ac odio. Fusce in sem iaculis ligula molestie eleifend.",
-              "footer" : "Pezzo finale in grassetto",
-              "keyword": "esteso,titolo,sottotitolo,finale"
-          },
-          {
-              "foto": "",
-              "titolo": "Titolo Sezione",
-              "sottotitolo": "SottoTitolo della Sezione",
-              "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, mauris quis egestas gravida, nulla sapien iaculis odio, quis pulvinar erat mi id ligula. Morbi ultrices malesuada magna, non tincidunt est hendrerit ut. Quisque iaculis fermentum mollis. Nunc quis condimentum sapien. Praesent eget feugiat velit. Aenean metus risus, malesuada et imperdiet sit amet, interdum id odio. Ut cursus, massa quis ultrices egestas, turpis arcu interdum ligula, in facilisis ante leo ac odio. Fusce in sem iaculis ligula molestie eleifend.",
-              "footer" : "Pezzo finale in grassetto",
-              "keyword": "esteso,titolo,sottotitolo,finale"
-          },
-          {
-              "foto": "misano.jpg",
-              "titolo": "",
-              "sottotitolo": "",
-              "body": "",
-              "footer" : ""
-          }
-      ]
+    "url": "prova3",
+    "title": "Sponsor 1 di prova",
+    "subtitle": "Qualcosa sullo sponsor",
+    "cover": "Logo_Team.png",
+    "blocchi": [
+      {
+        "foto": "misano.jpg",
+        "titolo": "Titolo Sezione",
+        "sottotitolo": "SottoTitolo della Sezione",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, mauris quis egestas gravida, nulla sapien iaculis odio, quis pulvinar erat mi id ligula. Morbi ultrices malesuada magna, non tincidunt est hendrerit ut. Quisque iaculis fermentum mollis. Nunc quis condimentum sapien. Praesent eget feugiat velit. Aenean metus risus, malesuada et imperdiet sit amet, interdum id odio. Ut cursus, massa quis ultrices egestas, turpis arcu interdum ligula, in facilisis ante leo ac odio. Fusce in sem iaculis ligula molestie eleifend.",
+        "footer": "Pezzo finale in grassetto",
+        "keyword": "esteso,titolo,sottotitolo,finale"
+      },
+      {
+        "foto": "",
+        "titolo": "Titolo Sezione",
+        "sottotitolo": "SottoTitolo della Sezione",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, mauris quis egestas gravida, nulla sapien iaculis odio, quis pulvinar erat mi id ligula. Morbi ultrices malesuada magna, non tincidunt est hendrerit ut. Quisque iaculis fermentum mollis. Nunc quis condimentum sapien. Praesent eget feugiat velit. Aenean metus risus, malesuada et imperdiet sit amet, interdum id odio. Ut cursus, massa quis ultrices egestas, turpis arcu interdum ligula, in facilisis ante leo ac odio. Fusce in sem iaculis ligula molestie eleifend.",
+        "footer": "Pezzo finale in grassetto",
+        "keyword": "esteso,titolo,sottotitolo,finale"
+      },
+      {
+        "foto": "misano.jpg",
+        "titolo": "",
+        "sottotitolo": "",
+        "body": "",
+        "footer": ""
+      }
+    ]
   },
   {
-      "url" : "prova4",
-      "title" : "Sponsor 1 di prova",
-      "subtitle": "Qualcosa sullo sponsor",
-      "cover" : "Logo_Team.png",
-      "blocchi" : [
-          {
-              "foto": "misano.jpg",
-              "titolo": "Titolo Sezione",
-              "sottotitolo": "SottoTitolo della Sezione",
-              "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, mauris quis egestas gravida, nulla sapien iaculis odio, quis pulvinar erat mi id ligula. Morbi ultrices malesuada magna, non tincidunt est hendrerit ut. Quisque iaculis fermentum mollis. Nunc quis condimentum sapien. Praesent eget feugiat velit. Aenean metus risus, malesuada et imperdiet sit amet, interdum id odio. Ut cursus, massa quis ultrices egestas, turpis arcu interdum ligula, in facilisis ante leo ac odio. Fusce in sem iaculis ligula molestie eleifend.",
-              "footer" : "Pezzo finale in grassetto",
-              "keyword": "esteso,titolo,sottotitolo,finale"
-          },
-          {
-              "foto": "",
-              "titolo": "Titolo Sezione",
-              "sottotitolo": "SottoTitolo della Sezione",
-              "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, mauris quis egestas gravida, nulla sapien iaculis odio, quis pulvinar erat mi id ligula. Morbi ultrices malesuada magna, non tincidunt est hendrerit ut. Quisque iaculis fermentum mollis. Nunc quis condimentum sapien. Praesent eget feugiat velit. Aenean metus risus, malesuada et imperdiet sit amet, interdum id odio. Ut cursus, massa quis ultrices egestas, turpis arcu interdum ligula, in facilisis ante leo ac odio. Fusce in sem iaculis ligula molestie eleifend.",
-              "footer" : "Pezzo finale in grassetto",
-              "keyword": "esteso,titolo,sottotitolo,finale"
-          },
-          {
-              "foto": "misano.jpg",
-              "titolo": "",
-              "sottotitolo": "",
-              "body": "",
-              "footer" : ""
-          }
-      ]
+    "url": "prova4",
+    "title": "Sponsor 1 di prova",
+    "subtitle": "Qualcosa sullo sponsor",
+    "cover": "Logo_Team.png",
+    "blocchi": [
+      {
+        "foto": "misano.jpg",
+        "titolo": "Titolo Sezione",
+        "sottotitolo": "SottoTitolo della Sezione",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, mauris quis egestas gravida, nulla sapien iaculis odio, quis pulvinar erat mi id ligula. Morbi ultrices malesuada magna, non tincidunt est hendrerit ut. Quisque iaculis fermentum mollis. Nunc quis condimentum sapien. Praesent eget feugiat velit. Aenean metus risus, malesuada et imperdiet sit amet, interdum id odio. Ut cursus, massa quis ultrices egestas, turpis arcu interdum ligula, in facilisis ante leo ac odio. Fusce in sem iaculis ligula molestie eleifend.",
+        "footer": "Pezzo finale in grassetto",
+        "keyword": "esteso,titolo,sottotitolo,finale"
+      },
+      {
+        "foto": "",
+        "titolo": "Titolo Sezione",
+        "sottotitolo": "SottoTitolo della Sezione",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, mauris quis egestas gravida, nulla sapien iaculis odio, quis pulvinar erat mi id ligula. Morbi ultrices malesuada magna, non tincidunt est hendrerit ut. Quisque iaculis fermentum mollis. Nunc quis condimentum sapien. Praesent eget feugiat velit. Aenean metus risus, malesuada et imperdiet sit amet, interdum id odio. Ut cursus, massa quis ultrices egestas, turpis arcu interdum ligula, in facilisis ante leo ac odio. Fusce in sem iaculis ligula molestie eleifend.",
+        "footer": "Pezzo finale in grassetto",
+        "keyword": "esteso,titolo,sottotitolo,finale"
+      },
+      {
+        "foto": "misano.jpg",
+        "titolo": "",
+        "sottotitolo": "",
+        "body": "",
+        "footer": ""
+      }
+    ]
   },
   {
-      "url" : "prova5",
-      "title" : "Sponsor 1 di prova",
-      "subtitle": "Qualcosa sullo sponsor",
-      "cover" : "Logo_Team.png",
-      "blocchi" : [
-          {
-              "foto": "misano.jpg",
-              "titolo": "Titolo Sezione",
-              "sottotitolo": "SottoTitolo della Sezione",
-              "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, mauris quis egestas gravida, nulla sapien iaculis odio, quis pulvinar erat mi id ligula. Morbi ultrices malesuada magna, non tincidunt est hendrerit ut. Quisque iaculis fermentum mollis. Nunc quis condimentum sapien. Praesent eget feugiat velit. Aenean metus risus, malesuada et imperdiet sit amet, interdum id odio. Ut cursus, massa quis ultrices egestas, turpis arcu interdum ligula, in facilisis ante leo ac odio. Fusce in sem iaculis ligula molestie eleifend.",
-              "footer" : "Pezzo finale in grassetto",
-              "keyword": "esteso,titolo,sottotitolo,finale"
-          },
-          {
-              "foto": "",
-              "titolo": "Titolo Sezione",
-              "sottotitolo": "SottoTitolo della Sezione",
-              "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, mauris quis egestas gravida, nulla sapien iaculis odio, quis pulvinar erat mi id ligula. Morbi ultrices malesuada magna, non tincidunt est hendrerit ut. Quisque iaculis fermentum mollis. Nunc quis condimentum sapien. Praesent eget feugiat velit. Aenean metus risus, malesuada et imperdiet sit amet, interdum id odio. Ut cursus, massa quis ultrices egestas, turpis arcu interdum ligula, in facilisis ante leo ac odio. Fusce in sem iaculis ligula molestie eleifend.",
-              "footer" : "Pezzo finale in grassetto",
-              "keyword": "esteso,titolo,sottotitolo,finale"
-          },
-          {
-              "foto": "misano.jpg",
-              "titolo": "",
-              "sottotitolo": "",
-              "body": "",
-              "footer" : ""
-          }
-      ]
+    "url": "prova5",
+    "title": "Sponsor 1 di prova",
+    "subtitle": "Qualcosa sullo sponsor",
+    "cover": "Logo_Team.png",
+    "blocchi": [
+      {
+        "foto": "misano.jpg",
+        "titolo": "Titolo Sezione",
+        "sottotitolo": "SottoTitolo della Sezione",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, mauris quis egestas gravida, nulla sapien iaculis odio, quis pulvinar erat mi id ligula. Morbi ultrices malesuada magna, non tincidunt est hendrerit ut. Quisque iaculis fermentum mollis. Nunc quis condimentum sapien. Praesent eget feugiat velit. Aenean metus risus, malesuada et imperdiet sit amet, interdum id odio. Ut cursus, massa quis ultrices egestas, turpis arcu interdum ligula, in facilisis ante leo ac odio. Fusce in sem iaculis ligula molestie eleifend.",
+        "footer": "Pezzo finale in grassetto",
+        "keyword": "esteso,titolo,sottotitolo,finale"
+      },
+      {
+        "foto": "",
+        "titolo": "Titolo Sezione",
+        "sottotitolo": "SottoTitolo della Sezione",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, mauris quis egestas gravida, nulla sapien iaculis odio, quis pulvinar erat mi id ligula. Morbi ultrices malesuada magna, non tincidunt est hendrerit ut. Quisque iaculis fermentum mollis. Nunc quis condimentum sapien. Praesent eget feugiat velit. Aenean metus risus, malesuada et imperdiet sit amet, interdum id odio. Ut cursus, massa quis ultrices egestas, turpis arcu interdum ligula, in facilisis ante leo ac odio. Fusce in sem iaculis ligula molestie eleifend.",
+        "footer": "Pezzo finale in grassetto",
+        "keyword": "esteso,titolo,sottotitolo,finale"
+      },
+      {
+        "foto": "misano.jpg",
+        "titolo": "",
+        "sottotitolo": "",
+        "body": "",
+        "footer": ""
+      }
+    ]
   },
   {
-      "url" : "prova6",
-      "title" : "Sponsor 1 di prova",
-      "subtitle": "Qualcosa sullo sponsor",
-      "cover" : "Logo_Team.png",
-      "blocchi" : [
-          {
-              "foto": "misano.jpg",
-              "titolo": "Titolo Sezione",
-              "sottotitolo": "SottoTitolo della Sezione",
-              "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, mauris quis egestas gravida, nulla sapien iaculis odio, quis pulvinar erat mi id ligula. Morbi ultrices malesuada magna, non tincidunt est hendrerit ut. Quisque iaculis fermentum mollis. Nunc quis condimentum sapien. Praesent eget feugiat velit. Aenean metus risus, malesuada et imperdiet sit amet, interdum id odio. Ut cursus, massa quis ultrices egestas, turpis arcu interdum ligula, in facilisis ante leo ac odio. Fusce in sem iaculis ligula molestie eleifend.",
-              "footer" : "Pezzo finale in grassetto",
-              "keyword": "esteso,titolo,sottotitolo,finale"
-          },
-          {
-              "foto": "",
-              "titolo": "Titolo Sezione",
-              "sottotitolo": "SottoTitolo della Sezione",
-              "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, mauris quis egestas gravida, nulla sapien iaculis odio, quis pulvinar erat mi id ligula. Morbi ultrices malesuada magna, non tincidunt est hendrerit ut. Quisque iaculis fermentum mollis. Nunc quis condimentum sapien. Praesent eget feugiat velit. Aenean metus risus, malesuada et imperdiet sit amet, interdum id odio. Ut cursus, massa quis ultrices egestas, turpis arcu interdum ligula, in facilisis ante leo ac odio. Fusce in sem iaculis ligula molestie eleifend.",
-              "footer" : "Pezzo finale in grassetto",
-              "keyword": "esteso,titolo,sottotitolo,finale"
-          },
-          {
-              "foto": "misano.jpg",
-              "titolo": "",
-              "sottotitolo": "",
-              "body": "",
-              "footer" : ""
-          }
-      ]
+    "url": "prova6",
+    "title": "Sponsor 1 di prova",
+    "subtitle": "Qualcosa sullo sponsor",
+    "cover": "Logo_Team.png",
+    "blocchi": [
+      {
+        "foto": "misano.jpg",
+        "titolo": "Titolo Sezione",
+        "sottotitolo": "SottoTitolo della Sezione",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, mauris quis egestas gravida, nulla sapien iaculis odio, quis pulvinar erat mi id ligula. Morbi ultrices malesuada magna, non tincidunt est hendrerit ut. Quisque iaculis fermentum mollis. Nunc quis condimentum sapien. Praesent eget feugiat velit. Aenean metus risus, malesuada et imperdiet sit amet, interdum id odio. Ut cursus, massa quis ultrices egestas, turpis arcu interdum ligula, in facilisis ante leo ac odio. Fusce in sem iaculis ligula molestie eleifend.",
+        "footer": "Pezzo finale in grassetto",
+        "keyword": "esteso,titolo,sottotitolo,finale"
+      },
+      {
+        "foto": "",
+        "titolo": "Titolo Sezione",
+        "sottotitolo": "SottoTitolo della Sezione",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, mauris quis egestas gravida, nulla sapien iaculis odio, quis pulvinar erat mi id ligula. Morbi ultrices malesuada magna, non tincidunt est hendrerit ut. Quisque iaculis fermentum mollis. Nunc quis condimentum sapien. Praesent eget feugiat velit. Aenean metus risus, malesuada et imperdiet sit amet, interdum id odio. Ut cursus, massa quis ultrices egestas, turpis arcu interdum ligula, in facilisis ante leo ac odio. Fusce in sem iaculis ligula molestie eleifend.",
+        "footer": "Pezzo finale in grassetto",
+        "keyword": "esteso,titolo,sottotitolo,finale"
+      },
+      {
+        "foto": "misano.jpg",
+        "titolo": "",
+        "sottotitolo": "",
+        "body": "",
+        "footer": ""
+      }
+    ]
   },
   {
-      "url" : "prova7",
-      "title" : "Sponsor 1 di prova",
-      "subtitle": "Qualcosa sullo sponsor",
-      "cover" : "Logo_Team.png",
-      "blocchi" : [
-          {
-              "foto": "misano.jpg",
-              "titolo": "Titolo Sezione",
-              "sottotitolo": "SottoTitolo della Sezione",
-              "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, mauris quis egestas gravida, nulla sapien iaculis odio, quis pulvinar erat mi id ligula. Morbi ultrices malesuada magna, non tincidunt est hendrerit ut. Quisque iaculis fermentum mollis. Nunc quis condimentum sapien. Praesent eget feugiat velit. Aenean metus risus, malesuada et imperdiet sit amet, interdum id odio. Ut cursus, massa quis ultrices egestas, turpis arcu interdum ligula, in facilisis ante leo ac odio. Fusce in sem iaculis ligula molestie eleifend.",
-              "footer" : "Pezzo finale in grassetto",
-              "keyword": "esteso,titolo,sottotitolo,finale"
-          },
-          {
-              "foto": "",
-              "titolo": "Titolo Sezione",
-              "sottotitolo": "SottoTitolo della Sezione",
-              "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, mauris quis egestas gravida, nulla sapien iaculis odio, quis pulvinar erat mi id ligula. Morbi ultrices malesuada magna, non tincidunt est hendrerit ut. Quisque iaculis fermentum mollis. Nunc quis condimentum sapien. Praesent eget feugiat velit. Aenean metus risus, malesuada et imperdiet sit amet, interdum id odio. Ut cursus, massa quis ultrices egestas, turpis arcu interdum ligula, in facilisis ante leo ac odio. Fusce in sem iaculis ligula molestie eleifend.",
-              "footer" : "Pezzo finale in grassetto",
-              "keyword": "esteso,titolo,sottotitolo,finale"
-          },
-          {
-              "foto": "misano.jpg",
-              "titolo": "",
-              "sottotitolo": "",
-              "body": "",
-              "footer" : ""
-          }
-      ]
+    "url": "prova7",
+    "title": "Sponsor 1 di prova",
+    "subtitle": "Qualcosa sullo sponsor",
+    "cover": "Logo_Team.png",
+    "blocchi": [
+      {
+        "foto": "misano.jpg",
+        "titolo": "Titolo Sezione",
+        "sottotitolo": "SottoTitolo della Sezione",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, mauris quis egestas gravida, nulla sapien iaculis odio, quis pulvinar erat mi id ligula. Morbi ultrices malesuada magna, non tincidunt est hendrerit ut. Quisque iaculis fermentum mollis. Nunc quis condimentum sapien. Praesent eget feugiat velit. Aenean metus risus, malesuada et imperdiet sit amet, interdum id odio. Ut cursus, massa quis ultrices egestas, turpis arcu interdum ligula, in facilisis ante leo ac odio. Fusce in sem iaculis ligula molestie eleifend.",
+        "footer": "Pezzo finale in grassetto",
+        "keyword": "esteso,titolo,sottotitolo,finale"
+      },
+      {
+        "foto": "",
+        "titolo": "Titolo Sezione",
+        "sottotitolo": "SottoTitolo della Sezione",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, mauris quis egestas gravida, nulla sapien iaculis odio, quis pulvinar erat mi id ligula. Morbi ultrices malesuada magna, non tincidunt est hendrerit ut. Quisque iaculis fermentum mollis. Nunc quis condimentum sapien. Praesent eget feugiat velit. Aenean metus risus, malesuada et imperdiet sit amet, interdum id odio. Ut cursus, massa quis ultrices egestas, turpis arcu interdum ligula, in facilisis ante leo ac odio. Fusce in sem iaculis ligula molestie eleifend.",
+        "footer": "Pezzo finale in grassetto",
+        "keyword": "esteso,titolo,sottotitolo,finale"
+      },
+      {
+        "foto": "misano.jpg",
+        "titolo": "",
+        "sottotitolo": "",
+        "body": "",
+        "footer": ""
+      }
+    ]
   },
   {
-      "url" : "prova8",
-      "title" : "Sponsor 1 di prova",
-      "subtitle": "Qualcosa sullo sponsor",
-      "cover" : "Logo_Team.png",
-      "blocchi" : [
-          {
-              "foto": "misano.jpg",
-              "titolo": "Titolo Sezione",
-              "sottotitolo": "SottoTitolo della Sezione",
-              "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, mauris quis egestas gravida, nulla sapien iaculis odio, quis pulvinar erat mi id ligula. Morbi ultrices malesuada magna, non tincidunt est hendrerit ut. Quisque iaculis fermentum mollis. Nunc quis condimentum sapien. Praesent eget feugiat velit. Aenean metus risus, malesuada et imperdiet sit amet, interdum id odio. Ut cursus, massa quis ultrices egestas, turpis arcu interdum ligula, in facilisis ante leo ac odio. Fusce in sem iaculis ligula molestie eleifend.",
-              "footer" : "Pezzo finale in grassetto",
-              "keyword": "esteso,titolo,sottotitolo,finale"
-          },
-          {
-              "foto": "",
-              "titolo": "Titolo Sezione",
-              "sottotitolo": "SottoTitolo della Sezione",
-              "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, mauris quis egestas gravida, nulla sapien iaculis odio, quis pulvinar erat mi id ligula. Morbi ultrices malesuada magna, non tincidunt est hendrerit ut. Quisque iaculis fermentum mollis. Nunc quis condimentum sapien. Praesent eget feugiat velit. Aenean metus risus, malesuada et imperdiet sit amet, interdum id odio. Ut cursus, massa quis ultrices egestas, turpis arcu interdum ligula, in facilisis ante leo ac odio. Fusce in sem iaculis ligula molestie eleifend.",
-              "footer" : "Pezzo finale in grassetto",
-              "keyword": "esteso,titolo,sottotitolo,finale"
-          },
-          {
-              "foto": "misano.jpg",
-              "titolo": "",
-              "sottotitolo": "",
-              "body": "",
-              "footer" : ""
-          }
-      ]
+    "url": "prova8",
+    "title": "Sponsor 1 di prova",
+    "subtitle": "Qualcosa sullo sponsor",
+    "cover": "Logo_Team.png",
+    "blocchi": [
+      {
+        "foto": "misano.jpg",
+        "titolo": "Titolo Sezione",
+        "sottotitolo": "SottoTitolo della Sezione",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, mauris quis egestas gravida, nulla sapien iaculis odio, quis pulvinar erat mi id ligula. Morbi ultrices malesuada magna, non tincidunt est hendrerit ut. Quisque iaculis fermentum mollis. Nunc quis condimentum sapien. Praesent eget feugiat velit. Aenean metus risus, malesuada et imperdiet sit amet, interdum id odio. Ut cursus, massa quis ultrices egestas, turpis arcu interdum ligula, in facilisis ante leo ac odio. Fusce in sem iaculis ligula molestie eleifend.",
+        "footer": "Pezzo finale in grassetto",
+        "keyword": "esteso,titolo,sottotitolo,finale"
+      },
+      {
+        "foto": "",
+        "titolo": "Titolo Sezione",
+        "sottotitolo": "SottoTitolo della Sezione",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sagittis, mauris quis egestas gravida, nulla sapien iaculis odio, quis pulvinar erat mi id ligula. Morbi ultrices malesuada magna, non tincidunt est hendrerit ut. Quisque iaculis fermentum mollis. Nunc quis condimentum sapien. Praesent eget feugiat velit. Aenean metus risus, malesuada et imperdiet sit amet, interdum id odio. Ut cursus, massa quis ultrices egestas, turpis arcu interdum ligula, in facilisis ante leo ac odio. Fusce in sem iaculis ligula molestie eleifend.",
+        "footer": "Pezzo finale in grassetto",
+        "keyword": "esteso,titolo,sottotitolo,finale"
+      },
+      {
+        "foto": "misano.jpg",
+        "titolo": "",
+        "sottotitolo": "",
+        "body": "",
+        "footer": ""
+      }
+    ]
   }
 ]

@@ -5,7 +5,6 @@ import { BlogComponent } from './blog/blog.component';
 import { ContattiComponent } from './contatti/contatti.component';
 import { HomeComponent } from './home/home.component';
 import { PageComponent } from './page/page.component';
-import { SponsorComponent } from './sponsor/sponsor.component';
 
 const routes: Routes = [
   {
@@ -33,7 +32,19 @@ const routes: Routes = [
     component: BlogComponent
   },
   {
+    path: "blog/ita",
+    component: BlogComponent
+  },
+  {
+    path: "blog/eng",
+    component: BlogComponent
+  },
+  {
     path: "blog/:articolo",
+    component: ArticoloComponent,
+  },
+  {
+    path: "blog/:lingua/:articolo",
     component: ArticoloComponent,
   },
   {
@@ -41,7 +52,19 @@ const routes: Routes = [
     component: BlogComponent
   },
   {
+    path: "calendario/ita",
+    component: BlogComponent
+  },
+  {
+    path: "calendario/eng",
+    component: BlogComponent
+  },
+  {
     path: "calendario/:articolo",
+    component: ArticoloComponent,
+  },
+  {
+    path: "calendario/:lingua/:articolo",
     component: ArticoloComponent,
   },
   {
@@ -49,7 +72,11 @@ const routes: Routes = [
     component: BlogComponent
   },
   {
-    path: "sponsorTecnici",
+    path: "sponsorPartner/ita",
+    component: BlogComponent
+  },
+  {
+    path: "sponsorPartner/eng",
     component: BlogComponent
   },
   {
@@ -57,11 +84,35 @@ const routes: Routes = [
     component: ArticoloComponent
   },
   {
+    path: "sponsorPartner/:lingua/:sponsor",
+    component: ArticoloComponent
+  },
+  {
+    path: "sponsorTecnici",
+    component: BlogComponent
+  },
+  {
+    path: "sponsorTecnici/ita",
+    component: BlogComponent
+  },
+  {
+    path: "sponsorTecnici/eng",
+    component: BlogComponent
+  },
+  {
     path: "sponsorTecnici/:sponsor",
+    component: BlogComponent
+  },
+  {
+    path: "sponsorTecnici/:lingua/:sponsor",
     component: ArticoloComponent
   },
   {
     path: ":pagina/:posizione",
+    component: PageComponent
+  },
+  {
+    path: ":pagina/:posizione/:lingua",
     component: PageComponent
   }
 ];

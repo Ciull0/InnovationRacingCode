@@ -1,15 +1,15 @@
 [
   {
-    "hero":{
-      "title": "GIORNATE IN PISTA FUORISTRADA",
-      "subtitle": "",
+    "hero": {
+      "title": "OFF-ROAD TRACK DAYS",
+      "subtitle": "Would you like to try out but not sure about taking the plunge? It's never been so easy, we're here to accompany you!",
       "url": "logo_trasparent.png"
     },
     "sezione": "fuoristrada",
-    "testoTop":{
+    "testoTop": {
       "title": "Giornate in Pista Offroad",
       "subTitle": "Vorresti provare ma non sei sicuro di fare il passo? Non è mai stato così facile, ci siamo noi ad accompagnarti!",
-      "body": "Non fermarti a guardare ! sali in sella con noi per passare una giornata all’insegna del divertimento. Tutti possono partecipare in sicurezza, bambini e adulti sia  principianti che agonisti. Tutto viene organizzato in una giornata in una determinata pista alla portata di tutti con il supporto del team  che ti permette di provare o allenarti durante tutta la giornata.",
+      "body": "Don't stop to look! Get on the saddle with us for a fun-filled day.<br>Everyone can take part in safety, children and adults, beginners and competitors alike.\nEverything is organized in one day on a specific track, within everyone's reach, with the support of the team that allows you to try out or train throughout the day.",
       "footer": ""
     },
     "GalleryTop": [
@@ -38,11 +38,11 @@
         "alt": "Faenza - Innovation Racing Team"
       }
     ],
-    "testoBottom":{
+    "testoBottom": {
       "title": "",
       "subTitle": "",
-      "body": "Possiamo andare dalla pista più semplice e divertente come possiamo andare nei circuiti più belli d’Italia come Ottobiano, Ponte a Egola, Montevarchi e Faenza con il supporto del team che ti permetterà di provare o allenarti in assoluta tranquillità durante tutta la giornata. Se non possiedi  l’abbigliamento tecnico e la moto puoi noleggiare da noi tutto il necessario.",
-      "footer": "Vivi l’esperienza dell’Off-Road"
+      "body": "We can go from the simplest and most fun track to the most beautiful circuits in Italy such as *Ottobiano, Ponte an Egola, Montevarchi*, and *Faenza* with the support of the team that will allow you to try or train in absolute tranquillity throughout the day.<br>If you don't have the technical clothing and the bike you can rent everything you need from us.",
+      "footer": "Live the Off-Road Experience"
     },
     "GalleryBottom": [
       {
@@ -91,15 +91,15 @@
   },
   {
     "sezione": "velocita",
-    "hero":{
-      "title": "GIORNATE IN PISTA VELOCITà",
-      "subtitle": "Splendide giornate, nelle migliori piste veloci, accompagnati da personale qualificato",
+    "hero": {
+      "title": "SPEED TRACK DAYS",
+      "subtitle": "Live the experience of high speed",
       "url": "logo_trasparent.png"
     },
-    "testoTop":{
-      "title": "Giornate in pista Velocità",
-      "subTitle": "Vorresti provare ma non sei sicuro di fare il passo? Non è mai stato cosi facile, ci siamo noi ad accompagnarti!",
-      "body": "Tutti possono partecipare in sicurezza, sia i principianti che gli agonisti che hanno compiuto 18 anni. Tutto viene organizzato in una giornata in una determinata pista. Ma dove andiamo? Possiamo andare dalla pista più semplice e divertente come possiamo andare nei circuiti più belli d'Italia come Mugello, Imola, Misano e Vallelunga con il supporto del team che ti permetterà di provare o allenarti in assoluta tranquillità durante tutta la giornata. Se non possiedi la moto possiamo noleggiartela noi, devi soltanto possedere l'abbigliamento tecnico.",
+    "testoTop": {
+      "title": "Speed Track Days",
+      "subTitle": "Would you like to try but are not sure to take the step?\nIt has never been so easy, we are there to accompany you!",
+      "body": "Everyone can participate safely, both beginners and racers who have reached 18 years of age.\nEverything is organized in one day in a specific track.",
       "footer": ""
     },
     "GalleryTop": [
@@ -128,11 +128,11 @@
         "alt": "Mugello - Innovation Racing Team"
       }
     ],
-    "testoBottom":{
+    "testoBottom": {
       "title": "",
       "subTitle": "",
-      "body": "Tutti possono partecipare in sicurezza, sia i principianti che gli agonisti che hanno compiuto 18 anni. Tutto viene organizzato in una giornata in una determinata pista. Ma dove andiamo? Possiamo andare dalla pista più semplice e divertente come possiamo andare nei circuiti più belli d'Italia come Mugello, Imola, Misano e Vallelunga con il supporto del team che ti permetterà di provare o allenarti in assoluta tranquillità durante tutta la giornata. Se non possiedi la moto possiamo noleggiartela noi, devi soltanto possedere l'abbigliamento tecnico.",
-      "footer": "Una giornata che non dimenticherai tanto velocemente!"
+      "body": "But where do we go?\nWe can go from the simplest and most fun track as we can go to the most beautiful circuits in\nItaly such as Mugello, Imola, Misano, and Vallelunga with the support of the team that will allow\nyou to try or train in absolute tranquility throughout the day.\nIf you don't have a motorcycle we can rent it to you, you just need to have the technical clothing.",
+      "footer": "A day you will not forget so quickly!"
     },
     "GalleryBottom": [
       {

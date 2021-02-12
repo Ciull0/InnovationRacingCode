@@ -8,7 +8,7 @@ import { BehaviorSubject, Observable, Subject } from 'rxjs';
 export class UtilityService {
   private lang: BehaviorSubject<string>
   private ambito: BehaviorSubject<string>
-  
+  count=0;
   constructor(
     private http: HttpClient
   ) {
@@ -31,6 +31,7 @@ export class UtilityService {
    }
 
   mandaInfo(pagina:string, lingua:string = "ita"){
+    console.log(pagina,lingua,++this.count);
     let address = "assets/"+lingua+"/"+pagina+".json";
     return new Promise( (resolve, reject) =>{
       this.http.get(address).subscribe(

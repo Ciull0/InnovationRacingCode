@@ -1,80 +1,80 @@
 [
-    {
-      "aperto": false,
-      "url": "corsi",
-        "sezione": "Corsi Guida",
-      "links": [
-        {
-          "url": "offroad",
-          "title": "Off-Road"
-        },
-        {
-          "url": "velocita",
-          "title": "Velocità"
-        }
-      ]
-    },
-    {
-        "aperto": false,
-        "url": "pista",
-        "sezione": "Giornate In Pista",
-        "links": [
-            {
-              "url": "fuoristrada",
-              "title": "Fuoristrada"
-            },
-            {
-              "url": "velocita",
-              "title": "Velocità"
-            }
-          ]
-    },
-    {
-        "aperto": false,
-        "url": "escursioni",
-        "sezione": "Escursioni",
-        "links": [
-            {
-              "url": "enduro",
-              "title": "Enduro"
-            },
-            {
-              "url": "stradale",
-              "title": "Stradale"
-            }
-          ]
-    },
-    {
-        "aperto": false,
+  {
+    "aperto": false,
+    "url": "corsi",
+    "sezione": "Drive Courses",
+    "links": [
+      {
+        "url": "offroad",
+        "title": "Off-Road"
+      },
+      {
+        "url": "velocita",
+        "title": "Speed"
+      }
+    ]
+  },
+  {
+    "aperto": false,
+    "url": "pista",
+    "sezione": "Days On Track",
+    "links": [
+      {
+        "url": "fuoristrada",
+        "title": "Off-Road"
+      },
+      {
+        "url": "velocita",
+        "title": "Speed"
+      }
+    ]
+  },
+  {
+    "aperto": false,
+    "url": "escursioni",
+    "sezione": "Excursions",
+    "links": [
+      {
+        "url": "enduro",
+        "title": "Enduro"
+      },
+      {
+        "url": "stradale",
+        "title": "Street"
+      }
+    ]
+  },
+  {
+    "aperto": false,
+    "url": "blog",
+    "sezione": "Blog",
+    "links": [
+      {
         "url": "blog",
-        "sezione": "Blog",
-        "links": [
-          {
-            "url": "blog",
-            "title": "Blog"
-          }
-        ]
-    },
-    {
-      "aperto": false,
-      "url": "calendario",
-      "sezione": "Calendario",
-      "links": [
-        {
-          "url": "calendario",
-          "title": "Blog"
-        }
-      ]
-    },
-    {
-        "aperto": false,
+        "title": "Blog"
+      }
+    ]
+  },
+  {
+    "aperto": false,
+    "url": "calendario",
+    "sezione": "Calendar",
+    "links": [
+      {
+        "url": "calendario",
+        "title": "Blog"
+      }
+    ]
+  },
+  {
+    "aperto": false,
+    "url": "sponsorPartner",
+    "sezione": "Sponsor Partner",
+    "links": [
+      {
         "url": "sponsorPartner",
-        "sezione": "Sponsor Partner",
-        "links": [
-          {
-            "url": "sponsorPartner",
-            "title": "Partner"
-          }
-        ]
-    }
-  ]
+        "title": "Partner"
+      }
+    ]
+  }
+]

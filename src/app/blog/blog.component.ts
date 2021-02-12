@@ -15,6 +15,9 @@ export class BlogComponent implements OnInit {
   lingua
   ngOnInit(): void {
     this.util.getLingua().subscribe( (ling)=>{
+      if(this.route.url.split('/')[2] && this.route.url.split('/')[2] != ling){
+        this.util.setLingua(this.route.url.split('/')[2]);
+      }
       this.lingua = ling;
       console.log(this.route.url.split('/'));
       this.util.mandaInfo(this.route.url.split('/')[1]).then( (data:[])=>{

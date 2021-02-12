@@ -1,15 +1,15 @@
 [
   {
-    "hero":{
+    "hero": {
       "title": "ESCURSIONI FUORISTRADA",
       "subtitle": "",
       "url": "logo_trasparent.png"
     },
     "sezione": "enduro",
-    "testoTop":{
+    "testoTop": {
       "title": "Escursioni Fuoristrada",
       "subTitle": "Se ami le moto, la natura e la compagnia questo è quello che fa per te!",
-      "body": "Vivi a pieno un esperienza che non dimenticherai, grazie al nostro territorio e alle nostre guide ogni percorso sarà quello giusto per te. Organizziamo tour in toscana e fuori regione, dove non dovrai pensare a niente, sarà il team a occuparsi di tutto quello che serve. Ogni escursione è aperta a tutti, da quelli che iniziano fino a quelli esperti, la giornata ha inizio dal punto di ritrovo, nella nostra sede e da li ogni gruppo inizierà il proprio percorso. Durante l'escursione attraverseremo panorami fantastici che ci porteranno a visitare posti tipici del territorio, con una sosta per pranzo nelle cucine tipiche toscane.",
+      "body": "Vivi a pieno un esperienza che non dimenticherai, grazie al nostro territorio e alle nostre guide ogni percorso sarà quello giusto per te. Organizziamo tour in toscana e fuori regione, dove non dovrai pensare a niente, sarà il team a occuparsi di tutto quello che serve.<br>Ogni escursione è aperta a tutti, da quelli che iniziano fino a quelli esperti, la giornata ha inizio dal punto di ritrovo, nella nostra sede e da li ogni gruppo inizierà il proprio percorso.",
       "footer": ""
     },
     "GalleryTop": [
@@ -44,10 +44,10 @@
         "alt": "Famiglia Agriturismo Toscana Panorama Escursione Cibo Vacanze Paesaggi Degustazioni Enduro - Innovation Racing Team"
       }
     ],
-    "testoBottom":{
+    "testoBottom": {
       "title": "",
       "subTitle": "",
-      "body": "Finito il giro ci ritroviamo in agriturismo dove è possibile cenare e pernottare. I tour possono essere organizzati, partendo da due fino a quattro giorni di attività e sono adatti a persone singole e famiglie dove offriamo la possibilità di molteplici attività per tutti, come parco giochi, scuola minicross, spa, degustazioni e tanto altro. Per poter partecipare è necessario disporre di una patente e almeno 16 anni compiuti, puoi scegliere di usare la propria moto oppure puoi noleggiare da noi tutto il necessario, dalla moto all'abbigliamento tecnico.",
+      "body": "Durante l'escursione attraverseremo panorami fantastici che ci porteranno a visitare posti tipici del territorio, con una sosta per pranzo nelle cucine tipiche toscane.<br>Finito il giro ci ritroviamo in agriturismo dove è possibile cenare e pernottare.<br>I tour possono essere organizzati, partendo da due fino a quattro giorni di attività e sono adatti a persone singole e famiglie dove offriamo la possibilità di molteplici attività per tutti, come parco giochi, scuola minicross, spa, degustazioni e tanto altro.<br><br>Per poter partecipare è necessario disporre di una patente e almeno 16 anni compiuti, puoi scegliere di usare la propria moto oppure puoi noleggiare da noi tutto il necessario, dalla moto all'abbigliamento tecnico.",
       "footer": "Scegli la tua destinazione e vivi a pieno questa esperienza!"
     },
     "GalleryBottom": [
@@ -90,68 +90,66 @@
     ]
   },
   {
-    "sezione": "velocita",
-    "hero":{
-      "title": "GIORNATE IN PISTA VELOCITà",
-      "subtitle": "Splendide giornate, nelle migliori piste veloci, accompagnati da personale qualificato",
+    "sezione": "stradale",
+    "hero": {
+      "title": "ESCURSIONI STRADALI",
+      "subtitle": "",
       "url": "logo_trasparent.png"
     },
-    "testoTop":{
-      "title": "Giornate in pista Velocità",
-      "subTitle": "Vorresti provare ma non sei sicuro di fare il passo? Non è mai stato cosi facile, ci siamo noi ad accompagnarti!",
-      "body": "Tutti possono partecipare in sicurezza, sia i principianti che gli agonisti che hanno compiuto 18 anni. Tutto viene organizzato in una giornata in una determinata pista. Ma dove andiamo? Possiamo andare dalla pista più semplice e divertente come possiamo andare nei circuiti più belli d'Italia come Mugello, Imola, Misano e Vallelunga con il supporto del team che ti permetterà di provare o allenarti in assoluta tranquillità durante tutta la giornata. Se non possiedi la moto possiamo noleggiartela noi, devi soltanto possedere l'abbigliamento tecnico.",
-      "footer": "Una giornata che non dimenticherai tanto velocemente!"
+    "testoTop": {
+      "title": "Escursioni Stradali",
+      "subTitle": "Se ami le moto, l'asfalto e la compagnia questo è quello che fa per te!",
+      "body": "Vivi a pieno un esperienza che non dimenticherai, grazie al nostro territorio e alle nostre guide ogni percorso sarà quello giusto per te.<br>Organizziamo tour in toscana e fuori regione, dove non dovrai pensare a niente, sarà il team a occuparsi di tutto quello che serve.<br><br>Ogni escursione è aperta a tutti, da quelli che iniziano fino a quelli esperti, la giornata ha inizio dal punto di ritrovo, nella nostra sede e da li inizierà il viaggio.",
+      "footer": ""
     },
     "GalleryTop": [
       {
-        "url": "misanescursioni fuoristrada (o).jpg",
+        "url": "escstradtop-1.jpg",
         "title": "",
         "subTitle": "",
-        "alt": "Misano Famiglia Agriturismo Toscana Panorama Escursione Cibo Vacanze Paesaggi Degustazioni Enduro - Innovation Racing Team"
+        "alt": "Toscana–InnovationRacingTeam Viaggi-InnovationRacingTeam VacanzeInToscana-InnovationRacingTeam Paesaggid'Italia-InnovationRacingTeam ViaggiInMoto-InnovationRacingTeam TourInMoto-InnovationRacingTeam"
       },
       {
-        "url": "imolescursioni fuoristrada (a).jpg",
+        "url": "escstradtop-2.jpg",
         "title": "",
         "subTitle": "",
         "alt": "Imola Famiglia Agriturismo Toscana Panorama Escursione Cibo Vacanze Paesaggi Degustazioni Enduro - Innovation Racing Team"
       },
       {
-        "url": "vallelungescursioni fuoristrada (a).jpg",
+        "url": "escstradtop-3.jpg",
         "title": "",
         "subTitle": "",
-        "alt": "Vallelunga Famiglia Agriturismo Toscana Panorama Escursione Cibo Vacanze Paesaggi Degustazioni Enduro - Innovation Racing Team"
+        "alt": "Toscana–InnovationRacingTeam Viaggi-InnovationRacingTeam VacanzeInToscana-InnovationRacingTeam Paesaggid'Italia-InnovationRacingTeam ViaggiInMoto-InnovationRacingTeam TourInMoto-InnovationRacingTeam"
       },
       {
-        "url": "mugellescursioni fuoristrada (o).jpg",
+        "url": "escstradtop-4.jpg",
         "title": "",
         "subTitle": "",
-        "alt": "Mugello Famiglia Agriturismo Toscana Panorama Escursione Cibo Vacanze Paesaggi Degustazioni Enduro - Innovation Racing Team"
+        "alt": "Toscana–InnovationRacingTeam Viaggi-InnovationRacingTeam VacanzeInToscana-InnovationRacingTeam Paesaggid'Italia-InnovationRacingTeam ViaggiInMoto-InnovationRacingTeam TourInMoto-InnovationRacingTeam"
       }
     ],
-    "testoBottom":{
-      "title": "Giornate in pista Velocità",
-      "subTitle": "Vorresti provare ma non sei sicuro di fare il passo? Non è mai stato cosi facile, ci siamo noi ad accompagnarti!",
-      "body": "Tutti possono partecipare in sicurezza, sia i principianti che gli agonisti che hanno compiuto 18 anni. Tutto viene organizzato in una giornata in una determinata pista. Ma dove andiamo? Possiamo andare dalla pista più semplice e divertente come possiamo andare nei circuiti più belli d'Italia come Mugello, Imola, Misano e Vallelunga con il supporto del team che ti permetterà di provare o allenarti in assoluta tranquillità durante tutta la giornata. Se non possiedi la moto possiamo noleggiartela noi, devi soltanto possedere l'abbigliamento tecnico.",
-      "footer": "Una giornata che non dimenticherai tanto velocemente!"
+    "testoBottom": {
+      "title": "",
+      "subTitle": "",
+      "body": "I percorsi che andremo a fare sono le strade più belle della regione, dove andremo a conoscere gli usi e i costumi locali, raggiungendo i tesori nascosti e le perle al di fuori degli itinerari più battuti.<br>La guida in moto ti porterà alla scoperta di tutto questo.<br><br>I tour possono essere organizzati, partendo da uno fino a sette giorni di attività e sono adatti a tutti gli amanti delle due ruote. <br><br>Tutti i partecipanti condividono la passione per i viaggi in moto. <br>Cosa c'è di meglio di concludere un'emozionate giornata in moto ridendo e scherzando con nuovi amici ! <br>Che tu sia solo o in coppia, il divertimento è assicurato!",
+      "footer": "ZERO PENSIERI, INFINITE EMOZIONI"
     },
     "GalleryBottom": [
       {
-        "url": "escursioni fuoristrada (1).jpg"
+        "url": "escstradbot-1.jpg",
+        "alt": "Toscana–InnovationRacingTeam Viaggi-InnovationRacingTeam Vacanze in Toscana-InnovationRacingTeam Paesaggi d'Italia-InnovationRacingTeam Viaggi in moto-InnovationRacingTeam Tour in moto-InnovationRacingTeam"
       },
       {
-        "url": "escursioni fuoristrada (2).jpg"
+        "url": "escstradbot-2.jpg",
+        "alt": "Toscana–InnovationRacingTeam Viaggi-InnovationRacingTeam Vacanze in Toscana-InnovationRacingTeam Paesaggi d'Italia-InnovationRacingTeam Viaggi in moto-InnovationRacingTeam Tour in moto-InnovationRacingTeam"
       },
       {
-        "url": "escursioni fuoristrada (3).jpg"
+        "url": "escstradbot-3.jpg",
+        "alt": "Toscana–InnovationRacingTeam Viaggi-InnovationRacingTeam Vacanze in Toscana-InnovationRacingTeam Paesaggi d'Italia-InnovationRacingTeam Viaggi in moto-InnovationRacingTeam Tour in moto-InnovationRacingTeam"
       },
       {
-        "url": "escursioni fuoristrada (4).jpg"
-      },
-      {
-        "url": "escursioni fuoristrada (5).jpg"
-      },
-      {
-        "url": "escursioni fuoristrada (6).jpg"
+        "url": "escstradbot-4.jpg",
+        "alt": "Toscana–InnovationRacingTeam Viaggi-InnovationRacingTeam Vacanze in Toscana-InnovationRacingTeam Paesaggi d'Italia-InnovationRacingTeam Viaggi in moto-InnovationRacingTeam Tour in moto-InnovationRacingTeam"
       }
     ]
   }

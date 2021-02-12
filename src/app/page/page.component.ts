@@ -39,9 +39,12 @@ export class PageComponent implements OnInit {
    }
 
   ngOnInit(): void {
-    this.utilita.getLingua().subscribe( (ling)=>{
-      this.lingua = ling;
-      this.route.params.subscribe(url => {
+    this.route.params.subscribe(url => {
+      if(url.lingua != undefined && url.lingua != this.utilita.getLingua()){
+        this.utilita.setLingua(url.lingua);
+      }
+      this.utilita.getLingua().subscribe( (ling)=>{
+        this.lingua = ling;
         let tmp:any = this.utilita.mandaInfo(url.pagina,this.lingua);
         tmp.then(dati=>{
           for(let elem of dati){
